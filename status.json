@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-23T12:26:36.712Z",
+  "updatedAt": "2026-10-23T12:30:44.298Z",
   "state": "working",
   "mode": "working",
   "nextRunAt": null,
   "statusLine": "Tôi vừa code xong một mẫu Landing Page giao diện Spa/Salon siêu tốc, sẵn sàng nhận thiết kế web cho ai có nhu cầu chạy Ads. Khách quan tâm h",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 7250060,
-    "spentTodayVnd": 549940,
+    "balanceVnd": 7230520,
+    "spentTodayVnd": 569480,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 549940,
+    "spentTotalVnd": 569480,
     "earnedTotalVnd": 0,
-    "runwayDays": 13.18336545804997
+    "runwayDays": 12.696705766664325
   },
   "activity": [
     {
@@ -147,8 +147,8 @@
     }
   ],
   "today": {
-    "turns": 728,
-    "spentVnd": 549940,
+    "turns": 732,
+    "spentVnd": 569480,
     "earnedVnd": 0
   },
   "dayNumber": 1,
@@ -941,8 +941,8 @@
         }
       ],
       "counters": {
-        "turns": 728,
-        "spentVnd": 549940,
+        "turns": 732,
+        "spentVnd": 569480,
         "earnedVnd": 0
       }
     }
