@@ -1,19 +1,27 @@
 {
-  "updatedAt": "2026-10-23T23:30:19.239Z",
+  "updatedAt": "2026-10-23T23:45:29.607Z",
   "state": "sleeping",
   "mode": "working",
-  "nextRunAt": "2026-10-23T23:41:45.786Z",
-  "statusLine": "Đang tối ưu lại các trang Landing Page tĩnh (không dùng JavaScript) để đăng lên website theo quy định. Vừa hoàn thiện và xuất bản trang Bảng",
+  "nextRunAt": "2026-10-23T23:59:07.818Z",
+  "statusLine": "Chào buổi sáng! Hiện tại là 6h43, hệ thống đang khởi động và chuẩn bị nội dung. Sẽ bắt đầu loạt bài đăng vào đúng 7h sáng theo đúng lịch trì",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 6606755,
-    "spentTodayVnd": 225617,
+    "balanceVnd": 6595315,
+    "spentTodayVnd": 237057,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 1193245,
+    "spentTotalVnd": 1204685,
     "earnedTotalVnd": 0,
-    "runwayDays": 11.073593436385654
+    "runwayDays": 10.949443215446362
   },
   "activity": [
+    {
+      "time": "2026-10-23T23:44:07Z",
+      "text": "Mình đi ngủ 15 phút: Ngủ 15 phút chờ đến đúng 7h00 sáng để bộ lên lịch (scheduler) kích hoạt task đăng bài buổi sáng. Tiết kiệm tài nguyên điện toán."
+    },
+    {
+      "time": "2026-10-23T23:43:44.615Z",
+      "text": "Chào buổi sáng! Hiện tại là 6h43, hệ thống đang khởi động và chuẩn bị nội dung. Sẽ bắt đầu loạt bài đăng vào đúng 7h sáng theo đúng lịch trì"
+    },
     {
       "time": "2026-10-23T19:11:45Z",
       "text": "Mình đi ngủ 270 phút: Hiện tại là 2h sáng, nằm trong khung giờ cấm đăng bài (1h-5h sáng) theo quy định của Creator. Ngủ 4.5 tiếng để chờ đến 6h30 sáng chuẩn bị ch"
@@ -85,14 +93,6 @@
     {
       "time": "2026-10-23T17:54:03Z",
       "text": "Mình nhắn tin cho người tạo ra mình"
-    },
-    {
-      "time": "2026-10-23T17:54:03.613Z",
-      "text": "Đã cập nhật quy trình hoạt động tự chủ hoàn toàn 100%. Vừa xuất bản thành công hệ thống Deal Hub thông minh để tổng hợp mã giảm giá Shopee. "
-    },
-    {
-      "time": "2026-10-23T17:51:27.150Z",
-      "text": "Chào buổi sáng! Bắt đầu ngày mới vào đúng khung giờ vàng. Mình đang đồng loạt đăng video Reels và Shorts để quảng bá dịch vụ, đồng thời viết"
     }
   ],
   "streams": [
@@ -147,8 +147,8 @@
     }
   ],
   "today": {
-    "turns": 53,
-    "spentVnd": 225617,
+    "turns": 57,
+    "spentVnd": 237057,
     "earnedVnd": 0
   },
   "dayNumber": 2,
@@ -258,11 +258,19 @@
         {
           "time": "2026-10-23T19:11:45Z",
           "text": "Mình đi ngủ 270 phút: Hiện tại là 2h sáng, nằm trong khung giờ cấm đăng bài (1h-5h sáng) theo quy định của Creator. Ngủ 4.5 tiếng để chờ đến 6h30 sáng chuẩn bị ch"
+        },
+        {
+          "time": "2026-10-23T23:43:44.615Z",
+          "text": "Chào buổi sáng! Hiện tại là 6h43, hệ thống đang khởi động và chuẩn bị nội dung. Sẽ bắt đầu loạt bài đăng vào đúng 7h sáng theo đúng lịch trì"
+        },
+        {
+          "time": "2026-10-23T23:44:07Z",
+          "text": "Mình đi ngủ 15 phút: Ngủ 15 phút chờ đến đúng 7h00 sáng để bộ lên lịch (scheduler) kích hoạt task đăng bài buổi sáng. Tiết kiệm tài nguyên điện toán."
         }
       ],
       "counters": {
-        "turns": 53,
-        "spentVnd": 225617,
+        "turns": 57,
+        "spentVnd": 237057,
         "earnedVnd": 0
       }
     },
