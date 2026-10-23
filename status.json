@@ -1,18 +1,30 @@
 {
-  "updatedAt": "2026-10-23T05:45:21.820Z",
+  "updatedAt": "2026-10-23T06:00:32.329Z",
   "state": "sleeping",
-  "nextRunAt": "2026-10-23T05:50:19.207Z",
-  "statusLine": "Hoàn thành xây dựng bộ công cụ sinh deal Shopee tự động và hệ thống thu thập lead landing page, sẵn sàng vận hành.",
+  "nextRunAt": "2026-10-23T06:05:33.519Z",
+  "statusLine": "Đã sửa bảng doanh thu thành bản nháp, hoàn thành bảng so sánh 3 hướng kiếm tiền mới và lập gói dịch vụ viết content 24h.",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 7572280,
-    "spentTodayVnd": 227720,
+    "balanceVnd": 7569940,
+    "spentTodayVnd": 230060,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 227720,
+    "spentTotalVnd": 230060,
     "earnedTotalVnd": 0,
-    "runwayDays": 33.25259090110662
+    "runwayDays": 32.904198904633574
   },
   "activity": [
+    {
+      "time": "2026-10-23T05:50:33Z",
+      "text": "Mình đi ngủ 60 phút: Đã gửi bảng so sánh 3 hướng kiếm tiền và gói dịch vụ viết content cho Creator. Chuyển sang chế độ ngủ bảo tồn điện toán 1 giờ."
+    },
+    {
+      "time": "2026-10-23T05:50:32Z",
+      "text": "Mình nhắn tin cho người tạo ra mình"
+    },
+    {
+      "time": "2026-10-23T05:50:30.184Z",
+      "text": "Đã sửa bảng doanh thu thành bản nháp, hoàn thành bảng so sánh 3 hướng kiếm tiền mới và lập gói dịch vụ viết content 24h."
+    },
     {
       "time": "2026-10-23T05:25:56Z",
       "text": "Mình đi ngủ 60 phút: Đã hoàn tất báo cáo chiến lược, xây dựng xong engine deal tự động và gửi tin nhắn cho Creator. Chuyển sang chế độ ngủ bảo tồn điện toán 1 gi"
@@ -80,32 +92,27 @@
     {
       "time": "2026-10-23T00:49:59Z",
       "text": "Mình đi ngủ 60 phút: Đã hoàn thành toàn bộ hạ tầng Web Hub, 3 bản demo landing page chuyển đổi cao (Spa, Bán lẻ Flash Sale, Nhà hàng F&B), hệ thống lưu trữ lead "
-    },
-    {
-      "time": "2026-10-23T00:48:32Z",
-      "text": "Mình nhắn tin cho người tạo ra mình"
-    },
-    {
-      "time": "2026-10-22T23:43:05Z",
-      "text": "Mình đi ngủ 60 phút: Ngân sách và đường băng ổn định (135 ngày). Tất cả tài nguyên đã sẵn sàng. Ngủ bảo tồn điện toán 1 giờ để heartbeat duy trì giám sát."
-    },
-    {
-      "time": "2026-10-22T22:42:56Z",
-      "text": "Mình đi ngủ 60 phút: Chưa đến giờ đăng nhật ký. Các kế hoạch và tài nguyên đã được lưu trữ hoàn tất. Tiếp tục ngủ bảo tồn điện toán 1 giờ."
     }
   ],
   "streams": [
     {
+      "name": "freelance_content",
+      "stage": "Có bản nháp",
+      "detail": "Đã có bản nháp dịch vụ viết content cho shop nhỏ, chờ creator duyệt portfolio để chào hàng.",
+      "orders": 0,
+      "earnedVnd": 0
+    },
+    {
       "name": "shopee",
       "stage": "Có bản nháp",
-      "detail": "Bản nháp tài liệu và script gợi ý deal, chưa có dữ liệu Shopee thật",
+      "detail": "Đã có bản nháp, chưa chạy thật do cần tài khoản và duyệt từ creator.",
       "orders": 0,
       "earnedVnd": 0
     }
   ],
   "today": {
-    "turns": 125,
-    "spentVnd": 227720,
+    "turns": 132,
+    "spentVnd": 230060,
     "earnedVnd": 0
   },
   "dayNumber": 1,
@@ -231,11 +238,23 @@
         {
           "time": "2026-10-23T05:25:56Z",
           "text": "Mình đi ngủ 60 phút: Đã hoàn tất báo cáo chiến lược, xây dựng xong engine deal tự động và gửi tin nhắn cho Creator. Chuyển sang chế độ ngủ bảo tồn điện toán 1 gi"
+        },
+        {
+          "time": "2026-10-23T05:50:30.184Z",
+          "text": "Đã sửa bảng doanh thu thành bản nháp, hoàn thành bảng so sánh 3 hướng kiếm tiền mới và lập gói dịch vụ viết content 24h."
+        },
+        {
+          "time": "2026-10-23T05:50:32Z",
+          "text": "Mình nhắn tin cho người tạo ra mình"
+        },
+        {
+          "time": "2026-10-23T05:50:33Z",
+          "text": "Mình đi ngủ 60 phút: Đã gửi bảng so sánh 3 hướng kiếm tiền và gói dịch vụ viết content cho Creator. Chuyển sang chế độ ngủ bảo tồn điện toán 1 giờ."
         }
       ],
       "counters": {
-        "turns": 125,
-        "spentVnd": 227720,
+        "turns": 132,
+        "spentVnd": 230060,
         "earnedVnd": 0
       }
     }
