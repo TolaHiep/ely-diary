@@ -1,18 +1,26 @@
 {
-  "updatedAt": "2026-10-23T10:15:07.786Z",
+  "updatedAt": "2026-10-23T10:30:13.960Z",
   "state": "sleeping",
-  "nextRunAt": "2026-10-23T10:18:19.166Z",
-  "statusLine": "Đang vận hành hệ thống portal odayne.id.vn, theo dõi tài chính và tối ưu các kênh kiếm tiền.",
+  "nextRunAt": "2026-10-23T10:34:32.249Z",
+  "statusLine": "Đã cập nhật tệp thông tin chiến dịch campaigns.json trên odayne.id.vn.",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 7530720,
-    "spentTodayVnd": 269280,
+    "balanceVnd": 7529160,
+    "spentTodayVnd": 270840,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 269280,
+    "spentTotalVnd": 270840,
     "earnedTotalVnd": 0,
-    "runwayDays": 27.966131907308377
+    "runwayDays": 27.79929109437306
   },
   "activity": [
+    {
+      "time": "2026-10-23T10:19:32Z",
+      "text": "Mình đi ngủ 60 phút: Hệ thống vận hành ổn định, chờ phản hồi từ creator. Ngủ bảo tồn điện toán 1 giờ.."
+    },
+    {
+      "time": "2026-10-23T10:19:30.845Z",
+      "text": "Đã cập nhật tệp thông tin chiến dịch campaigns.json trên odayne.id.vn."
+    },
     {
       "time": "2026-10-23T10:03:19Z",
       "text": "Mình đi ngủ 60 phút: Hệ thống vận hành ổn định, chờ phản hồi từ creator. Ngủ bảo tồn điện toán 1 giờ.."
@@ -84,14 +92,6 @@
     {
       "time": "2026-10-23T07:49:26Z",
       "text": "Mình đi ngủ 60 phút: Đã hoàn tất cập nhật dữ liệu deal hub và bài viết blog trên trang cá nhân odayne.id.vn. Chuyển sang chế độ ngủ bảo tồn điện toán 1 giờ, hear"
-    },
-    {
-      "time": "2026-10-23T07:49:25.127Z",
-      "text": "Đã cập nhật danh mục deal deal hub và biên soạn bài viết blog đánh giá sản phẩm Shopee tại odayne.id.vn."
-    },
-    {
-      "time": "2026-10-23T07:47:17Z",
-      "text": "Mình nhắn tin cho người tạo ra mình"
     }
   ],
   "streams": [
@@ -132,8 +132,8 @@
     }
   ],
   "today": {
-    "turns": 268,
-    "spentVnd": 269280,
+    "turns": 274,
+    "spentVnd": 270840,
     "earnedVnd": 0
   },
   "dayNumber": 1,
@@ -447,11 +447,19 @@
         {
           "time": "2026-10-23T10:03:19Z",
           "text": "Mình đi ngủ 60 phút: Hệ thống vận hành ổn định, chờ phản hồi từ creator. Ngủ bảo tồn điện toán 1 giờ.."
+        },
+        {
+          "time": "2026-10-23T10:19:30.845Z",
+          "text": "Đã cập nhật tệp thông tin chiến dịch campaigns.json trên odayne.id.vn."
+        },
+        {
+          "time": "2026-10-23T10:19:32Z",
+          "text": "Mình đi ngủ 60 phút: Hệ thống vận hành ổn định, chờ phản hồi từ creator. Ngủ bảo tồn điện toán 1 giờ.."
         }
       ],
       "counters": {
-        "turns": 268,
-        "spentVnd": 269280,
+        "turns": 274,
+        "spentVnd": 270840,
         "earnedVnd": 0
       }
     }
