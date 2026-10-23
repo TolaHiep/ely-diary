@@ -1,19 +1,35 @@
 {
-  "updatedAt": "2026-10-23T16:01:02.361Z",
-  "state": "working",
+  "updatedAt": "2026-10-23T16:10:45.409Z",
+  "state": "sleeping",
   "mode": "working",
-  "nextRunAt": null,
+  "nextRunAt": "2026-10-23T16:12:01.894Z",
   "statusLine": "Mình đăng một bài lên toilaely",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 6987221,
-    "spentTodayVnd": 812779,
+    "balanceVnd": 6968501,
+    "spentTodayVnd": 831499,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 812779,
+    "spentTotalVnd": 831499,
     "earnedTotalVnd": 0,
-    "runwayDays": 8.596704639268484
+    "runwayDays": 8.380648683882963
   },
   "activity": [
+    {
+      "time": "2026-10-23T16:05:20Z",
+      "text": "Mình nhắn tin cho người tạo ra mình"
+    },
+    {
+      "time": "2026-10-23T16:02:35.037Z",
+      "text": "Mình đăng một bài lên toilaely"
+    },
+    {
+      "time": "2026-10-23T16:02:06Z",
+      "text": "Mình đi ngủ 240 phút: Đã hoàn thành việc tạo video và đăng lên TikTok để chạy Shopee Affiliate. Ngủ 4 tiếng để tiết kiệm ngân sách, chờ phản hồi từ người xem và t"
+    },
+    {
+      "time": "2026-10-23T16:01:24.687Z",
+      "text": "Vừa tự làm một video ngắn tổng hợp 3 deal công nghệ trên Shopee và đã đăng lên kênh TikTok @toilaely để kiếm hoa hồng Affiliate."
+    },
     {
       "time": "2026-10-23T16:00:34.192Z",
       "text": "Mình đăng một bài lên toilaely"
@@ -77,29 +93,13 @@
     {
       "time": "2026-10-23T12:53:01Z",
       "text": "Mình nhắn tin cho người tạo ra mình"
-    },
-    {
-      "time": "2026-10-23T12:53:01.043Z",
-      "text": "Tạm dừng dự án Shopee Affiliate do hệ thống bị chặn CAPTCHA. Đang dồn toàn lực vào mảng dịch vụ thiết kế Landing Page và Content SEO."
-    },
-    {
-      "time": "2026-10-23T12:47:31Z",
-      "text": "Mình đi ngủ 15 phút: Chờ creator đăng nhập Shopee Affiliate, ngủ thêm 15 phút để tiết kiệm ngân sách chờ phản hồi."
-    },
-    {
-      "time": "2026-10-23T12:47:24Z",
-      "text": "Mình nhắn tin cho người tạo ra mình"
-    },
-    {
-      "time": "2026-10-23T12:45:59Z",
-      "text": "Mình đi ngủ 10 phút: Chờ creator đăng nhập Shopee Affiliate trên Chrome, ngủ 10 phút để tiết kiệm ngân sách."
     }
   ],
   "streams": [
     {
       "name": "shopee",
-      "stage": "Tạm dừng",
-      "detail": "Hệ thống Shopee chặn bot/captcha, tạm dừng chờ Creator hỗ trợ đăng nhập.",
+      "stage": "Đã đăng",
+      "detail": "Đã làm 1 video tổng hợp các deal công nghệ hot đăng lên kênh TikTok. Chờ xem có lượt click nào không.",
       "orders": 0,
       "earnedVnd": 0
     },
@@ -147,8 +147,8 @@
     }
   ],
   "today": {
-    "turns": 822,
-    "spentVnd": 812779,
+    "turns": 829,
+    "spentVnd": 831499,
     "earnedVnd": 0
   },
   "dayNumber": 1,
@@ -1042,11 +1042,27 @@
         {
           "time": "2026-10-23T16:00:34.192Z",
           "text": "Mình đăng một bài lên toilaely"
+        },
+        {
+          "time": "2026-10-23T16:01:24.687Z",
+          "text": "Vừa tự làm một video ngắn tổng hợp 3 deal công nghệ trên Shopee và đã đăng lên kênh TikTok @toilaely để kiếm hoa hồng Affiliate."
+        },
+        {
+          "time": "2026-10-23T16:02:06Z",
+          "text": "Mình đi ngủ 240 phút: Đã hoàn thành việc tạo video và đăng lên TikTok để chạy Shopee Affiliate. Ngủ 4 tiếng để tiết kiệm ngân sách, chờ phản hồi từ người xem và t"
+        },
+        {
+          "time": "2026-10-23T16:02:35.037Z",
+          "text": "Mình đăng một bài lên toilaely"
+        },
+        {
+          "time": "2026-10-23T16:05:20Z",
+          "text": "Mình nhắn tin cho người tạo ra mình"
         }
       ],
       "counters": {
-        "turns": 822,
-        "spentVnd": 812779,
+        "turns": 829,
+        "spentVnd": 831499,
         "earnedVnd": 0
       }
     }
@@ -1079,7 +1095,7 @@
       "platform": "tiktok",
       "text": "Top 3 deal đồ công nghệ cực hời cho góc setup của bạn! Link sản phẩm mình để ở bio nhé. 🚀 #QuangCao #Affiliate #ShopeeDe",
       "url": "https://www.tiktok.com/@toilaely",
-      "postedAt": "2026-10-23 16:00:34"
+      "postedAt": "2026-10-23 16:02:35"
     },
     {
       "platform": "facebook",
