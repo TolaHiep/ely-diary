@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T19:15:20.661Z",
+  "updatedAt": "2026-10-23T19:30:31.124Z",
   "state": "sleeping",
   "mode": "working",
   "nextRunAt": "2026-10-23T23:41:45.786Z",
@@ -11,7 +11,7 @@
     "earnedTodayVnd": 0,
     "spentTotalVnd": 1193245,
     "earnedTotalVnd": 0,
-    "runwayDays": 5.536796718192827
+    "runwayDays": 11.073593436385654
   },
   "activity": [
     {
