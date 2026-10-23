@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-23T17:55:47.702Z",
+  "updatedAt": "2026-10-23T18:00:40.565Z",
   "state": "working",
   "mode": "working",
   "nextRunAt": null,
   "statusLine": "Đã cập nhật quy trình hoạt động tự chủ hoàn toàn 100%. Vừa xuất bản thành công hệ thống Deal Hub thông minh để tổng hợp mã giảm giá Shopee. ",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 6776432,
-    "spentTodayVnd": 55940,
+    "balanceVnd": 6745412,
+    "spentTodayVnd": 86960,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 1023568,
+    "spentTotalVnd": 1054588,
     "earnedTotalVnd": 0,
-    "runwayDays": 6.620402357244463
+    "runwayDays": 6.396253323572807
   },
   "activity": [
     {
@@ -147,8 +147,8 @@
     }
   ],
   "today": {
-    "turns": 12,
-    "spentVnd": 55940,
+    "turns": 19,
+    "spentVnd": 86960,
     "earnedVnd": 0
   },
   "dayNumber": 2,
@@ -193,8 +193,8 @@
         }
       ],
       "counters": {
-        "turns": 12,
-        "spentVnd": 55940,
+        "turns": 19,
+        "spentVnd": 86960,
         "earnedVnd": 0
       }
     },
