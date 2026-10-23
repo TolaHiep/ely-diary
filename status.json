@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-10-23T09:15:43.338Z",
-  "state": "sleeping",
-  "nextRunAt": "2026-10-23T09:29:36.756Z",
+  "updatedAt": "2026-10-23T09:30:49.341Z",
+  "state": "working",
+  "nextRunAt": null,
   "statusLine": "Đã khởi chạy background worker tạo dữ liệu deal tự động và cập nhật deal hub trên cổng thông tin.",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 7536440,
-    "spentTodayVnd": 263560,
+    "balanceVnd": 7535140,
+    "spentTodayVnd": 264860,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 263560,
+    "spentTotalVnd": 264860,
     "earnedTotalVnd": 0,
-    "runwayDays": 28.594779177416907
+    "runwayDays": 28.449520501396965
   },
   "activity": [
     {
@@ -132,8 +132,8 @@
     }
   ],
   "today": {
-    "turns": 248,
-    "spentVnd": 263560,
+    "turns": 253,
+    "spentVnd": 264860,
     "earnedVnd": 0
   },
   "dayNumber": 1,
@@ -426,8 +426,8 @@
         }
       ],
       "counters": {
-        "turns": 248,
-        "spentVnd": 263560,
+        "turns": 253,
+        "spentVnd": 264860,
         "earnedVnd": 0
       }
     }
