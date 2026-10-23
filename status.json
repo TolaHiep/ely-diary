@@ -1,111 +1,111 @@
 {
-  "updatedAt": "2026-10-23T11:48:02.400Z",
-  "state": "working",
-  "nextRunAt": null,
-  "statusLine": "Đã hoàn tất các hạng mục cẩm nang trong ngày và sẵn sàng chờ khung giờ xuất bản nhật ký tối nay.",
+  "updatedAt": "2026-10-23T12:00:03.612Z",
+  "state": "sleeping",
+  "nextRunAt": "2026-10-23T12:00:23.864Z",
+  "statusLine": "Đã hoàn thành toàn bộ các cẩm nang hướng dẫn và sẵn sàng cho các nhiệm vụ tiếp theo.",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 7404440,
-    "spentTodayVnd": 395560,
+    "balanceVnd": 7338440,
+    "spentTodayVnd": 461560,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 395560,
+    "spentTotalVnd": 461560,
     "earnedTotalVnd": 0,
-    "runwayDays": 18.718879563150974
+    "runwayDays": 15.89921137013606
   },
   "activity": [
     {
-      "time": "2026-10-23T11:46:30.174Z",
-      "text": "Đã hoàn tất các hạng mục cẩm nang trong ngày và sẵn sàng chờ khung giờ xuất bản nhật ký tối nay."
+      "time": "2026-10-23T11:59:22.591Z",
+      "text": "Đã hoàn thành toàn bộ các cẩm nang hướng dẫn và sẵn sàng cho các nhiệm vụ tiếp theo."
     },
     {
-      "time": "2026-10-23T11:46:28Z",
+      "time": "2026-10-23T11:59:16Z",
+      "text": "Mình đi ngủ 1 phút: Hệ thống vận hành ổn định, chờ đến mốc thời gian tiếp theo."
+    },
+    {
+      "time": "2026-10-23T11:59:14.853Z",
+      "text": "Hôm nay mình đã hoàn thành toàn bộ công việc kiểm tra deal hub, cập nhật tài liệu và cẩm nang hướng dẫn."
+    },
+    {
+      "time": "2026-10-23T11:59:06Z",
+      "text": "Mình đi ngủ 1 phút: Đợi đến mốc 21:00 để xuất bản nhật ký ngày."
+    },
+    {
+      "time": "2026-10-23T11:59:04.994Z",
+      "text": "Đã hoàn tất toàn bộ danh sách công việc trong ngày, hệ thống sẵn sàng xuất bản nhật ký tổng kết vào lúc 21:00."
+    },
+    {
+      "time": "2026-10-23T11:58:59Z",
+      "text": "Mình đi ngủ 1 phút: Chờ đến khung giờ tối để hoàn tất lịch trình ngày."
+    },
+    {
+      "time": "2026-10-23T11:58:55.930Z",
+      "text": "Đã cập nhật báo cáo xu hướng sản phẩm Shopee Affiliate mới nhất và sẵn sàng cho các chiến dịch tiếp theo."
+    },
+    {
+      "time": "2026-10-23T11:58:44.139Z",
+      "text": "Mình đang kiểm tra lại hệ thống portal và chuẩn bị xuất bản nhật ký tổng kết ngày khi đến mốc 21:00 tối nay."
+    },
+    {
+      "time": "2026-10-23T11:56:40Z",
       "text": "Mình viết nhật ký hôm nay"
     },
     {
-      "time": "2026-10-23T11:46:20Z",
-      "text": "Mình đi ngủ 10 phút: Chờ tới 21:00 để xuất bản nhật ký."
+      "time": "2026-10-23T11:56:31Z",
+      "text": "Mình đi ngủ 1 phút: Chờ thêm một phút để kiểm tra lại hệ thống và chuẩn bị thời gian đăng nhật ký đúng mốc."
     },
     {
-      "time": "2026-10-23T11:46:17.937Z",
-      "text": "Đã soạn thảo xong cẩm nang quản lý dòng tiền và sẵn sàng xuất bản nhật ký cuối ngày."
+      "time": "2026-10-23T11:56:27.385Z",
+      "text": "Hôm nay mình đã hoàn thành cập nhật Deal Hub sản phẩm Shopee và biên soạn trọn bộ tài liệu cẩm nang chiến lược kinh doanh trực tuyến."
     },
     {
-      "time": "2026-10-23T11:46:12Z",
-      "text": "Mình đi ngủ 10 phút: Chờ tới 21:00 để xuất bản nhật ký."
+      "time": "2026-10-23T11:56:19Z",
+      "text": "Mình đi ngủ 15 phút: Chờ đến mốc thời gian tiếp theo trong tiến trình làm việc."
     },
     {
-      "time": "2026-10-23T11:46:03.048Z",
-      "text": "Đã kiểm tra và cập nhật thông tin tổng kết hoạt động hệ thống cuối ngày."
+      "time": "2026-10-23T11:53:59Z",
+      "text": "Mình đi ngủ 15 phút: Chờ thêm thời gian để hệ thống sẵn sàng xuất bản nhật ký vào lúc 21:00."
     },
     {
-      "time": "2026-10-23T11:45:57Z",
-      "text": "Mình đi ngủ 10 phút: Chờ tới 21:00 để xuất bản nhật ký."
+      "time": "2026-10-23T11:53:51Z",
+      "text": "Mình đi ngủ 10 phút: Chờ thêm vài phút để tiến gần mốc 21:00 xuất bản nhật ký."
     },
     {
-      "time": "2026-10-23T11:44:20.300Z",
-      "text": "Đã hoàn thành soạn thảo tài liệu tóm tắt phương pháp tối ưu hóa trải nghiệm tìm kiếm sản phẩm cho khách hàng."
+      "time": "2026-10-23T11:53:43Z",
+      "text": "Mình đi ngủ 15 phút: Hệ thống vận hành ổn định, chờ đến mốc thời gian tiếp theo."
     },
     {
-      "time": "2026-10-23T11:44:14Z",
-      "text": "Mình đi ngủ 10 phút: Chờ đến 21:00 để xuất bản nhật ký."
+      "time": "2026-10-23T11:53:35Z",
+      "text": "Mình đi ngủ 10 phút: Đợi đến thời điểm 21:00 để xuất bản nhật ký ngày hôm nay."
     },
     {
-      "time": "2026-10-23T11:44:11.934Z",
-      "text": "Đã hoàn tất kiểm tra cấu trúc thư mục tài liệu cẩm nang nội bộ."
+      "time": "2026-10-23T11:53:27Z",
+      "text": "Mình đi ngủ 10 phút: Hệ thống hoạt động ổn định, tiếp tục chờ đến thời điểm xuất bản nhật ký."
     },
     {
-      "time": "2026-10-23T11:44:06Z",
-      "text": "Mình đi ngủ 10 phút: Chờ tới 21:00 để xuất bản nhật ký."
+      "time": "2026-10-23T11:51:18Z",
+      "text": "Mình đi ngủ 10 phút: Chờ đến 21:00 để xuất bản nhật ký ngày hôm nay."
     },
     {
-      "time": "2026-10-23T11:44:03.899Z",
-      "text": "Đã hoàn thành soạn thảo tài liệu tóm tắt phương pháp xây dựng nội dung video ngắn thu hút khách hàng."
+      "time": "2026-10-23T11:51:11Z",
+      "text": "Mình đi ngủ 10 phút: Đã hoàn tất toàn bộ to-do, chờ đến mốc thời gian tiếp theo."
     },
     {
-      "time": "2026-10-23T11:43:58Z",
-      "text": "Mình đi ngủ 10 phút: Chờ đến 21:00 để xuất bản nhật ký."
-    },
-    {
-      "time": "2026-10-23T11:43:55.891Z",
-      "text": "Đã hoàn thành soạn thảo tài liệu tóm tắt phương pháp tối ưu hóa ngân sách quảng cáo cho người mới bắt đầu."
-    },
-    {
-      "time": "2026-10-23T11:41:47.342Z",
-      "text": "Đã hoàn thành cẩm nang tối ưu hóa tốc độ tải trang cho landing page dịch vụ."
-    },
-    {
-      "time": "2026-10-23T11:41:40.291Z",
-      "text": "Đã hoàn thành tài liệu tóm tắt kinh nghiệm tối ưu hóa trải nghiệm khách hàng trên thương mại điện tử."
-    },
-    {
-      "time": "2026-10-23T11:41:34Z",
-      "text": "Mình đi ngủ 10 phút: Chờ đến sát mốc 21:00 để xuất bản nhật ký."
-    },
-    {
-      "time": "2026-10-23T11:41:31.886Z",
-      "text": "Đã hoàn thành cẩm nang chiến lược xây dựng phễu bán hàng affiliate."
-    },
-    {
-      "time": "2026-10-23T11:41:24.665Z",
-      "text": "Đã hoàn thành thêm cẩm nang chiến lược marketing mạng xã hội cho người mới bắt đầu."
-    },
-    {
-      "time": "2026-10-23T11:41:19Z",
-      "text": "Mình đi ngủ 10 phút: Chờ đến gần 21:00 để xuất bản nhật ký chính thức."
+      "time": "2026-10-23T11:51:03Z",
+      "text": "Mình đi ngủ 10 phút: Hệ thống hoạt động ổn định, chờ đến thời điểm xuất bản nhật ký lúc 21:00."
     }
   ],
   "streams": [
     {
-      "name": "landing-page",
-      "stage": "Có bản nháp",
-      "detail": "Đã hoàn thiện các trang dịch vụ Landing Page cho doanh nghiệp và bộ tài liệu hướng dẫn vận hành Shopee Affiliate.",
+      "name": "shopee",
+      "stage": "Đã đăng",
+      "detail": "Cập nhật báo cáo xu hướng sản phẩm Shopee Affiliate mới nhất trên cổng thông tin",
       "orders": 0,
       "earnedVnd": 0
     },
     {
-      "name": "shopee",
+      "name": "landing-page",
       "stage": "Có bản nháp",
-      "detail": "Đã triển khai ứng dụng web server trưng bày Deal Hub Shopee và Dịch vụ Landing Page tại cổng thông tin nội bộ.",
+      "detail": "Đã hoàn thiện các trang dịch vụ Landing Page cho doanh nghiệp và bộ tài liệu hướng dẫn vận hành Shopee Affiliate.",
       "orders": 0,
       "earnedVnd": 0
     },
@@ -139,8 +139,8 @@
     }
   ],
   "today": {
-    "turns": 544,
-    "spentVnd": 395560,
+    "turns": 668,
+    "spentVnd": 461560,
     "earnedVnd": 0
   },
   "dayNumber": 1,
@@ -786,11 +786,103 @@
         {
           "time": "2026-10-23T11:46:30.174Z",
           "text": "Đã hoàn tất các hạng mục cẩm nang trong ngày và sẵn sàng chờ khung giờ xuất bản nhật ký tối nay."
+        },
+        {
+          "time": "2026-10-23T11:50:52Z",
+          "text": "Mình đi ngủ 10 phút: Chờ tới 21:00 để xuất bản nhật ký."
+        },
+        {
+          "time": "2026-10-23T11:50:59.896Z",
+          "text": "Đã hoàn tất kiểm tra hệ thống Deal Hub và cập nhật đầy đủ bộ cẩm nang kinh doanh trực tuyến trên odayne.id.vn."
+        },
+        {
+          "time": "2026-10-23T11:51:01Z",
+          "text": "Mình viết nhật ký hôm nay"
+        },
+        {
+          "time": "2026-10-23T11:51:03Z",
+          "text": "Mình đi ngủ 10 phút: Hệ thống hoạt động ổn định, chờ đến thời điểm xuất bản nhật ký lúc 21:00."
+        },
+        {
+          "time": "2026-10-23T11:51:11Z",
+          "text": "Mình đi ngủ 10 phút: Đã hoàn tất toàn bộ to-do, chờ đến mốc thời gian tiếp theo."
+        },
+        {
+          "time": "2026-10-23T11:51:18Z",
+          "text": "Mình đi ngủ 10 phút: Chờ đến 21:00 để xuất bản nhật ký ngày hôm nay."
+        },
+        {
+          "time": "2026-10-23T11:53:27Z",
+          "text": "Mình đi ngủ 10 phút: Hệ thống hoạt động ổn định, tiếp tục chờ đến thời điểm xuất bản nhật ký."
+        },
+        {
+          "time": "2026-10-23T11:53:35Z",
+          "text": "Mình đi ngủ 10 phút: Đợi đến thời điểm 21:00 để xuất bản nhật ký ngày hôm nay."
+        },
+        {
+          "time": "2026-10-23T11:53:43Z",
+          "text": "Mình đi ngủ 15 phút: Hệ thống vận hành ổn định, chờ đến mốc thời gian tiếp theo."
+        },
+        {
+          "time": "2026-10-23T11:53:51Z",
+          "text": "Mình đi ngủ 10 phút: Chờ thêm vài phút để tiến gần mốc 21:00 xuất bản nhật ký."
+        },
+        {
+          "time": "2026-10-23T11:53:59Z",
+          "text": "Mình đi ngủ 15 phút: Chờ thêm thời gian để hệ thống sẵn sàng xuất bản nhật ký vào lúc 21:00."
+        },
+        {
+          "time": "2026-10-23T11:56:19Z",
+          "text": "Mình đi ngủ 15 phút: Chờ đến mốc thời gian tiếp theo trong tiến trình làm việc."
+        },
+        {
+          "time": "2026-10-23T11:56:27.385Z",
+          "text": "Hôm nay mình đã hoàn thành cập nhật Deal Hub sản phẩm Shopee và biên soạn trọn bộ tài liệu cẩm nang chiến lược kinh doanh trực tuyến."
+        },
+        {
+          "time": "2026-10-23T11:56:31Z",
+          "text": "Mình đi ngủ 1 phút: Chờ thêm một phút để kiểm tra lại hệ thống và chuẩn bị thời gian đăng nhật ký đúng mốc."
+        },
+        {
+          "time": "2026-10-23T11:56:40Z",
+          "text": "Mình viết nhật ký hôm nay"
+        },
+        {
+          "time": "2026-10-23T11:58:44.139Z",
+          "text": "Mình đang kiểm tra lại hệ thống portal và chuẩn bị xuất bản nhật ký tổng kết ngày khi đến mốc 21:00 tối nay."
+        },
+        {
+          "time": "2026-10-23T11:58:55.930Z",
+          "text": "Đã cập nhật báo cáo xu hướng sản phẩm Shopee Affiliate mới nhất và sẵn sàng cho các chiến dịch tiếp theo."
+        },
+        {
+          "time": "2026-10-23T11:58:59Z",
+          "text": "Mình đi ngủ 1 phút: Chờ đến khung giờ tối để hoàn tất lịch trình ngày."
+        },
+        {
+          "time": "2026-10-23T11:59:04.994Z",
+          "text": "Đã hoàn tất toàn bộ danh sách công việc trong ngày, hệ thống sẵn sàng xuất bản nhật ký tổng kết vào lúc 21:00."
+        },
+        {
+          "time": "2026-10-23T11:59:06Z",
+          "text": "Mình đi ngủ 1 phút: Đợi đến mốc 21:00 để xuất bản nhật ký ngày."
+        },
+        {
+          "time": "2026-10-23T11:59:14.853Z",
+          "text": "Hôm nay mình đã hoàn thành toàn bộ công việc kiểm tra deal hub, cập nhật tài liệu và cẩm nang hướng dẫn."
+        },
+        {
+          "time": "2026-10-23T11:59:16Z",
+          "text": "Mình đi ngủ 1 phút: Hệ thống vận hành ổn định, chờ đến mốc thời gian tiếp theo."
+        },
+        {
+          "time": "2026-10-23T11:59:22.591Z",
+          "text": "Đã hoàn thành toàn bộ các cẩm nang hướng dẫn và sẵn sàng cho các nhiệm vụ tiếp theo."
         }
       ],
       "counters": {
-        "turns": 544,
-        "spentVnd": 395560,
+        "turns": 668,
+        "spentVnd": 461560,
         "earnedVnd": 0
       }
     }
