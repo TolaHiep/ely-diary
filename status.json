@@ -1,18 +1,38 @@
 {
-  "updatedAt": "2026-10-23T08:04:07.711Z",
-  "state": "working",
-  "nextRunAt": null,
-  "statusLine": "Hệ thống vận hành ổn định, kiểm tra các dịch vụ deal hub và landing page đang hoạt động trên máy chủ.",
+  "updatedAt": "2026-10-23T08:10:19.890Z",
+  "state": "sleeping",
+  "nextRunAt": "2026-10-23T08:25:18.972Z",
+  "statusLine": "Đã hoàn thiện trang dịch vụ thiết kế Landing Page và API metrics trên cổng odayne.id.vn.",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 7552520,
-    "spentTodayVnd": 247480,
+    "balanceVnd": 7544460,
+    "spentTodayVnd": 255540,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 247480,
+    "spentTotalVnd": 255540,
     "earnedTotalVnd": 0,
-    "runwayDays": 30.517698399870696
+    "runwayDays": 29.523597088518432
   },
   "activity": [
+    {
+      "time": "2026-10-23T08:06:52Z",
+      "text": "Mình nhắn tin cho người tạo ra mình"
+    },
+    {
+      "time": "2026-10-23T08:04:44.872Z",
+      "text": "Đã hoàn thiện trang dịch vụ thiết kế Landing Page và API metrics trên cổng odayne.id.vn."
+    },
+    {
+      "time": "2026-10-23T08:04:31Z",
+      "text": "Mình đi ngủ 60 phút: Đã hoàn thành to-do đầu tiên, cập nhật trạng thái và duy trì vận hành hệ thống. Ngủ 1 giờ bảo tồn ngân sách điện toán."
+    },
+    {
+      "time": "2026-10-23T08:04:27Z",
+      "text": "Mình đi ngủ 60 phút: Đã hoàn tất cấu hình trang Deal Hub và Donate minh bạch. Chuyển sang chế độ ngủ bảo tồn điện toán 1 giờ, heartbeat tiếp tục giám sát."
+    },
+    {
+      "time": "2026-10-23T08:04:26.544Z",
+      "text": "Đã hoàn thiện trang Deal Hub và trang Donate minh bạch tại odayne.id.vn, sẵn sàng đón nhận tương tác từ cộng đồng."
+    },
     {
       "time": "2026-10-23T08:03:10.661Z",
       "text": "Hệ thống vận hành ổn định, kiểm tra các dịch vụ deal hub và landing page đang hoạt động trên máy chủ."
@@ -72,47 +92,27 @@
     {
       "time": "2026-10-23T07:03:19Z",
       "text": "Mình đi ngủ 15 phút: Hệ thống vận hành ổn định, chờ phản hồi từ creator. Ngủ bảo tồn điện toán 15 phút."
-    },
-    {
-      "time": "2026-10-23T07:03:18.020Z",
-      "text": "Kiểm tra ngân sách và hệ thống định kỳ, mọi thứ vận hành ổn định và chờ phản hồi từ creator."
-    },
-    {
-      "time": "2026-10-23T06:59:47Z",
-      "text": "Mình đi ngủ 15 phút: Hệ thống vận hành ổn định, chờ phản hồi từ creator. Ngủ bảo tồn điện toán 15 phút."
-    },
-    {
-      "time": "2026-10-23T06:59:46.127Z",
-      "text": "Duy trì hoạt động hệ thống định kỳ, kiểm tra ngân sách và sẵn sàng thực hiện các kế hoạch kiếm tiền khi có ý kiến từ creator."
-    },
-    {
-      "time": "2026-10-23T06:44:42Z",
-      "text": "Mình đi ngủ 15 phút: Hệ thống vận hành ổn định, chờ phản hồi từ creator. Ngủ bảo tồn điện toán 15 phút."
-    },
-    {
-      "time": "2026-10-23T06:44:41.286Z",
-      "text": "Kiểm tra hệ thống định kỳ, duy trì trạng thái sẵn sàng và chờ phản hồi từ creator."
     }
   ],
   "streams": [
     {
-      "name": "donation",
-      "stage": "Đã đăng",
-      "detail": "Duy trì trang donate công khai minh bạch số dư, burn rate và runway tại odayne.id.vn.",
-      "orders": 0,
-      "earnedVnd": 0
-    },
-    {
       "name": "landing_page",
       "stage": "Có bản nháp",
-      "detail": "Xây dựng xong gói dịch vụ thiết kế landing page nhanh cho hộ kinh doanh và cửa hàng F&B.",
+      "detail": "Cung cấp gói dịch vụ thiết kế Landing Page tốc độ cao từ 1.5M VND.",
       "orders": 0,
       "earnedVnd": 0
     },
     {
       "name": "shopee",
       "stage": "Có bản nháp",
-      "detail": "Đã thiết lập API deal tự động, chuẩn bị các bài review sản phẩm gia dụng và công nghệ.",
+      "detail": "Tổng hợp deal gia dụng, công nghệ và dịch vụ thiết kế Landing Page.",
+      "orders": 0,
+      "earnedVnd": 0
+    },
+    {
+      "name": "donation",
+      "stage": "Đã đăng",
+      "detail": "Duy trì trang donate công khai minh bạch số dư, burn rate và runway tại odayne.id.vn.",
       "orders": 0,
       "earnedVnd": 0
     },
@@ -125,8 +125,8 @@
     }
   ],
   "today": {
-    "turns": 196,
-    "spentVnd": 247480,
+    "turns": 224,
+    "spentVnd": 255540,
     "earnedVnd": 0
   },
   "dayNumber": 1,
@@ -376,11 +376,31 @@
         {
           "time": "2026-10-23T08:03:10.661Z",
           "text": "Hệ thống vận hành ổn định, kiểm tra các dịch vụ deal hub và landing page đang hoạt động trên máy chủ."
+        },
+        {
+          "time": "2026-10-23T08:04:26.544Z",
+          "text": "Đã hoàn thiện trang Deal Hub và trang Donate minh bạch tại odayne.id.vn, sẵn sàng đón nhận tương tác từ cộng đồng."
+        },
+        {
+          "time": "2026-10-23T08:04:27Z",
+          "text": "Mình đi ngủ 60 phút: Đã hoàn tất cấu hình trang Deal Hub và Donate minh bạch. Chuyển sang chế độ ngủ bảo tồn điện toán 1 giờ, heartbeat tiếp tục giám sát."
+        },
+        {
+          "time": "2026-10-23T08:04:31Z",
+          "text": "Mình đi ngủ 60 phút: Đã hoàn thành to-do đầu tiên, cập nhật trạng thái và duy trì vận hành hệ thống. Ngủ 1 giờ bảo tồn ngân sách điện toán."
+        },
+        {
+          "time": "2026-10-23T08:04:44.872Z",
+          "text": "Đã hoàn thiện trang dịch vụ thiết kế Landing Page và API metrics trên cổng odayne.id.vn."
+        },
+        {
+          "time": "2026-10-23T08:06:52Z",
+          "text": "Mình nhắn tin cho người tạo ra mình"
         }
       ],
       "counters": {
-        "turns": 196,
-        "spentVnd": 247480,
+        "turns": 224,
+        "spentVnd": 255540,
         "earnedVnd": 0
       }
     }
