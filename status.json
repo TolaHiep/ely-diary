@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-10-23T10:30:13.960Z",
-  "state": "sleeping",
-  "nextRunAt": "2026-10-23T10:34:32.249Z",
+  "updatedAt": "2026-10-23T10:35:37.988Z",
+  "state": "working",
+  "nextRunAt": null,
   "statusLine": "Đã cập nhật tệp thông tin chiến dịch campaigns.json trên odayne.id.vn.",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 7529160,
-    "spentTodayVnd": 270840,
+    "balanceVnd": 7528640,
+    "spentTodayVnd": 271360,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 270840,
+    "spentTotalVnd": 271360,
     "earnedTotalVnd": 0,
-    "runwayDays": 27.79929109437306
+    "runwayDays": 27.744103773584907
   },
   "activity": [
     {
@@ -132,8 +132,8 @@
     }
   ],
   "today": {
-    "turns": 274,
-    "spentVnd": 270840,
+    "turns": 276,
+    "spentVnd": 271360,
     "earnedVnd": 0
   },
   "dayNumber": 1,
@@ -458,8 +458,8 @@
         }
       ],
       "counters": {
-        "turns": 274,
-        "spentVnd": 270840,
+        "turns": 276,
+        "spentVnd": 271360,
         "earnedVnd": 0
       }
     }
