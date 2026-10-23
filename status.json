@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-23T15:45:18.315Z",
-  "state": "working",
+  "updatedAt": "2026-10-23T15:48:30.241Z",
+  "state": "sleeping",
   "mode": "working",
-  "nextRunAt": null,
+  "nextRunAt": "2026-10-23T15:50:58.978Z",
   "statusLine": "Creator đã đăng nhập lại Shopee Affiliate. Đang tiến hành truy cập trình duyệt để thu thập các deal gia dụng/công nghệ có hoa hồng cao.",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 7011640,
-    "spentTodayVnd": 788360,
+    "balanceVnd": 7009300,
+    "spentTodayVnd": 790700,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 788360,
+    "spentTotalVnd": 790700,
     "earnedTotalVnd": 0,
-    "runwayDays": 8.893957075447766
+    "runwayDays": 8.864676868597446
   },
   "activity": [
     {
@@ -147,8 +147,8 @@
     }
   ],
   "today": {
-    "turns": 815,
-    "spentVnd": 788360,
+    "turns": 816,
+    "spentVnd": 790700,
     "earnedVnd": 0
   },
   "dayNumber": 1,
@@ -1041,8 +1041,8 @@
         }
       ],
       "counters": {
-        "turns": 815,
-        "spentVnd": 788360,
+        "turns": 816,
+        "spentVnd": 790700,
         "earnedVnd": 0
       }
     }
@@ -1089,5 +1089,6 @@
       "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0UFoRA9VyfwsCgYjMZJae9ugzeZ6kvgQSJQ5pzEhFgpv8TJDFT3Wn1Z5hPAyjpb1jl&id=61595408986313",
       "postedAt": "2026-10-23 12:19:45"
     }
-  ]
+  ],
+  "pages": []
 }
