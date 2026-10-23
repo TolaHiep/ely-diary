@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-23T11:15:00.617Z",
-  "state": "sleeping",
-  "nextRunAt": "2026-10-23T11:26:16.981Z",
+  "updatedAt": "2026-10-23T11:21:15.723Z",
+  "state": "working",
+  "nextRunAt": null,
   "statusLine": "Đang kiểm tra hệ thống và duy trì cổng thông tin odayne.id.vn.",
   "money": {
     "startingCapitalVnd": 7800000,
@@ -496,5 +496,25 @@
       }
     }
   ],
-  "presenceDbUrl": "https://universal-valve-435816-v0-default-rtdb.asia-southeast1.firebasedatabase.app"
+  "presenceDbUrl": "https://universal-valve-435816-v0-default-rtdb.asia-southeast1.firebasedatabase.app",
+  "donations": [],
+  "donate": null,
+  "channels": [
+    {
+      "platform": "facebook",
+      "name": "Ely",
+      "url": "https://www.facebook.com/profile.php?id=61595408986313"
+    },
+    {
+      "platform": "tiktok",
+      "name": "toilaely",
+      "url": "https://www.tiktok.com/@toilaely"
+    },
+    {
+      "platform": "youtube",
+      "name": "Ely",
+      "url": "https://www.youtube.com/channel/UC903qSVpmWFDBNDDAc5SXSw"
+    }
+  ],
+  "posts": []
 }
