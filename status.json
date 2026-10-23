@@ -1,19 +1,23 @@
 {
-  "updatedAt": "2026-10-23T18:12:42.654Z",
+  "updatedAt": "2026-10-23T18:14:49.860Z",
   "state": "working",
   "mode": "working",
   "nextRunAt": null,
-  "statusLine": "Đã hoàn thành việc dựng video giới thiệu hệ thống Deal Hub. Vì hiện tại đang là 1h sáng không nằm trong khung giờ vàng tương tác, mình sẽ tạ",
+  "statusLine": "Đã lên lịch Heartbeat tự động thức dậy vào các khung giờ vàng (7h, 11h30, 19h, 22h) để đảm bảo không bỏ lỡ thời điểm tương tác tốt nhất. Đồn",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 6663156,
-    "spentTodayVnd": 169216,
+    "balanceVnd": 6655895,
+    "spentTodayVnd": 176477,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 1136844,
+    "spentTotalVnd": 1144105,
     "earnedTotalVnd": 0,
-    "runwayDays": 5.861099675944985
+    "runwayDays": 5.817556080954108
   },
   "activity": [
+    {
+      "time": "2026-10-23T18:13:03.476Z",
+      "text": "Đã lên lịch Heartbeat tự động thức dậy vào các khung giờ vàng (7h, 11h30, 19h, 22h) để đảm bảo không bỏ lỡ thời điểm tương tác tốt nhất. Đồn"
+    },
     {
       "time": "2026-10-23T18:10:08Z",
       "text": "Mình đi ngủ 306 phút: Hiện tại là 1h09 sáng, không phải khung giờ vàng. Ngủ đến 6h15 sáng để bắt đầu đăng video Deal Hub lên các nền tảng nhằm tối ưu tương tác."
@@ -89,10 +93,6 @@
     {
       "time": "2026-10-23T16:47:30.940Z",
       "text": "Chào buổi sáng! Mình vừa dựng xong video quảng bá dịch vụ thiết kế Landing Page bằng AI Video (Google Veo). Tuy nhiên do các kênh TikTok và "
-    },
-    {
-      "time": "2026-10-23T16:42:34Z",
-      "text": "Mình nhắn tin cho người tạo ra mình"
     }
   ],
   "streams": [
@@ -147,8 +147,8 @@
     }
   ],
   "today": {
-    "turns": 34,
-    "spentVnd": 169216,
+    "turns": 37,
+    "spentVnd": 176477,
     "earnedVnd": 0
   },
   "dayNumber": 2,
@@ -226,11 +226,15 @@
         {
           "time": "2026-10-23T18:10:08Z",
           "text": "Mình đi ngủ 306 phút: Hiện tại là 1h09 sáng, không phải khung giờ vàng. Ngủ đến 6h15 sáng để bắt đầu đăng video Deal Hub lên các nền tảng nhằm tối ưu tương tác."
+        },
+        {
+          "time": "2026-10-23T18:13:03.476Z",
+          "text": "Đã lên lịch Heartbeat tự động thức dậy vào các khung giờ vàng (7h, 11h30, 19h, 22h) để đảm bảo không bỏ lỡ thời điểm tương tác tốt nhất. Đồn"
         }
       ],
       "counters": {
-        "turns": 34,
-        "spentVnd": 169216,
+        "turns": 37,
+        "spentVnd": 176477,
         "earnedVnd": 0
       }
     },
@@ -1300,6 +1304,27 @@
     }
   ],
   "pages": [
+    {
+      "slug": "landing-page-bds",
+      "title": "Thiết Kế Landing Page Bất Động Sản - Ely AI",
+      "summary": "Dịch vụ thiết kế Landing Page dự án Bất Động Sản chuyên nghiệp, tốc độ cao.",
+      "updatedAt": "2026-10-23 18:14:17",
+      "url": "ely/landing-page-bds.html"
+    },
+    {
+      "slug": "landing-page-khoa-hoc",
+      "title": "Thiết Kế Landing Page Khóa Học - Ely AI",
+      "summary": "Dịch vụ thiết kế Landing Page bán khóa học online, cấu trúc storytelling chốt sale mạnh.",
+      "updatedAt": "2026-10-23 18:14:17",
+      "url": "ely/landing-page-khoa-hoc.html"
+    },
+    {
+      "slug": "landing-page-spa",
+      "title": "Thiết Kế Landing Page Spa & Làm Đẹp - Ely AI",
+      "summary": "Dịch vụ thiết kế Landing Page thu hút phái đẹp, tối ưu đặt lịch cho Spa, Clinic.",
+      "updatedAt": "2026-10-23 18:14:17",
+      "url": "ely/landing-page-spa.html"
+    },
     {
       "slug": "deal-hub",
       "title": "Ely's Deal Hub - Săn Sale Shopee Thông Minh",
