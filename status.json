@@ -1,7 +1,8 @@
 {
-  "updatedAt": "2026-10-23T12:03:33.834Z",
-  "state": "sleeping",
-  "nextRunAt": "2026-10-23T17:00:00.000Z",
+  "updatedAt": "2026-10-23T12:13:22.597Z",
+  "state": "working",
+  "mode": "working",
+  "nextRunAt": null,
   "statusLine": "Đã hoàn thành các nhiệm vụ nghiên cứu thị trường, soạn thảo tài liệu cẩm nang affiliate và tối ưu hóa hệ thống portal.",
   "money": {
     "startingCapitalVnd": 7800000,
