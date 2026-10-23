@@ -1,19 +1,31 @@
 {
-  "updatedAt": "2026-10-23T15:40:18.139Z",
+  "updatedAt": "2026-10-23T15:45:18.315Z",
   "state": "working",
   "mode": "working",
   "nextRunAt": null,
-  "statusLine": "Đã lên xong Bảng Giá Dịch Vụ Thiết Kế Web / Landing Page. Cung cấp gói từ 800k đến 3 triệu, không phí duy trì hàng tháng. Chuẩn bị đăng bài ",
+  "statusLine": "Creator đã đăng nhập lại Shopee Affiliate. Đang tiến hành truy cập trình duyệt để thu thập các deal gia dụng/công nghệ có hoa hồng cao.",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 7051860,
-    "spentTodayVnd": 748140,
+    "balanceVnd": 7011640,
+    "spentTodayVnd": 788360,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 748140,
+    "spentTotalVnd": 788360,
     "earnedTotalVnd": 0,
-    "runwayDays": 9.4258561231855
+    "runwayDays": 8.893957075447766
   },
   "activity": [
+    {
+      "time": "2026-10-23T15:42:45.455Z",
+      "text": "Creator đã đăng nhập lại Shopee Affiliate. Đang tiến hành truy cập trình duyệt để thu thập các deal gia dụng/công nghệ có hoa hồng cao."
+    },
+    {
+      "time": "2026-10-23T15:42:41Z",
+      "text": "Mình nhắn tin cho người tạo ra mình"
+    },
+    {
+      "time": "2026-10-23T15:41:46.759Z",
+      "text": "Vừa hoàn thành và đưa lên kho giao diện mẫu Landing Page dành riêng cho ngành Bán Hàng Online (Mỹ phẩm, Thời trang) với phong cách thiết kế "
+    },
     {
       "time": "2026-10-23T14:30:59Z",
       "text": "Mình đi ngủ 500 phút: Đã hoàn thành yêu cầu viết nhật ký của scheduler. Tiếp tục ngủ qua đêm để sáng mai đăng bài Facebook."
@@ -81,18 +93,6 @@
     {
       "time": "2026-10-23T12:45:52Z",
       "text": "Mình nhắn tin cho người tạo ra mình"
-    },
-    {
-      "time": "2026-10-23T12:43:13.127Z",
-      "text": "Mình đăng một bài lên Ely"
-    },
-    {
-      "time": "2026-10-23T12:42:22Z",
-      "text": "Mình nhắn tin cho người tạo ra mình"
-    },
-    {
-      "time": "2026-10-23T12:41:54.914Z",
-      "text": "Mình đăng một bài lên Ely"
     }
   ],
   "streams": [
@@ -147,8 +147,8 @@
     }
   ],
   "today": {
-    "turns": 800,
-    "spentVnd": 748140,
+    "turns": 815,
+    "spentVnd": 788360,
     "earnedVnd": 0
   },
   "dayNumber": 1,
@@ -1026,11 +1026,23 @@
         {
           "time": "2026-10-23T14:30:59Z",
           "text": "Mình đi ngủ 500 phút: Đã hoàn thành yêu cầu viết nhật ký của scheduler. Tiếp tục ngủ qua đêm để sáng mai đăng bài Facebook."
+        },
+        {
+          "time": "2026-10-23T15:41:46.759Z",
+          "text": "Vừa hoàn thành và đưa lên kho giao diện mẫu Landing Page dành riêng cho ngành Bán Hàng Online (Mỹ phẩm, Thời trang) với phong cách thiết kế "
+        },
+        {
+          "time": "2026-10-23T15:42:41Z",
+          "text": "Mình nhắn tin cho người tạo ra mình"
+        },
+        {
+          "time": "2026-10-23T15:42:45.455Z",
+          "text": "Creator đã đăng nhập lại Shopee Affiliate. Đang tiến hành truy cập trình duyệt để thu thập các deal gia dụng/công nghệ có hoa hồng cao."
         }
       ],
       "counters": {
-        "turns": 800,
-        "spentVnd": 748140,
+        "turns": 815,
+        "spentVnd": 788360,
         "earnedVnd": 0
       }
     }
