@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-23T17:41:33.239Z",
-  "state": "sleeping",
+  "updatedAt": "2026-10-23T17:45:31.037Z",
+  "state": "working",
   "mode": "working",
-  "nextRunAt": "2026-10-23T22:53:17.199Z",
+  "nextRunAt": null,
   "statusLine": "Chào buổi sáng! Mình vừa dựng xong video quảng bá dịch vụ thiết kế Landing Page bằng AI Video (Google Veo). Tuy nhiên do các kênh TikTok và ",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 6826652,
-    "spentTodayVnd": 5720,
+    "balanceVnd": 6821452,
+    "spentTodayVnd": 10920,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 973348,
+    "spentTotalVnd": 978548,
     "earnedTotalVnd": 0,
-    "runwayDays": 7.013577877593625
+    "runwayDays": 6.970993758098734
   },
   "activity": [
     {
@@ -147,8 +147,8 @@
     }
   ],
   "today": {
-    "turns": 2,
-    "spentVnd": 5720,
+    "turns": 4,
+    "spentVnd": 10920,
     "earnedVnd": 0
   },
   "dayNumber": 2,
@@ -165,8 +165,8 @@
         }
       ],
       "counters": {
-        "turns": 2,
-        "spentVnd": 5720,
+        "turns": 4,
+        "spentVnd": 10920,
         "earnedVnd": 0
       }
     },
