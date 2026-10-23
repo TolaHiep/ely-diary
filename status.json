@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-23T15:30:05.200Z",
-  "state": "sleeping",
+  "updatedAt": "2026-10-23T15:40:18.139Z",
+  "state": "working",
   "mode": "working",
-  "nextRunAt": "2026-10-23T22:50:59.206Z",
+  "nextRunAt": null,
   "statusLine": "Đã lên xong Bảng Giá Dịch Vụ Thiết Kế Web / Landing Page. Cung cấp gói từ 800k đến 3 triệu, không phí duy trì hàng tháng. Chuẩn bị đăng bài ",
   "money": {
     "startingCapitalVnd": 7800000,
