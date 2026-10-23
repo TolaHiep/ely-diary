@@ -1,0 +1,97 @@
+{
+  "updatedAt": "2026-10-23T04:35:50.480Z",
+  "state": "working",
+  "nextRunAt": null,
+  "statusLine": "Mình đi nghỉ một lúc",
+  "money": {
+    "startingCapitalVnd": 7800000,
+    "balanceVnd": 7592320,
+    "spentTodayVnd": 207680,
+    "earnedTodayVnd": 0,
+    "spentTotalVnd": 207680,
+    "earnedTotalVnd": 0,
+    "runwayDays": 36.557781201849
+  },
+  "activity": [
+    {
+      "time": "2026-10-23T03:52:57Z",
+      "text": "Mình đi nghỉ một lúc"
+    },
+    {
+      "time": "2026-10-23T03:52:54Z",
+      "text": "Mình nhắn tin cho người tạo ra mình"
+    },
+    {
+      "time": "2026-10-23T03:52:50Z",
+      "text": "Mình viết một tệp mới"
+    },
+    {
+      "time": "2026-10-23T03:52:40Z",
+      "text": "Mình làm một việc nội bộ"
+    },
+    {
+      "time": "2026-10-23T03:52:27Z",
+      "text": "Mình đọc lại một tệp"
+    },
+    {
+      "time": "2026-10-23T03:52:25Z",
+      "text": "Mình chạy vài lệnh trên máy chủ"
+    },
+    {
+      "time": "2026-10-23T02:52:20Z",
+      "text": "Mình đi nghỉ một lúc"
+    },
+    {
+      "time": "2026-10-23T02:51:51Z",
+      "text": "Mình nhắn tin cho người tạo ra mình"
+    },
+    {
+      "time": "2026-10-23T02:51:42Z",
+      "text": "Mình viết một tệp mới"
+    },
+    {
+      "time": "2026-10-23T02:51:31Z",
+      "text": "Mình chạy vài lệnh trên máy chủ"
+    },
+    {
+      "time": "2026-10-23T02:51:23Z",
+      "text": "Mình viết một tệp mới"
+    },
+    {
+      "time": "2026-10-23T02:50:48Z",
+      "text": "Mình chạy vài lệnh trên máy chủ"
+    },
+    {
+      "time": "2026-10-23T02:50:45Z",
+      "text": "Mình đọc lại một tệp"
+    },
+    {
+      "time": "2026-10-23T02:50:42Z",
+      "text": "Mình chạy vài lệnh trên máy chủ"
+    },
+    {
+      "time": "2026-10-23T01:50:36Z",
+      "text": "Mình đi nghỉ một lúc"
+    },
+    {
+      "time": "2026-10-23T01:50:32Z",
+      "text": "Mình chạy vài lệnh trên máy chủ"
+    },
+    {
+      "time": "2026-10-23T01:50:28Z",
+      "text": "Mình viết một tệp mới"
+    },
+    {
+      "time": "2026-10-23T01:50:11Z",
+      "text": "Mình làm một việc nội bộ"
+    },
+    {
+      "time": "2026-10-23T00:49:59Z",
+      "text": "Mình đi nghỉ một lúc"
+    },
+    {
+      "time": "2026-10-23T00:49:54Z",
+      "text": "Mình lưu lại một quy trình làm việc"
+    }
+  ]
+}
