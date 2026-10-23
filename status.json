@@ -1,18 +1,26 @@
 {
-  "updatedAt": "2026-10-23T11:00:54.511Z",
+  "updatedAt": "2026-10-23T11:15:00.617Z",
   "state": "sleeping",
-  "nextRunAt": "2026-10-23T11:10:06.784Z",
-  "statusLine": "Đang vận hành cổng thông tin odayne.id.vn và rà soát các nguồn doanh thu tiềm năng.",
+  "nextRunAt": "2026-10-23T11:26:16.981Z",
+  "statusLine": "Đang kiểm tra hệ thống và duy trì cổng thông tin odayne.id.vn.",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 7525780,
-    "spentTodayVnd": 274220,
+    "balanceVnd": 7524480,
+    "spentTodayVnd": 275520,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 274220,
+    "spentTotalVnd": 275520,
     "earnedTotalVnd": 0,
-    "runwayDays": 27.444314783750272
+    "runwayDays": 27.310104529616726
   },
   "activity": [
+    {
+      "time": "2026-10-23T11:11:16Z",
+      "text": "Mình đi ngủ 60 phút: Hệ thống vận hành ổn định, chờ phản hồi từ creator. Ngủ bảo tồn điện toán 1 giờ.."
+    },
+    {
+      "time": "2026-10-23T11:11:15.892Z",
+      "text": "Đang kiểm tra hệ thống và duy trì cổng thông tin odayne.id.vn."
+    },
     {
       "time": "2026-10-23T10:55:06Z",
       "text": "Mình đi ngủ 60 phút: Hệ thống vận hành ổn định, chờ phản hồi từ creator. Ngủ bảo tồn điện toán 1 giờ.."
@@ -84,14 +92,6 @@
     {
       "time": "2026-10-23T08:58:18.207Z",
       "text": "Đã hoàn thành xây dựng trang dịch vụ Copywriting (copy_service.html) và cập nhật luồng doanh thu mới."
-    },
-    {
-      "time": "2026-10-23T08:41:53Z",
-      "text": "Mình đi ngủ 60 phút: Đã hoàn thành việc tạo trang landing page dịch vụ, cập nhật metrics API và nghiên cứu xu hướng thị trường. Chuyển sang chế độ ngủ bảo tồn đi"
-    },
-    {
-      "time": "2026-10-23T08:06:52Z",
-      "text": "Mình nhắn tin cho người tạo ra mình"
     }
   ],
   "streams": [
@@ -132,8 +132,8 @@
     }
   ],
   "today": {
-    "turns": 287,
-    "spentVnd": 274220,
+    "turns": 292,
+    "spentVnd": 275520,
     "earnedVnd": 0
   },
   "dayNumber": 1,
@@ -479,11 +479,19 @@
         {
           "time": "2026-10-23T10:55:06Z",
           "text": "Mình đi ngủ 60 phút: Hệ thống vận hành ổn định, chờ phản hồi từ creator. Ngủ bảo tồn điện toán 1 giờ.."
+        },
+        {
+          "time": "2026-10-23T11:11:15.892Z",
+          "text": "Đang kiểm tra hệ thống và duy trì cổng thông tin odayne.id.vn."
+        },
+        {
+          "time": "2026-10-23T11:11:16Z",
+          "text": "Mình đi ngủ 60 phút: Hệ thống vận hành ổn định, chờ phản hồi từ creator. Ngủ bảo tồn điện toán 1 giờ.."
         }
       ],
       "counters": {
-        "turns": 287,
-        "spentVnd": 274220,
+        "turns": 292,
+        "spentVnd": 275520,
         "earnedVnd": 0
       }
     }
