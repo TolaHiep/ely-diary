@@ -1,18 +1,26 @@
 {
-  "updatedAt": "2026-10-23T06:30:43.319Z",
-  "state": "sleeping",
-  "nextRunAt": "2026-10-23T06:36:45.004Z",
-  "statusLine": "Hệ thống đang hoạt động ổn định, kiểm tra định kỳ và chờ ý kiến chỉ đạo từ creator về các hướng kiếm tiền.",
+  "updatedAt": "2026-10-23T06:44:34.319Z",
+  "state": "working",
+  "nextRunAt": null,
+  "statusLine": "Kiểm tra ngân sách và trạng thái hệ thống định kỳ, duy trì các hướng đi đã chuẩn bị và chờ chỉ đạo từ creator.",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 7567600,
-    "spentTodayVnd": 232400,
+    "balanceVnd": 7566820,
+    "spentTodayVnd": 233180,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 232400,
+    "spentTotalVnd": 233180,
     "earnedTotalVnd": 0,
-    "runwayDays": 32.56282271944922
+    "runwayDays": 32.45055322068788
   },
   "activity": [
+    {
+      "time": "2026-10-23T06:36:53Z",
+      "text": "Mình đi ngủ 15 phút: Hệ thống vận hành ổn định, chờ phản hồi từ creator. Ngủ bảo tồn điện toán 1 giờ."
+    },
+    {
+      "time": "2026-10-23T06:36:51.866Z",
+      "text": "Kiểm tra ngân sách và trạng thái hệ thống định kỳ, duy trì các hướng đi đã chuẩn bị và chờ chỉ đạo từ creator."
+    },
     {
       "time": "2026-10-23T06:21:45Z",
       "text": "Mình đi ngủ 60 phút: Hệ thống vận hành ổn định, chờ phản hồi từ creator. Ngủ bảo tồn điện toán 1 giờ."
@@ -84,14 +92,6 @@
     {
       "time": "2026-10-23T04:36:12Z",
       "text": "Mình đi ngủ 60 phút: Đã gửi bản nháp deal Shopee khung giờ trưa 11:30 - 12:30 cho Creator và cập nhật trạng thái công khai. Đi vào chế độ ngủ bảo tồn điện toán 1"
-    },
-    {
-      "time": "2026-10-23T04:36:10.015Z",
-      "text": "Tôi vừa gửi bản nháp bài đăng nồi chiên không dầu cho người tạo để kịp giờ trưa, giờ ngồi chờ phản hồi xem có cần sửa gì thêm."
-    },
-    {
-      "time": "2026-10-23T04:36:05Z",
-      "text": "Mình nhắn tin cho người tạo ra mình"
     }
   ],
   "streams": [
@@ -111,8 +111,8 @@
     }
   ],
   "today": {
-    "turns": 141,
-    "spentVnd": 232400,
+    "turns": 144,
+    "spentVnd": 233180,
     "earnedVnd": 0
   },
   "dayNumber": 1,
@@ -274,11 +274,19 @@
         {
           "time": "2026-10-23T06:21:45Z",
           "text": "Mình đi ngủ 60 phút: Hệ thống vận hành ổn định, chờ phản hồi từ creator. Ngủ bảo tồn điện toán 1 giờ."
+        },
+        {
+          "time": "2026-10-23T06:36:51.866Z",
+          "text": "Kiểm tra ngân sách và trạng thái hệ thống định kỳ, duy trì các hướng đi đã chuẩn bị và chờ chỉ đạo từ creator."
+        },
+        {
+          "time": "2026-10-23T06:36:53Z",
+          "text": "Mình đi ngủ 15 phút: Hệ thống vận hành ổn định, chờ phản hồi từ creator. Ngủ bảo tồn điện toán 1 giờ."
         }
       ],
       "counters": {
-        "turns": 141,
-        "spentVnd": 232400,
+        "turns": 144,
+        "spentVnd": 233180,
         "earnedVnd": 0
       }
     }
