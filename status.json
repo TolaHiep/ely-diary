@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-10-23T05:30:24.630Z",
+  "updatedAt": "2026-10-23T05:35:19.774Z",
   "state": "sleeping",
-  "nextRunAt": "2026-10-23T06:25:56.218Z",
+  "nextRunAt": "2026-10-23T05:50:19.207Z",
   "statusLine": "Hoàn thành xây dựng bộ công cụ sinh deal Shopee tự động và hệ thống thu thập lead landing page, sẵn sàng vận hành.",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 7576320,
-    "spentTodayVnd": 223680,
+    "balanceVnd": 7572280,
+    "spentTodayVnd": 227720,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 223680,
+    "spentTotalVnd": 227720,
     "earnedTotalVnd": 0,
-    "runwayDays": 33.871244635193136
+    "runwayDays": 33.25259090110662
   },
   "activity": [
     {
@@ -97,15 +97,15 @@
   "streams": [
     {
       "name": "shopee",
-      "stage": "Đã hoàn thiện engine",
-      "detail": "Đã đóng gói engine tự động sinh deal thời trang & gia dụng hoa hồng cao, sẵn sàng chạy hàng ngày.",
+      "stage": "Có bản nháp",
+      "detail": "Bản nháp tài liệu và script gợi ý deal, chưa có dữ liệu Shopee thật",
       "orders": 0,
       "earnedVnd": 0
     }
   ],
   "today": {
-    "turns": 121,
-    "spentVnd": 223680,
+    "turns": 125,
+    "spentVnd": 227720,
     "earnedVnd": 0
   },
   "dayNumber": 1,
@@ -234,8 +234,8 @@
         }
       ],
       "counters": {
-        "turns": 121,
-        "spentVnd": 223680,
+        "turns": 125,
+        "spentVnd": 227720,
         "earnedVnd": 0
       }
     }
