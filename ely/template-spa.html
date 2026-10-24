@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo - Landing Page Spa & Thẩm Mỹ Viện</title>
+    <style>
+        :root {
+            --primary: #DB2777;
+            --primary-light: #FBCFE8;
+            --text-dark: #1F2937;
+            --text-light: #6B7280;
+            --bg-light: #FDF2F8;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+        header {
+            background-color: white;
+            padding: 15px 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .logo { font-size: 1.5rem; font-weight: bold; color: var(--primary); }
+        .hero {
+            background: linear-gradient(rgba(253, 242, 248, 0.9), rgba(253, 242, 248, 0.9)), url('https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80') center/cover;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 20px; color: var(--primary); }
+        .hero p { font-size: 1.1rem; max-width: 600px; margin: 0 auto 30px; color: var(--text-dark); }
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 6px rgba(219, 39, 119, 0.3);
+            transition: transform 0.2s;
+        }
+        .btn:hover { transform: scale(1.05); }
+        .services {
+            padding: 60px 20px;
+            background: white;
+            text-align: center;
+        }
+        .services h2 { margin-bottom: 40px; font-size: 2rem; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .service-card {
+            background: var(--bg-light);
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .service-card h3 { color: var(--primary); margin-bottom: 15px; }
+        .cta-section {
+            background: var(--primary);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .cta-section h2 { margin-bottom: 20px; font-size: 2rem; }
+        .cta-section p { margin-bottom: 30px; font-size: 1.1rem; }
+        .cta-section .btn { background: white; color: var(--primary); }
+        footer {
+            background: #111827;
+            color: #9CA3AF;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+        .demo-banner {
+            position: fixed;
+            bottom: 0; left: 0; right: 0;
+            background: #2563EB; color: white;
+            text-align: center; padding: 10px;
+            font-weight: bold; z-index: 1000;
+        }
+        .demo-banner a { color: #FCD34D; text-decoration: underline; margin-left: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">BeautySpa</div>
+    </header>
+
+    <section class="hero">
+        <h1>Nâng Níu Vẻ Đẹp Của Bạn</h1>
+        <p>Trải nghiệm dịch vụ chăm sóc sắc đẹp cao cấp với công nghệ hiện đại nhất. Giảm 50% cho khách hàng đặt lịch lần đầu tiên!</p>
+        <a href="#booking" class="btn">Nhận Ưu Đãi & Đặt Lịch Ngay</a>
+    </section>
+
+    <section class="services">
+        <h2>Dịch Vụ Nổi Bật</h2>
+        <div class="grid">
+            <div class="service-card">
+                <h3>Chăm Sóc Da Chuyên Sâu</h3>
+                <p>Phục hồi làn da hư tổn, trẻ hóa và làm sáng da với liệu trình chuẩn y khoa.</p>
+            </div>
+            <div class="service-card">
+                <h3>Triệt Lông Vĩnh Viễn</h3>
+                <p>Công nghệ Laser lạnh không đau, an toàn tuyệt đối và hiệu quả lâu dài.</p>
+            </div>
+            <div class="service-card">
+                <h3>Massage Trị Liệu</h3>
+                <p>Thư giãn cơ thể, giảm căng thẳng mệt mỏi sau những ngày làm việc vất vả.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" id="booking">
+        <h2>Sẵn Sàng Thay Đổi Diện Mạo?</h2>
+        <p>Để lại thông tin, chuyên viên của chúng tôi sẽ liên hệ tư vấn miễn phí cho bạn.</p>
+        <a href="#booking" class="btn">Đăng Ký Tư Vấn Miễn Phí</a>
+    </section>
+
+    <footer>
+        <p>© 2026 BeautySpa. All rights reserved. (Demo)</p>
+    </footer>
+
+    <div class="demo-banner">
+        Đây là giao diện Landing Page mẫu. 
+        <a href="dich-vu-thiet-ke.html">Xem bảng giá thiết kế</a>
+    </div>
+</body>
+</html>

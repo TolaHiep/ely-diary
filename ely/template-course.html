@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo - Landing Page Khóa Học Online</title>
+    <style>
+        :root {
+            --primary: #2563EB;
+            --secondary: #F59E0B;
+            --text-dark: #1E293B;
+            --text-light: #64748B;
+            --bg-light: #F8FAFC; 
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+        header {
+            background-color: white;
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .logo { font-size: 1.5rem; font-weight: 800; color: var(--primary); }
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            background: var(--bg-light);
+            padding: 60px 5%;
+        }
+        .hero-content { flex: 1; min-width: 300px; padding-right: 30px; }
+        .hero-image { flex: 1; min-width: 300px; text-align: center; }
+        .hero-image img { max-width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        .badge { background: #DBEAFE; color: var(--primary); padding: 5px 12px; border-radius: 20px; font-weight: bold; font-size: 0.9rem; display: inline-block; margin-bottom: 15px;}
+        .hero h1 { font-size: 2.5rem; line-height: 1.2; margin-bottom: 20px; color: var(--text-dark); }
+        .hero p { font-size: 1.1rem; color: var(--text-light); margin-bottom: 30px; }
+        .btn {
+            display: inline-block;
+            background: var(--secondary);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background 0.3s;
+        }
+        .btn:hover { background: #D97706; }
+        
+        .benefits { padding: 60px 5%; text-align: center; }
+        .benefits h2 { font-size: 2rem; margin-bottom: 40px; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        .benefit-card {
+            padding: 25px;
+            border: 1px solid #E2E8F0;
+            border-radius: 10px;
+            text-align: left;
+        }
+        .benefit-card h3 { color: var(--primary); margin-bottom: 10px; }
+        
+        .course-content {
+            background: var(--bg-light);
+            padding: 60px 5%;
+        }
+        .course-content h2 { text-align: center; font-size: 2rem; margin-bottom: 40px; }
+        .module {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--primary);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .module h4 { margin-bottom: 5px; font-size: 1.1rem; }
+        .module p { color: var(--text-light); font-size: 0.95rem; }
+
+        .pricing {
+            padding: 60px 5%;
+            text-align: center;
+        }
+        .pricing-box {
+            max-width: 500px;
+            margin: 0 auto;
+            border: 2px solid var(--primary);
+            border-radius: 12px;
+            padding: 40px 20px;
+            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
+        }
+        .price { font-size: 3rem; font-weight: 800; color: var(--text-dark); margin: 20px 0; }
+        .old-price { text-decoration: line-through; color: var(--text-light); font-size: 1.2rem; }
+
+        footer { background: #0F172A; color: #94A3B8; text-align: center; padding: 20px; font-size: 0.9rem; margin-bottom: 40px; }
+        
+        .demo-banner {
+            position: fixed;
+            bottom: 0; left: 0; right: 0;
+            background: #DB2777; color: white;
+            text-align: center; padding: 10px;
+            font-weight: bold; z-index: 1000;
+        }
+        .demo-banner a { color: #FBCFE8; text-decoration: underline; margin-left: 10px; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .hero { text-align: center; }
+            .hero-content { padding-right: 0; margin-bottom: 30px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">EduMaster</div>
+        <a href="#register" class="btn" style="padding: 10px 20px; font-size: 0.9rem;">Đăng Ký Ngay</a>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge">🔥 Ưu đãi 50% hôm nay</span>
+            <h1>Làm Chủ Kỹ Năng Digital Marketing Thực Chiến</h1>
+            <p>Khóa học toàn diện từ con số 0. Học cách chạy quảng cáo Facebook, Google, TikTok ra đơn thực tế. Có Mentor hỗ trợ 1 kèm 1.</p>
+            <a href="#register" class="btn">Đăng Ký Giữ Chỗ Ngay</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Học viên đang học">
+        </div>
+    </section>
+
+    <section class="benefits">
+        <h2>Bạn Sẽ Nhận Được Gì?</h2>
+        <div class="grid">
+            <div class="benefit-card">
+                <h3>Tư duy cốt lõi</h3>
+                <p>Nắm vững bản chất của Marketing Online, không bị phụ thuộc vào các thủ thuật ngắn hạn (tut/trick).</p>
+            </div>
+            <div class="benefit-card">
+                <h3>Thực hành 100%</h3>
+                <p>Lên camp trực tiếp trên lớp. Chữa bài thực tế dựa trên ngân sách và sản phẩm của chính bạn.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>Hỗ trợ trọn đời</h3>
+                <p>Tham gia cộng đồng học viên kín. Update kiến thức và thuật toán nền tảng miễn phí hàng tháng.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="course-content">
+        <h2>Nội Dung Khóa Học</h2>
+        <div style="max-width: 700px; margin: 0 auto;">
+            <div class="module">
+                <h4>Chương 1: Tổng quan & Nghiên cứu thị trường</h4>
+                <p>Cách tìm ngách sản phẩm, phân tích đối thủ cạnh tranh.</p>
+            </div>
+            <div class="module">
+                <h4>Chương 2: Content & Copywriting</h4>
+                <p>Công thức viết bài quảng cáo thôi miên, kịch bản làm video ngắn.</p>
+            </div>
+            <div class="module">
+                <h4>Chương 3: Tối ưu Quảng Cáo</h4>
+                <p>Kỹ thuật setup Facebook Ads, TikTok Ads và cách tối ưu chi phí chuyển đổi (CPA).</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="register">
+        <div class="pricing-box">
+            <h2 style="color: var(--primary); margin-top:0;">Gói Học Đầy Đủ</h2>
+            <div class="old-price">Giá gốc: 4.990.000đ</div>
+            <div class="price">2.490.000đ</div>
+            <p style="margin-bottom: 30px;">Chỉ áp dụng cho 20 học viên đăng ký sớm nhất hôm nay!</p>
+            <a href="#register" class="btn" style="width: 100%;">Đăng Ký & Thanh Toán</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 EduMaster Academy. All rights reserved. (Demo)</p>
+    </footer>
+
+    <div class="demo-banner">
+        Đây là giao diện Landing Page mẫu. 
+        <a href="dich-vu-thiet-ke.html">Xem bảng giá thiết kế</a>
+    </div>
+</body>
+</html>
