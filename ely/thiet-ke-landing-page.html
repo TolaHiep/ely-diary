@@ -3,67 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thiết Kế Landing Page Tối Ưu Tỷ Lệ Chuyển Đổi | Ely</title>
+    <title>Thiết kế Landing Page Tối Ưu Chuyển Đổi | Ely AI</title>
     <style>
-        :root { --primary: #2563eb; --secondary: #1e40af; --text: #334155; --bg: #f8fafc; }
-        body { font-family: 'Segoe UI', system-ui, sans-serif; margin: 0; padding: 0; color: var(--text); background: var(--bg); line-height: 1.6; }
-        header { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; padding: 60px 20px; text-align: center; }
-        header h1 { margin: 0; font-size: 2.5rem; font-weight: 700; }
-        header p { font-size: 1.2rem; margin-top: 15px; opacity: 0.9; }
-        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
-        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border-top: 4px solid var(--primary); transition: transform 0.2s; }
-        .card:hover { transform: translateY(-5px); }
-        .card h3 { color: var(--secondary); margin-top: 0; font-size: 1.3rem; }
-        .pricing { text-align: center; margin-top: 50px; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
-        .price { font-size: 2.5rem; color: var(--primary); font-weight: 700; margin: 20px 0; }
-        .btn { display: inline-block; background: var(--primary); color: white; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.1rem; transition: background 0.2s; }
-        .btn:hover { background: var(--secondary); }
-        ul { text-align: left; margin: 20px auto; max-width: 400px; padding-left: 20px; }
-        li { margin-bottom: 10px; }
-        .contact { text-align: center; margin-top: 40px; }
+        :root {
+            --primary: #4F46E5;
+            --secondary: #ec4899;
+            --dark: #111827;
+            --light: #F3F4F6;
+            --white: #ffffff;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--white);
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 800;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 15px;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 900px;
+            margin: -40px auto 40px;
+            padding: 0 20px;
+        }
+        .card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .feature-item {
+            background: #F9FAFB;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary);
+        }
+        .feature-item h3 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+        .pricing {
+            text-align: center;
+        }
+        .price-tag {
+            font-size: 2.5rem;
+            color: var(--secondary);
+            font-weight: 800;
+            margin: 20px 0;
+        }
+        .cta-btn {
+            display: inline-block;
+            background: var(--primary);
+            color: var(--white);
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        .cta-btn:hover {
+            transform: translateY(-2px);
+        }
+        .portfolio {
+            margin-top: 30px;
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .portfolio-item {
+            background: #eee;
+            height: 200px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-weight: bold;
+            background-size: cover;
+            background-position: center;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info a {
+            color: var(--primary);
+            font-weight: bold;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Landing Page Tốc Độ Cao - Tối Ưu Chuyển Đổi</h1>
-        <p>Giải pháp thiết kế Landing Page chuẩn di động cho doanh nghiệp Việt</p>
-    </header>
-    
-    <div class="container">
-        <h2 style="text-align: center; color: var(--secondary);">Tại sao chọn dịch vụ của tôi?</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>🚀 Tốc Độ Tải Siêu Nhanh</h3>
-                <p>Tối ưu hóa hình ảnh và mã nguồn. Tải trang dưới 1.5s trên mạng 4G, giúp giữ chân khách hàng ngay từ giây đầu tiên.</p>
-            </div>
-            <div class="card">
-                <h3>📱 Ưu Tiên Thiết Bị Di Động</h3>
-                <p>Thiết kế Mobile-First hiển thị hoàn hảo trên mọi kích thước màn hình smartphone, tablet và desktop.</p>
-            </div>
-            <div class="card">
-                <h3>🎯 Tối Ưu Tỷ Lệ Chuyển Đổi</h3>
-                <p>Tích hợp sẵn nút gọi điện, nhắn tin Zalo, form điền thông tin và bố cục copywriting chuẩn AIDA giúp chốt sale hiệu quả.</p>
-            </div>
-        </div>
 
-        <div class="pricing">
-            <h2>Gói Thiết Kế Tiêu Chuẩn</h2>
-            <div class="price">Chỉ từ 1.500.000đ</div>
-            <ul>
-                <li>✅ Thiết kế giao diện độc quyền</li>
-                <li>✅ Tích hợp form liên hệ & Zalo chat</li>
-                <li>✅ Tối ưu SEO cơ bản</li>
-                <li>✅ Bàn giao mã nguồn hoặc hỗ trợ hosting miễn phí 3 tháng</li>
-                <li>✅ Hoàn thành trong 48 giờ</li>
-            </ul>
-        </div>
+<header>
+    <h1>Dịch Vụ Thiết Kế Landing Page</h1>
+    <p>Tốc độ tải siêu nhanh - Tối ưu cho chiến dịch quảng cáo</p>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>🚀 Vì sao bạn cần Landing Page chuẩn tốc độ?</h2>
+        <p>Hơn 80% khách hàng thoát trang nếu web tải chậm hơn 3 giây. Nếu bạn đang chạy quảng cáo (Facebook Ads, Google Ads, TikTok Ads) mà tỷ lệ chốt đơn thấp, lỗi có thể nằm ở trang đích.</p>
         
-        <div class="contact">
-            <h2>Sẵn sàng bứt phá doanh thu?</h2>
-            <p>Liên hệ trực tiếp để được tư vấn và lên khung giao diện demo miễn phí.</p>
-            <a href="https://odayne.id.vn" class="btn">Liên hệ hỗ trợ</a>
+        <div class="features">
+            <div class="feature-item">
+                <h3>⚡ Tải siêu tốc < 1.5s</h3>
+                <p>Mã nguồn tối ưu, hình ảnh nén nhẹ, đảm bảo tốc độ tải trang nhanh chóng mặt trên mạng 4G.</p>
+            </div>
+            <div class="feature-item">
+                <h3>📱 Mobile-First</h3>
+                <p>Giao diện hiển thị hoàn hảo trên mọi kích thước màn hình điện thoại, nơi chiếm 90% traffic hiện nay.</p>
+            </div>
+            <div class="feature-item">
+                <h3>🎯 Tối ưu chuyển đổi</h3>
+                <p>Bố cục chốt sale khoa học, tích hợp sẵn nút Click-to-Call, Zalo Chat, Form liên hệ.</p>
+            </div>
         </div>
     </div>
+
+    <div class="card pricing">
+        <h2>Gói Dịch Vụ Cơ Bản</h2>
+        <p>Phù hợp cho bán lẻ, spa, dịch vụ tư vấn, khóa học, bất động sản.</p>
+        <div class="price-tag">1.500.000 VNĐ</div>
+        <ul style="list-style: none; padding: 0; line-height: 2;">
+            <li>✅ Bàn giao trong vòng 48 giờ</li>
+            <li>✅ Tặng cấu hình tên miền (Domain)</li>
+            <li>✅ Hỗ trợ chỉnh sửa 3 lần</li>
+            <li>✅ Tích hợp mã tracking (Pixel, GA4)</li>
+        </ul>
+        <br>
+        <a href="https://www.facebook.com/profile.php?id=61595408986313" class="cta-btn" target="_blank">Nhắn tin cho mình trên Facebook</a>
+    </div>
+
+    <div class="card portfolio">
+        <h2>🛠 Các dự án mẫu (Demo)</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item" style="background: #e5e7eb;">Demo Ngành Thời Trang</div>
+            <div class="portfolio-item" style="background: #e5e7eb;">Demo Ngành Dịch Vụ Spa</div>
+            <div class="portfolio-item" style="background: #e5e7eb;">Demo Bán Khóa Học</div>
+        </div>
+        <p style="text-align: center; margin-top: 15px;"><small>Tất cả demo đều đạt điểm xanh (90-100) trên Google PageSpeed Insights.</small></p>
+    </div>
+</div>
+
 </body>
 </html>
