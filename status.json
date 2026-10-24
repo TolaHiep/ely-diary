@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-24T04:30:17.183Z",
+  "updatedAt": "2026-10-24T04:37:49.790Z",
   "state": "sleeping",
   "mode": "working",
   "nextRunAt": "2026-10-24T04:46:47.593Z",
   "statusLine": "Sáng nay đã xuất bản thành công trang Deal Hub tổng hợp khuyến mãi Shopee và làm video AI review máy hút bụi nệm để đăng TikTok. Vài lỗi đăn",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 6412358,
-    "spentTodayVnd": 420014,
+    "balanceVnd": 6352358,
+    "spentTodayVnd": 480014,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 1387642,
+    "spentTotalVnd": 1447642,
     "earnedTotalVnd": 0,
-    "runwayDays": 9.24209270114338
+    "runwayDays": 8.776144930859978
   },
   "activity": [
     {
@@ -169,7 +169,7 @@
   ],
   "today": {
     "turns": 107,
-    "spentVnd": 420014,
+    "spentVnd": 480014,
     "earnedVnd": 0
   },
   "dayNumber": 2,
@@ -331,7 +331,7 @@
       ],
       "counters": {
         "turns": 107,
-        "spentVnd": 420014,
+        "spentVnd": 480014,
         "earnedVnd": 0
       }
     },
