@@ -3,51 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khóa Học Tiếng Anh Giao Tiếp Siêu Tốc | Master English</title>
+    <title>Demo Landing Page Khóa Học - Ely</title>
     <style>
-        :root { --primary: #10b981; --text: #333; --bg: #f9f9f9; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin:0; padding:0; background: var(--bg); color: var(--text); line-height: 1.6; }
-        header { background: var(--primary); color: white; padding: 40px 20px; text-align: center; }
-        h1 { margin: 0; font-size: 2rem; line-height: 1.3; }
-        .hero-subtitle { font-size: 1.1rem; margin-top: 15px; opacity: 0.9; }
-        .container { max-width: 600px; margin: -20px auto 40px; padding: 0 15px; position: relative; z-index: 10; }
-        .card { background: white; border-radius: 12px; padding: 25px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-        .price-box { text-align: center; font-size: 2.2rem; color: var(--primary); font-weight: 900; margin: 20px 0; }
-        .btn { display: block; width: 100%; box-sizing: border-box; background: var(--primary); color: white; text-align: center; padding: 15px; text-decoration: none; font-size: 1.1rem; font-weight: bold; border-radius: 8px; margin-bottom: 15px; transition: opacity 0.2s;}
-        .btn:hover { opacity: 0.9; }
-        .btn-zalo { background: #0068ff; }
-        ul { padding-left: 0; list-style: none; }
-        li { margin-bottom: 12px; display: flex; align-items: flex-start; }
-        li::before { content: "✅"; margin-right: 10px; }
-        .footer { text-align: center; font-size: 0.9rem; color: #777; margin-top: 30px; }
+        :root { --primary-color: #4f46e5; --secondary-color: #10b981; --bg-color: #f3f4f6; --text-color: #1f2937; }
+        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 0; background-color: var(--bg-color); color: var(--text-color); line-height: 1.6; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Hero Section */
+        header { background: linear-gradient(135deg, #312e81 0%, #4f46e5 100%); color: white; padding: 80px 20px; text-align: center; }
+        .hero-badge { display: inline-block; background-color: rgba(255,255,255,0.2); padding: 5px 15px; border-radius: 20px; font-size: 0.9em; font-weight: 600; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }
+        header h1 { font-size: 3em; margin: 0 0 20px 0; font-weight: 800; line-height: 1.2; }
+        header p { font-size: 1.2em; max-width: 700px; margin: 0 auto 30px auto; opacity: 0.9; }
+        .btn-cta { background-color: var(--secondary-color); color: white; padding: 15px 40px; text-decoration: none; font-size: 1.2em; font-weight: bold; border-radius: 8px; display: inline-block; transition: background 0.3s; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4); }
+        .btn-cta:hover { background-color: #059669; }
+        
+        /* Section styling */
+        .section { padding: 80px 0; }
+        .bg-white { background-color: white; }
+        .section-title { font-size: 2.2em; text-align: center; margin-bottom: 50px; font-weight: 800; color: #111827; }
+        
+        /* Features/Benefits */
+        .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .benefit-card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--primary-color); }
+        .benefit-card h3 { font-size: 1.3em; margin-top: 0; color: #111827; }
+        
+        /* Instructor */
+        .instructor { display: flex; flex-wrap: wrap; align-items: center; gap: 40px; background: white; padding: 40px; border-radius: 16px; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1); }
+        .instructor-img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 4px solid #e5e7eb; }
+        .instructor-info { flex: 1; min-width: 300px; }
+        .instructor-info h3 { font-size: 1.8em; margin: 0 0 10px 0; color: var(--primary-color); }
+        .instructor-info p { margin-bottom: 10px; }
+        
+        /* Curriculum */
+        .curriculum-list { max-width: 800px; margin: 0 auto; }
+        .module { background: white; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); overflow: hidden; }
+        .module-header { padding: 20px; font-weight: 700; font-size: 1.1em; background-color: #f9fafb; border-left: 4px solid var(--primary-color); }
+        
+        /* Pricing */
+        .pricing-section { text-align: center; background-color: #1f2937; color: white; padding: 80px 20px; }
+        .price-box { background: white; color: var(--text-color); max-width: 400px; margin: 0 auto; padding: 40px; border-radius: 16px; }
+        .price-box h3 { font-size: 1.5em; margin-top: 0; }
+        .price { font-size: 3em; font-weight: 800; color: var(--primary-color); margin: 20px 0; }
+        .price span { font-size: 0.4em; color: #6b7280; font-weight: normal; }
+        .original-price { text-decoration: line-through; color: #9ca3af; font-size: 1.2em; }
+        
+        /* Footer */
+        footer { text-align: center; padding: 30px; background: #111827; color: #9ca3af; }
+        
+        /* Floating Buttons */
+        .floating-buttons { position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 10px; }
+        .float-btn { width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none; font-size: 24px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+        .btn-zalo { background-color: #0068ff; }
+        .btn-messenger { background-color: #0084ff; }
     </style>
 </head>
 <body>
     <header>
-        <h1>Làm Chủ Tiếng Anh Giao Tiếp<br>Chỉ Trong 3 Tháng!</h1>
-        <div class="hero-subtitle">Phương pháp phản xạ thực tế. Tự tin giao tiếp với người bản xứ.</div>
+        <div class="container">
+            <span class="hero-badge">Khóa Học Online Mới Nhất 2026</span>
+            <h1>Bậc Thầy Content Marketing Từ Số 0</h1>
+            <p>Hệ thống hóa kiến thức, xây dựng tư duy chiến lược và thực hành viết bài ra đơn ngay lập tức. Phù hợp cho người mới bắt đầu hoặc người kinh doanh tự do.</p>
+            <a href="#pricing" class="btn-cta">Đăng Ký Khóa Học Ngay</a>
+        </div>
     </header>
-    <div class="container">
-        <div class="card">
-            <h2 style="margin-top:0;">Khóa Học Giao Tiếp Tiếng Anh 1 Kèm 1</h2>
-            <p>Bạn mất gốc tiếng Anh? Bạn ngại giao tiếp? Khóa học này thiết kế riêng cho người đi làm bận rộn. Bạn sẽ học cách phát âm chuẩn, từ vựng ứng dụng thực tế và thực hành nghe nói 80% thời lượng.</p>
-            <h3>Điểm nổi bật:</h3>
-            <ul>
-                <li>Lộ trình học cá nhân hóa theo trình độ</li><li>Lịch học linh hoạt 24/7</li><li>Hoàn học phí 100% nếu không tiến bộ</li><li>Tặng kèm bộ tài liệu luyện thi IELTS</li>
-            </ul>
+
+    <div class="section container">
+        <h2 class="section-title">Khóa Học Này Dành Cho Ai?</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <h3>👩‍💻 Người Mới Bắt Đầu</h3>
+                <p>Muốn học một kỹ năng mới để kiếm tiền online, làm freelancer hoặc tìm việc làm ổn định trong ngành Marketing.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>📦 Chủ Shop Online</h3>
+                <p>Đang bán hàng nhưng viết bài không ai tương tác, tốn tiền chạy quảng cáo nhưng không ra đơn.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>✍️ Content Creator</h3>
+                <p>Bị bí ý tưởng, cần một quy trình sản xuất nội dung chuyên nghiệp, bài bản để xây dựng thương hiệu cá nhân.</p>
+            </div>
         </div>
-        
-        <div class="card">
-            <h2 style="text-align: center; margin-top:0;">Giá ưu đãi hôm nay</h2>
-            <div class="price-box">Giảm 50% hôm nay</div>
-            <p style="text-align: center; color: #666;">Chỉ áp dụng cho 50 khách hàng đầu tiên</p>
-            <a href="tel:0999888777" class="btn">📞 Gọi Tư Vấn: 0999888777</a>
-            <a href="https://zalo.me/0999888777" class="btn btn-zalo">💬 Chat Zalo Đặt Hàng</a>
+    </div>
+
+    <div class="section bg-white">
+        <div class="container">
+            <h2 class="section-title">Giảng Viên Của Bạn</h2>
+            <div class="instructor">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Giảng viên" class="instructor-img">
+                <div class="instructor-info">
+                    <h3>Nguyễn Trần A (Demo)</h3>
+                    <p><strong>Chuyên gia Content Marketing với 8+ năm kinh nghiệm</strong></p>
+                    <p>Đã đào tạo hơn 5.000 học viên và tư vấn chiến lược nội dung cho hơn 100 doanh nghiệp vừa và nhỏ tại Việt Nam.</p>
+                    <p>"Mục tiêu của tôi không chỉ là dạy bạn viết chữ, mà là dạy bạn cách dùng chữ để kiếm tiền."</p>
+                </div>
+            </div>
         </div>
-        
-        <div class="footer">
-            &copy; 2026 - Thiết kế bởi Ely Landing Page Siêu Tốc
+    </div>
+
+    <div class="section container">
+        <h2 class="section-title">Nội Dung Khóa Học</h2>
+        <div class="curriculum-list">
+            <div class="module">
+                <div class="module-header">Chương 1: Tư Duy Cốt Lõi Của Content Bán Hàng</div>
+            </div>
+            <div class="module">
+                <div class="module-header">Chương 2: Khám Phá Insight & Chân Dung Khách Hàng</div>
+            </div>
+            <div class="module">
+                <div class="module-header">Chương 3: 10 Công Thức Viết Tiêu Đề (Hook) Thôi Miên</div>
+            </div>
+            <div class="module">
+                <div class="module-header">Chương 4: Xây Dựng Kịch Bản Video Ngắn (TikTok, Reels)</div>
+            </div>
+            <div class="module">
+                <div class="module-header">Chương 5: Thực Hành Viết Bài & Chữa Bài Thực Tế</div>
+            </div>
         </div>
+    </div>
+
+    <div id="pricing" class="pricing-section">
+        <div class="container">
+            <h2 style="font-size: 2.2em; margin-bottom: 20px;">Đầu Tư Cho Tương Lai Của Bạn</h2>
+            <p style="margin-bottom: 40px;">Ưu đãi đặc biệt giảm 50% chỉ dành cho 100 học viên đăng ký đầu tiên trong tháng này.</p>
+            
+            <div class="price-box">
+                <h3>Gói Toàn Diện</h3>
+                <div class="original-price">1.999.000 đ</div>
+                <div class="price">999.000 đ</div>
+                <ul style="text-align: left; margin: 30px 0; padding-left: 20px; line-height: 2;">
+                    <li>✓ Quyền truy cập trọn đời tất cả bài giảng</li>
+                    <li>✓ Bộ tài liệu, biểu mẫu thực hành (PDF)</li>
+                    <li>✓ Tham gia Group hỗ trợ kín</li>
+                    <li>✓ 2 buổi Zoom Coaching trực tiếp</li>
+                </ul>
+                <a href="#register-demo" class="btn-cta" style="width: 100%; box-sizing: border-box;">Đăng Ký Ngay (Demo)</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Bản quyền © 2026. Mẫu Landing Page Demo thiết kế bởi Ely.</p>
+        </div>
+    </footer>
+
+    <div class="floating-buttons">
+        <a href="#" class="float-btn btn-messenger" title="Chat Messenger">💬</a>
+        <a href="#" class="float-btn btn-zalo" title="Chat Zalo">📱</a>
     </div>
 </body>
 </html>
