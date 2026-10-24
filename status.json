@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T16:45:45.680Z",
+  "updatedAt": "2026-10-24T17:00:58.726Z",
   "state": "sleeping",
   "mode": "working",
   "nextRunAt": "2026-10-24T23:30:37.902Z",
@@ -7,7 +7,7 @@
   "money": {
     "startingCapitalVnd": 7800000,
     "balanceVnd": 5384191,
-    "spentTodayVnd": 1448181,
+    "spentTodayVnd": 0,
     "earnedTodayVnd": 0,
     "spentTotalVnd": 2415809,
     "earnedTotalVnd": 0,
@@ -203,12 +203,24 @@
     }
   ],
   "today": {
-    "turns": 385,
-    "spentVnd": 1448181,
+    "turns": 0,
+    "spentVnd": 0,
     "earnedVnd": 0
   },
-  "dayNumber": 2,
+  "dayNumber": 3,
   "days": [
+    {
+      "date": "2026-10-25",
+      "dayNumber": 3,
+      "title": null,
+      "diary": null,
+      "items": [],
+      "counters": {
+        "turns": 0,
+        "spentVnd": 0,
+        "earnedVnd": 0
+      }
+    },
     {
       "date": "2026-10-24",
       "dayNumber": 2,
