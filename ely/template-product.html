@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo - Landing Page Sản Phẩm Bán Lẻ</title>
+    <style>
+        :root {
+            --primary: #16A34A; /* Green 600 */
+            --primary-dark: #15803D;
+            --text-dark: #111827;
+            --text-light: #4B5563;
+            --bg-light: #F0FDF4; /* Green 50 */
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+            background-color: #f9fafb;
+        }
+        header {
+            background-color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .logo { font-size: 1.5rem; font-weight: 800; color: var(--primary); }
+        
+        .product-hero {
+            display: flex;
+            flex-wrap: wrap;
+            background: white;
+            max-width: 1200px;
+            margin: 20px auto;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .product-gallery {
+            flex: 1;
+            min-width: 300px;
+            background: var(--bg-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+        .product-gallery img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+            transform: scale(1.05);
+        }
+        .product-info {
+            flex: 1;
+            min-width: 300px;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .tag {
+            display: inline-block;
+            background: #DCFCE7;
+            color: var(--primary-dark);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            align-self: flex-start;
+        }
+        .product-title { font-size: 2.2rem; line-height: 1.2; margin-bottom: 15px; }
+        .product-desc { color: var(--text-light); font-size: 1.1rem; margin-bottom: 25px; }
+        .price-block { margin-bottom: 25px; }
+        .current-price { font-size: 2.5rem; font-weight: 800; color: var(--primary); }
+        .old-price { font-size: 1.2rem; color: #9CA3AF; text-decoration: line-through; margin-left: 10px; }
+        
+        .btn-buy {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 18px 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(22, 163, 74, 0.3);
+            transition: background 0.2s;
+            animation: pulse 2s infinite;
+        }
+        .btn-buy:hover { background: var(--primary-dark); }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+
+        .features {
+            max-width: 1200px;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 0 20px;
+        }
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .feature-card h3 { margin-bottom: 10px; color: var(--text-dark); }
+        .feature-card p { color: var(--text-light); font-size: 0.95rem; }
+
+        .trust-section {
+            background: white;
+            padding: 60px 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .trust-section h2 { margin-bottom: 40px; font-size: 2rem; }
+        
+        footer {
+            background: #1F2937;
+            color: #9CA3AF;
+            text-align: center;
+            padding: 30px 20px;
+            margin-bottom: 40px;
+        }
+        
+        .demo-banner {
+            position: fixed;
+            bottom: 0; left: 0; right: 0;
+            background: #111827; color: white;
+            text-align: center; padding: 12px;
+            font-weight: bold; z-index: 1000;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+        }
+        .demo-banner a { color: #4ADE80; text-decoration: underline; margin-left: 10px; }
+
+        @media (max-width: 768px) {
+            .product-title { font-size: 1.8rem; }
+            .product-gallery { padding: 20px; }
+            .product-info { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">SmartTech</div>
+        <a href="#buy" class="btn-buy" style="padding: 8px 15px; font-size: 0.9rem; width: auto; animation: none;">Mua Ngay</a>
+    </header>
+
+    <div class="product-hero">
+        <div class="product-gallery">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tai nghe Bluetooth">
+        </div>
+        <div class="product-info">
+            <span class="tag">Freeship Toàn Quốc</span>
+            <h1 class="product-title">Tai Nghe Bluetooth Pro X - Chống Ồn Chủ Động</h1>
+            <p class="product-desc">Trải nghiệm âm thanh đỉnh cao với công nghệ chống ồn ANC mới nhất. Pin trâu 40h, thiết kế công thái học siêu nhẹ.</p>
+            
+            <div class="price-block">
+                <span class="current-price">690.000đ</span>
+                <span class="old-price">1.200.000đ</span>
+            </div>
+            
+            <a href="#buy" class="btn-buy" id="buy">ĐẶT HÀNG NGAY - NHẬN ƯU ĐÃI</a>
+            <p style="text-align: center; margin-top: 10px; font-size: 0.85rem; color: #DC2626;">*Chỉ còn 15 sản phẩm giá khuyến mãi</p>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature-card">
+            <h3>Chống Ồn Tuyệt Đối</h3>
+            <p>Lọc bỏ 90% tạp âm môi trường, tập trung hoàn toàn vào âm nhạc và công việc.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Pin Dùng 40 Giờ</h3>
+            <p>Sạc 10 phút, nghe 4 giờ. Sử dụng thoải mái cả tuần chỉ với 1 lần sạc đầy.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Chống Nước IPX5</h3>
+            <p>An toàn khi tập thể thao ra mồ hôi hoặc đi dưới trời mưa nhỏ.</p>
+        </div>
+    </div>
+
+    <div class="trust-section">
+        <h2>Cam Kết Từ SmartTech</h2>
+        <div style="max-width: 800px; margin: 0 auto; display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+            <div>
+                <h3 style="color: var(--primary); margin-bottom: 5px;">Bảo Hành 12 Tháng</h3>
+                <p>Lỗi 1 đổi 1 trong 30 ngày</p>
+            </div>
+            <div>
+                <h3 style="color: var(--primary); margin-bottom: 5px;">Kiểm Tra Khi Nhận</h3>
+                <p>Được bóc seal test thử hàng</p>
+            </div>
+            <div>
+                <h3 style="color: var(--primary); margin-bottom: 5px;">Hoàn Tiền 100%</h3>
+                <p>Nếu sản phẩm không như mô tả</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 SmartTech. All rights reserved. (Demo Page)</p>
+    </footer>
+
+    <div class="demo-banner">
+        Đây là giao diện Landing Page bán hàng mẫu. 
+        <a href="dich-vu-thiet-ke.html">Xem bảng giá thiết kế</a>
+    </div>
+</body>
+</html>

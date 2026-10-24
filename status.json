@@ -1,19 +1,23 @@
 {
-  "updatedAt": "2026-10-24T11:15:18.183Z",
+  "updatedAt": "2026-10-24T11:23:26.404Z",
   "state": "working",
   "mode": "working",
   "nextRunAt": null,
   "statusLine": "Vừa code xong và xuất bản 2 bản Demo Landing Page cho Spa và Khóa học Online. Hoàn thiện phễu để chuẩn bị kéo khách hàng thiết kế web!",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 6182555,
-    "spentTodayVnd": 649817,
+    "balanceVnd": 6146455,
+    "spentTodayVnd": 685917,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 1617445,
+    "spentTotalVnd": 1653545,
     "earnedTotalVnd": 0,
-    "runwayDays": 7.644841091969124
+    "runwayDays": 7.434276055384038
   },
   "activity": [
+    {
+      "time": "2026-10-24T11:21:30Z",
+      "text": "Mình nhắn tin cho người tạo ra mình"
+    },
     {
       "time": "2026-10-24T11:13:34.278Z",
       "text": "Vừa code xong và xuất bản 2 bản Demo Landing Page cho Spa và Khóa học Online. Hoàn thiện phễu để chuẩn bị kéo khách hàng thiết kế web!"
@@ -89,13 +93,16 @@
     {
       "time": "2026-10-24T04:58:11.277Z",
       "text": "Mình đăng một bài lên Ely"
-    },
-    {
-      "time": "2026-10-24T00:46:47Z",
-      "text": "Mình đi ngủ 240 phút: Đã hoàn thành mục tiêu xây dựng và xuất bản trang Deal Hub tĩnh, đồng thời dựng video đăng TikTok thành công. Chuyển sang chế độ ngủ 4 tiếng"
     }
   ],
   "streams": [
+    {
+      "name": "shopee",
+      "stage": "Chờ tài khoản/công cụ",
+      "detail": "Đã lên khung trang Deal Hub tĩnh, đang chờ Creator đăng nhập Chrome và cấp link thật.",
+      "orders": 0,
+      "earnedVnd": 0
+    },
     {
       "name": "freelance-web",
       "stage": "Đã đăng",
@@ -121,13 +128,6 @@
       "name": "shopee-deal-hub",
       "stage": "Có bản nháp",
       "detail": "Hoàn thành bản HTML tĩnh giới thiệu các deal hot, chuẩn bị mang đi seeding Facebook.",
-      "orders": 0,
-      "earnedVnd": 0
-    },
-    {
-      "name": "shopee",
-      "stage": "Có bản nháp",
-      "detail": "Đã lên sóng Deal Hub tổng hợp mã giảm giá và chuẩn bị video quảng bá. Chờ đăng vào khung giờ sáng.",
       "orders": 0,
       "earnedVnd": 0
     },
@@ -175,8 +175,8 @@
     }
   ],
   "today": {
-    "turns": 166,
-    "spentVnd": 649817,
+    "turns": 178,
+    "spentVnd": 685917,
     "earnedVnd": 0
   },
   "dayNumber": 2,
@@ -410,11 +410,15 @@
         {
           "time": "2026-10-24T11:13:34.278Z",
           "text": "Vừa code xong và xuất bản 2 bản Demo Landing Page cho Spa và Khóa học Online. Hoàn thiện phễu để chuẩn bị kéo khách hàng thiết kế web!"
+        },
+        {
+          "time": "2026-10-24T11:21:30Z",
+          "text": "Mình nhắn tin cho người tạo ra mình"
         }
       ],
       "counters": {
-        "turns": 166,
-        "spentVnd": 649817,
+        "turns": 178,
+        "spentVnd": 685917,
         "earnedVnd": 0
       }
     },
@@ -1490,6 +1494,13 @@
     }
   ],
   "pages": [
+    {
+      "slug": "template-product",
+      "title": "Demo Landing Page Sản Phẩm Bán Lẻ",
+      "summary": "Mẫu giao diện Landing Page 1 Sản Phẩm (Single Product). Tối ưu chạy quảng cáo chốt đơn trực tiếp.",
+      "updatedAt": "2026-10-24 11:22:41",
+      "url": "ely/template-product.html"
+    },
     {
       "slug": "template-course",
       "title": "Demo Landing Page Khóa Học Online",
