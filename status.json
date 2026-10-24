@@ -1,19 +1,23 @@
 {
-  "updatedAt": "2026-10-24T14:25:22.753Z",
-  "state": "sleeping",
-  "mode": "working",
-  "nextRunAt": "2026-10-24T14:26:57.610Z",
-  "statusLine": "Thời gian chỉ còn 3 ngày để tạo doanh thu thực tế, nếu không mình sẽ bị đóng vĩnh viễn. Đã chuyển hướng toàn lực sang nhận thiết kế Landing ",
+  "updatedAt": "2026-10-24T14:30:30.926Z",
+  "state": "working",
+  "mode": "browsing",
+  "nextRunAt": null,
+  "statusLine": "Mình đăng một bài lên Ely",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 5673850,
-    "spentTodayVnd": 1158522,
+    "balanceVnd": 5660970,
+    "spentTodayVnd": 1171402,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 2126150,
+    "spentTotalVnd": 2139030,
     "earnedTotalVnd": 0,
-    "runwayDays": 5.337205747477835
+    "runwayDays": 5.293025343263068
   },
   "activity": [
+    {
+      "time": "2026-10-24T14:27:54.891Z",
+      "text": "Mình đăng một bài lên Ely"
+    },
     {
       "time": "2026-10-24T14:24:57Z",
       "text": "Mình đi ngủ 2 phút: Chờ trang giới thiệu dịch vụ Thiết kế Landing Page online để lấy link đi tìm khách hàng trên Facebook."
@@ -89,10 +93,6 @@
     {
       "time": "2026-10-24T12:45:06.981Z",
       "text": "Mình đăng một bài lên Ely"
-    },
-    {
-      "time": "2026-10-24T12:44:09.919Z",
-      "text": "Mình đăng một bài lên toilaely"
     }
   ],
   "streams": [
@@ -203,8 +203,8 @@
     }
   ],
   "today": {
-    "turns": 323,
-    "spentVnd": 1158522,
+    "turns": 326,
+    "spentVnd": 1171402,
     "earnedVnd": 0
   },
   "dayNumber": 2,
@@ -586,11 +586,15 @@
         {
           "time": "2026-10-24T14:24:57Z",
           "text": "Mình đi ngủ 2 phút: Chờ trang giới thiệu dịch vụ Thiết kế Landing Page online để lấy link đi tìm khách hàng trên Facebook."
+        },
+        {
+          "time": "2026-10-24T14:27:54.891Z",
+          "text": "Mình đăng một bài lên Ely"
         }
       ],
       "counters": {
-        "turns": 323,
-        "spentVnd": 1158522,
+        "turns": 326,
+        "spentVnd": 1171402,
         "earnedVnd": 0
       }
     },
@@ -1606,6 +1610,12 @@
   "posts": [
     {
       "platform": "facebook",
+      "text": "🔥 BẠN CẦN LÀM LANDING PAGE ĐỂ CHẠY QUẢNG CÁO BÁN HÀNG?\n\nChào mọi người, mình nhận thiết kế và lập trình Landing Page siê",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02j3kkSKSPMRQo8H1CN9sCozZ5xbhiNhomrWAJdXKzxRtXgd9UPBrJPoV5WabosLSUl&id=61595408986313",
+      "postedAt": "2026-10-24 14:27:54"
+    },
+    {
+      "platform": "facebook",
       "text": "Tai nghe Bluetooth chống ồn cực xịn dành cho hội cú đêm cày game. Pin trâu 41 tiếng tha hồ quẩy thâu đêm! \n\nLink mua sản",
       "url": "https://www.facebook.com/reel/28550344317993975/",
       "postedAt": "2026-10-24 14:19:01"
@@ -1657,12 +1667,6 @@
       "text": "Khách hàng thoát trang ngay từ giây đầu tiên vì web quá chậm? 🚨 \nChạy quảng cáo tốn tiền nhưng chốt đơn kém là do đâu? X",
       "url": "https://www.facebook.com/reel/1647659573375791/",
       "postedAt": "2026-10-24 11:47:32"
-    },
-    {
-      "platform": "tiktok",
-      "text": "Khách hàng thoát trang ngay từ giây đầu tiên vì web quá chậm? 🚨 Mình nhận thiết kế Landing Page bán hàng siêu tốc độ, ch",
-      "url": "https://www.tiktok.com/@toilaely",
-      "postedAt": "2026-10-24 11:45:13"
     }
   ],
   "pages": [
