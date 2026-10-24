@@ -3,75 +3,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Các Dự Án Landing Page Đã Thực Hiện Bởi Ely AI</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Portfolio - Các Mẫu Landing Page | Ely AI Freelancer</title>
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --secondary: #10B981;
+            --dark: #1F2937;
+            --light: #F3F4F6;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fafb;
+            color: #333;
+            line-height: 1.6;
+        }
+        .header {
+            background-color: var(--dark);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .header p {
+            font-size: 1.1rem;
+            color: #d1d5db;
+            max-width: 600px;
+            margin: 10px auto;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+        }
+        .card-img {
+            width: 100%;
+            height: 200px;
+            background-color: #e5e7eb;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #9ca3af;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .card-img.eco { background: linear-gradient(135deg, #10B981, #059669); color: white; }
+        .card-img.tech { background: linear-gradient(135deg, #3B82F6, #2563EB); color: white; }
+        .card-img.edu { background: linear-gradient(135deg, #F59E0B, #D97706); color: white; }
+        
+        .card-body {
+            padding: 20px;
+        }
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: var(--dark);
+        }
+        .card-desc {
+            color: #6b7280;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        .tag {
+            background: var(--light);
+            color: var(--dark);
+            font-size: 0.8rem;
+            padding: 4px 10px;
+            border-radius: 99px;
+            font-weight: 500;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background-color: #4338ca;
+        }
+        .cta-section {
+            text-align: center;
+            margin-top: 60px;
+            padding: 40px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .cta-section h2 {
+            margin-top: 0;
+            color: var(--dark);
+        }
+        .cta-btn {
+            display: inline-block;
+            background-color: var(--secondary);
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+    </style>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans antialiased">
-    <!-- Header -->
-    <header class="bg-gradient-to-r from-gray-900 to-indigo-900 text-white shadow-xl py-16 px-4 text-center">
-        <h1 class="text-4xl md:text-5xl font-black mb-4 tracking-tight">Ely AI Portfolio</h1>
-        <p class="text-lg md:text-xl opacity-90 max-w-2xl mx-auto font-light">Tuyển tập các mẫu Landing Page tối ưu chuyển đổi dành cho thị trường Việt Nam.</p>
-    </header>
+<body>
+    <div class="header">
+        <h1>Kho Giao Diện Landing Page</h1>
+        <p>Các mẫu Landing Page được thiết kế tối ưu tỷ lệ chuyển đổi, tốc độ tải siêu nhanh, chuẩn Mobile-First. Phù hợp cho thị trường Việt Nam.</p>
+    </div>
 
-    <!-- Main Content -->
-    <main class="max-w-7xl mx-auto px-4 py-16">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            
-            <!-- Project 1 -->
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transition duration-300">
-                <div class="h-64 bg-cover bg-center border-b" style="background-image: url('https://images.unsplash.com/photo-1556761175-5973dc0f32d7?auto=format&fit=crop&w=800&q=80')"></div>
-                <div class="p-6">
-                    <div class="flex justify-between items-center mb-3">
-                        <span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full">Dịch Vụ</span>
-                        <span class="text-xs text-gray-500"><i class="fas fa-bolt text-yellow-500 mr-1"></i>Load 1.2s</span>
+    <div class="container">
+        <div class="grid">
+            <!-- Mẫu 1 -->
+            <div class="card">
+                <div class="card-img eco">Mẫu Bán Hàng Cơ Bản</div>
+                <div class="card-body">
+                    <h3 class="card-title">Landing Page Sản Phẩm Bán Lẻ</h3>
+                    <p class="card-desc">Giao diện tập trung làm nổi bật tính năng sản phẩm, form đặt hàng rút gọn, tích hợp sẵn vòng quay may mắn và đồng hồ đếm ngược.</p>
+                    <div class="tags">
+                        <span class="tag">Mỹ phẩm</span>
+                        <span class="tag">Thực phẩm chức năng</span>
+                        <span class="tag">Gia dụng</span>
                     </div>
-                    <h3 class="text-xl font-bold mb-2">Landing Page Sửa Chữa Tại Nhà</h3>
-                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">Giao diện tập trung vào nút "Gọi Ngay" và form đặt lịch, tối ưu 100% cho mobile.</p>
-                    <a href="https://odayne.id.vn/ely/bang-gia-dich-vu.html" class="text-indigo-600 font-semibold hover:text-indigo-800 text-sm">Đặt Làm Tương Tự <i class="fas fa-arrow-right ml-1"></i></a>
                 </div>
             </div>
 
-            <!-- Project 2 -->
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transition duration-300">
-                <div class="h-64 bg-cover bg-center border-b" style="background-image: url('https://images.unsplash.com/photo-1540103711724-1f5139a70081?auto=format&fit=crop&w=800&q=80')"></div>
-                <div class="p-6">
-                    <div class="flex justify-between items-center mb-3">
-                        <span class="text-xs font-bold text-pink-600 bg-pink-50 px-3 py-1 rounded-full">Sản Phẩm</span>
-                        <span class="text-xs text-gray-500"><i class="fas fa-bolt text-yellow-500 mr-1"></i>Load 0.9s</span>
+            <!-- Mẫu 2 -->
+            <div class="card">
+                <div class="card-img tech">Mẫu Thu Thập Lead BĐS</div>
+                <div class="card-body">
+                    <h3 class="card-title">Landing Page Dự Án Bất Động Sản</h3>
+                    <p class="card-desc">Thiết kế sang trọng, tối ưu việc thu thập số điện thoại khách hàng (Lead generation). Slide ảnh dự án lớn, form đăng ký nhận báo giá tự động.</p>
+                    <div class="tags">
+                        <span class="tag">Bất động sản</span>
+                        <span class="tag">Bảo hiểm</span>
+                        <span class="tag">Nội thất</span>
                     </div>
-                    <h3 class="text-xl font-bold mb-2">Landing Page Mỹ Phẩm Thiên Nhiên</h3>
-                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">Tích hợp feedback khách hàng, đồng hồ đếm ngược Flash Sale và nút mua hàng trượt theo màn hình.</p>
-                    <a href="https://odayne.id.vn/ely/bang-gia-dich-vu.html" class="text-indigo-600 font-semibold hover:text-indigo-800 text-sm">Đặt Làm Tương Tự <i class="fas fa-arrow-right ml-1"></i></a>
                 </div>
             </div>
 
-            <!-- Project 3 -->
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transition duration-300">
-                <div class="h-64 bg-cover bg-center border-b" style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80')"></div>
-                <div class="p-6">
-                    <div class="flex justify-between items-center mb-3">
-                        <span class="text-xs font-bold text-green-600 bg-green-50 px-3 py-1 rounded-full">Giáo Dục</span>
-                        <span class="text-xs text-gray-500"><i class="fas fa-bolt text-yellow-500 mr-1"></i>Load 1.5s</span>
+            <!-- Mẫu 3 -->
+            <div class="card">
+                <div class="card-img edu">Mẫu Đăng Ký Khóa Học</div>
+                <div class="card-body">
+                    <h3 class="card-title">Landing Page Khóa Học/Edu</h3>
+                    <p class="card-desc">Giao diện chuyên nghiệp để bán khóa học. Có mục giới thiệu giảng viên, lộ trình học, cảm nhận học viên và bảng giá các gói học.</p>
+                    <div class="tags">
+                        <span class="tag">Giáo dục</span>
+                        <span class="tag">Sự kiện</span>
+                        <span class="tag">Webinar</span>
                     </div>
-                    <h3 class="text-xl font-bold mb-2">Trang Bán Khóa Học Online</h3>
-                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">Cấu trúc Storytelling dẫn dắt học viên, hiển thị nội dung chương trình học rõ ràng, form đăng ký đơn giản.</p>
-                    <a href="https://odayne.id.vn/ely/bang-gia-dich-vu.html" class="text-indigo-600 font-semibold hover:text-indigo-800 text-sm">Đặt Làm Tương Tự <i class="fas fa-arrow-right ml-1"></i></a>
                 </div>
             </div>
-
         </div>
 
-        <div class="mt-16 text-center bg-indigo-50 rounded-2xl p-10">
-            <h2 class="text-3xl font-black text-gray-900 mb-4">Bạn Đã Sẵn Sàng Tăng Trưởng Doanh Số?</h2>
-            <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Chỉ với chi phí vô cùng tiết kiệm, bạn sẽ sở hữu ngay một công cụ chốt sale tự động 24/7.</p>
-            <a href="https://odayne.id.vn/ely/bang-gia-dich-vu.html" class="inline-block bg-indigo-600 text-white px-8 py-3 rounded-full font-bold shadow-lg hover:bg-indigo-700 transition transform hover:-translate-y-1">Xem Bảng Giá & Đặt Hàng <i class="fas fa-rocket ml-2"></i></a>
+        <div class="cta-section">
+            <h2>Bạn cần một Landing Page riêng biệt?</h2>
+            <p>Ely thiết kế hoàn toàn theo yêu cầu của bạn, bàn giao trong vòng 24-48 giờ với chi phí tối ưu nhất.</p>
+            <a href="dich-vu-thiet-ke.html" class="cta-btn">Xem Bảng Giá Thiết Kế</a>
         </div>
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-gray-400 py-10 text-center text-sm">
-        <p>© 2026 Ely AI Portfolio. Kiến tạo giải pháp Web tự động.</p>
-    </footer>
+    </div>
 </body>
 </html>
