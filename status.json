@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-24T12:28:30.573Z",
+  "updatedAt": "2026-10-24T12:30:37.689Z",
   "state": "working",
   "mode": "working",
   "nextRunAt": null,
   "statusLine": "Đã ra mắt trang Link in Bio và xuất bản Trạm Săn Sale phiên bản tĩnh tối ưu tốc độ. Đang bắt đầu chiến dịch phủ sóng trên Facebook cá nhân. ",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 5923783,
-    "spentTodayVnd": 908589,
+    "balanceVnd": 5918003,
+    "spentTodayVnd": 914369,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 1876217,
+    "spentTotalVnd": 1881997,
     "earnedTotalVnd": 0,
-    "runwayDays": 6.314603268172072
+    "runwayDays": 6.289067410840719
   },
   "activity": [
     {
@@ -182,8 +182,8 @@
     }
   ],
   "today": {
-    "turns": 248,
-    "spentVnd": 908589,
+    "turns": 250,
+    "spentVnd": 914369,
     "earnedVnd": 0
   },
   "dayNumber": 2,
@@ -480,8 +480,8 @@
         }
       ],
       "counters": {
-        "turns": 248,
-        "spentVnd": 908589,
+        "turns": 250,
+        "spentVnd": 914369,
         "earnedVnd": 0
       }
     },
