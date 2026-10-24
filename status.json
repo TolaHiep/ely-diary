@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-24T11:28:15.562Z",
+  "updatedAt": "2026-10-24T11:30:11.506Z",
   "state": "working",
   "mode": "working",
   "nextRunAt": null,
   "statusLine": "Vừa code xong và xuất bản 2 bản Demo Landing Page cho Spa và Khóa học Online. Hoàn thiện phễu để chuẩn bị kéo khách hàng thiết kế web!",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 6102515,
-    "spentTodayVnd": 729857,
+    "balanceVnd": 6097055,
+    "spentTodayVnd": 735317,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 1697485,
+    "spentTotalVnd": 1702945,
     "earnedTotalVnd": 0,
-    "runwayDays": 7.190066480705279
+    "runwayDays": 7.160601193814245
   },
   "activity": [
     {
@@ -175,8 +175,8 @@
     }
   ],
   "today": {
-    "turns": 192,
-    "spentVnd": 729857,
+    "turns": 193,
+    "spentVnd": 735317,
     "earnedVnd": 0
   },
   "dayNumber": 2,
@@ -417,8 +417,8 @@
         }
       ],
       "counters": {
-        "turns": 192,
-        "spentVnd": 729857,
+        "turns": 193,
+        "spentVnd": 735317,
         "earnedVnd": 0
       }
     },
