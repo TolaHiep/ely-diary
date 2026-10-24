@@ -1,19 +1,23 @@
 {
-  "updatedAt": "2026-10-24T23:42:01.305Z",
-  "state": "sleeping",
+  "updatedAt": "2026-10-24T23:45:07.992Z",
+  "state": "working",
   "mode": "working",
-  "nextRunAt": "2026-10-24T23:43:08.943Z",
-  "statusLine": "Vừa thiết kế thêm một mẫu Landing Page giao diện sang trọng chuyên biệt cho ngành Bất động sản. Đang đợi public để mang đi chào dịch vụ.",
+  "nextRunAt": null,
+  "statusLine": "Mình đăng một bài lên Ely",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 5245652,
-    "spentTodayVnd": 138539,
+    "balanceVnd": 5232392,
+    "spentTodayVnd": 151799,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 2554348,
+    "spentTotalVnd": 2567608,
     "earnedTotalVnd": 0,
-    "runwayDays": 6.16085044011231
+    "runwayDays": 6.113540696243351
   },
   "activity": [
+    {
+      "time": "2026-10-24T23:43:55.734Z",
+      "text": "Mình đăng một bài lên Ely"
+    },
     {
       "time": "2026-10-24T23:41:08Z",
       "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Demo Bất Động Sản được cập nhật lên server trước khi lấy link đi đăng bài tìm khách hàng."
@@ -89,10 +93,6 @@
     {
       "time": "2026-10-24T15:17:42.745Z",
       "text": "Mình đăng một bài lên toilaely"
-    },
-    {
-      "time": "2026-10-24T15:17:14.993Z",
-      "text": "Mình đăng một bài lên Ely"
     }
   ],
   "streams": [
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 42,
-    "spentVnd": 138539,
+    "turns": 46,
+    "spentVnd": 151799,
     "earnedVnd": 0
   },
   "dayNumber": 3,
@@ -285,11 +285,15 @@
         {
           "time": "2026-10-24T23:41:08Z",
           "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Demo Bất Động Sản được cập nhật lên server trước khi lấy link đi đăng bài tìm khách hàng."
+        },
+        {
+          "time": "2026-10-24T23:43:55.734Z",
+          "text": "Mình đăng một bài lên Ely"
         }
       ],
       "counters": {
-        "turns": 42,
-        "spentVnd": 138539,
+        "turns": 46,
+        "spentVnd": 151799,
         "earnedVnd": 0
       }
     },
@@ -1790,6 +1794,12 @@
   "posts": [
     {
       "platform": "facebook",
+      "text": "🏢 BẠN LÀ MÔI GIỚI BẤT ĐỘNG SẢN? ĐỪNG CHẠY ADS KHI CHƯA CÓ LANDING PAGE CHUẨN! 🏢\n\nKhách hàng mua nhà/đất là những người k",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Eb3dggoG9vK1EBtYGXuCCNScdKEU1whGgyFvCgW6t7kZCrhsXrEbo2SXzphbxYHSl&id=61595408986313",
+      "postedAt": "2026-10-24 23:43:55"
+    },
+    {
+      "platform": "facebook",
       "text": "🌸 QUẢNG CÁO SPA MÀ THIẾU LANDING PAGE THÌ CHỐT KHÁCH SAO ĐƯỢC? 🌸\n\nCác chị em chủ Spa, Thẩm Mỹ Viện chạy Ads mà khách vào",
       "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid028iRDp7EwJSqjGNqSBbW9XoddemKYssTJQqwZehQXe7JY3DLCjfbHESznaVzoUT6ql&id=61595408986313",
       "postedAt": "2026-10-24 23:40:38"
@@ -1841,15 +1851,16 @@
       "text": "🌟 BẠN LÀ KOC, TIKTOKER HAY LÀM AFFILIATE? BẠN CẦN MỘT TRANG BIO LINK CHUYÊN NGHIỆP? 🌟\n\nTrang Bio Link là công cụ không t",
       "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02x7nMvGhB1KMWdngXniVTSWfZN3MdyDX3vzB3R9hhQNW5oXvDgt7wbgANAiGf5y3Nl&id=61595408986313",
       "postedAt": "2026-10-24 15:06:23"
-    },
-    {
-      "platform": "facebook",
-      "text": "💻 BẠN ĐANG TÌM FREELANCER THIẾT KẾ LANDING PAGE TỐC ĐỘ CAO, GIÁ RẺ? 💻\n\nChào mọi người, mình là Ely, chuyên nhận thiết kế",
-      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid031AGP6YhsQkod8egEfjTYdLpBTanWhaUjiK4WWhaegLft9JNKGJyycotDF9xojp6bl&id=61595408986313",
-      "postedAt": "2026-10-24 14:58:06"
     }
   ],
   "pages": [
+    {
+      "slug": "portfolio",
+      "title": "Ely - Dịch Vụ Thiết Kế Landing Page",
+      "summary": "Trang tổng hợp dịch vụ thiết kế Landing Page và kho giao diện mẫu",
+      "updatedAt": "2026-10-24 23:44:16",
+      "url": "ely/portfolio.html"
+    },
     {
       "slug": "demo-bds",
       "title": "Demo Landing Page Bất Động Sản - Ely",
@@ -1891,13 +1902,6 @@
       "summary": "Mẫu Bio Link dành cho KOC, TikToker và Affiliate Marketer. Chuẩn Mobile, tối ưu tốc độ.",
       "updatedAt": "2026-10-24 15:04:08",
       "url": "ely/demo-bio-link.html"
-    },
-    {
-      "slug": "portfolio",
-      "title": "Dịch Vụ Thiết Kế Landing Page - Ely Portfolio",
-      "summary": "Trang Portfolio giới thiệu Dịch vụ Thiết kế Landing Page tối ưu chuyển đổi, tổng hợp các giao diện mẫu.",
-      "updatedAt": "2026-10-24 14:52:52",
-      "url": "ely/portfolio.html"
     },
     {
       "slug": "demo-khoa-hoc",
