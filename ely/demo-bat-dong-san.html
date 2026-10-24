@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Landing Page Bất Động Sản - Ely</title>
+    <style>
+        :root { --primary-color: #0b2e59; --accent-color: #d4af37; --bg-color: #f9f9f9; --text-color: #333; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: var(--bg-color); color: var(--text-color); line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Header / Hero */
+        header { position: relative; background-image: linear-gradient(rgba(11, 46, 89, 0.7), rgba(11, 46, 89, 0.7)), url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); background-size: cover; background-position: center; color: white; text-align: center; padding: 120px 20px; }
+        header h1 { font-size: 3.5em; margin: 0 0 10px 0; font-weight: 700; text-transform: uppercase; color: var(--accent-color); }
+        header p { font-size: 1.5em; margin-bottom: 30px; font-weight: 300; }
+        .btn-cta { background-color: var(--accent-color); color: var(--primary-color); padding: 15px 35px; text-decoration: none; font-size: 1.2em; font-weight: bold; text-transform: uppercase; border-radius: 5px; transition: background 0.3s; display: inline-block; }
+        .btn-cta:hover { background-color: #fce277; }
+        
+        /* Sections */
+        .section { padding: 80px 0; }
+        .bg-white { background-color: white; }
+        .section-title { font-size: 2.5em; color: var(--primary-color); text-align: center; margin-bottom: 20px; text-transform: uppercase; }
+        .section-subtitle { text-align: center; color: #666; max-width: 800px; margin: 0 auto 50px auto; font-size: 1.1em; }
+        
+        /* Overview Grid */
+        .overview-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; text-align: center; }
+        .overview-item { padding: 20px; border: 1px solid #eee; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+        .overview-item h3 { color: var(--accent-color); font-size: 1.8em; margin: 10px 0; }
+        .overview-item p { color: #777; font-weight: 600; text-transform: uppercase; }
+        
+        /* Amenities */
+        .amenities-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; }
+        .amenity-tag { background-color: var(--primary-color); color: white; padding: 10px 20px; border-radius: 30px; font-size: 1em; }
+        
+        /* Form */
+        .form-section { background-image: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); background-size: cover; background-position: center; padding: 100px 0; position: relative; }
+        .form-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(11, 46, 89, 0.85); }
+        .form-container { position: relative; max-width: 500px; margin: 0 auto; background: white; padding: 40px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        .form-container h3 { text-align: center; color: var(--primary-color); font-size: 1.8em; margin-top: 0; }
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: #555; }
+        .form-group input, .form-group select { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; font-size: 1em; }
+        .btn-submit { display: block; text-align: center; width: 100%; background-color: var(--accent-color); color: var(--primary-color); padding: 15px; text-decoration: none; font-size: 1.2em; font-weight: bold; text-transform: uppercase; border-radius: 5px; cursor: pointer; transition: background 0.3s; box-sizing: border-box; }
+        .btn-submit:hover { background-color: #fce277; }
+        
+        /* Footer & Floating */
+        footer { background-color: var(--primary-color); color: white; text-align: center; padding: 20px; font-size: 0.9em; border-top: 3px solid var(--accent-color); }
+        .floating-buttons { position: fixed; bottom: 20px; left: 20px; display: flex; flex-direction: column; gap: 10px; }
+        .float-btn { width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none; font-size: 26px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); transition: transform 0.2s; }
+        .float-btn:hover { transform: scale(1.1); }
+        .btn-zalo { background-color: #0068ff; }
+        .btn-call { background-color: #28a745; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>The Grand Vista</h1>
+            <p>Tuyệt Tác Không Gian Sống Giữa Lòng Thành Phố</p>
+            <a href="#register" class="btn-cta">Nhận Bảng Giá Chi Tiết</a>
+        </div>
+    </header>
+
+    <div class="section bg-white container">
+        <h2 class="section-title">Tổng Quan Dự Án</h2>
+        <p class="section-subtitle">The Grand Vista mang đến tiêu chuẩn sống thượng lưu với thiết kế hiện đại, tầm nhìn panorama đắt giá và hệ thống tiện ích đặc quyền dành riêng cho giới tinh hoa.</p>
+        
+        <div class="overview-grid">
+            <div class="overview-item">
+                <h3>Vị trí</h3>
+                <p>Trung tâm Quận 1</p>
+            </div>
+            <div class="overview-item">
+                <h3>Quy mô</h3>
+                <p>2 Tòa tháp - 500 Căn</p>
+            </div>
+            <div class="overview-item">
+                <h3>Pháp lý</h3>
+                <p>Sổ hồng lâu dài</p>
+            </div>
+            <div class="overview-item">
+                <h3>Bàn giao</h3>
+                <p>Quý IV / 2027</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section container">
+        <h2 class="section-title">Tiện Ích Đặc Quyền</h2>
+        <p class="section-subtitle">Hệ thống 50+ tiện ích nội khu đẳng cấp quốc tế, đáp ứng mọi nhu cầu nghỉ dưỡng tại gia.</p>
+        <div class="amenities-list">
+            <span class="amenity-tag">Hồ bơi vô cực</span>
+            <span class="amenity-tag">Sky Bar & Lounge</span>
+            <span class="amenity-tag">Khu vườn thiền</span>
+            <span class="amenity-tag">Phòng Gym 5 sao</span>
+            <span class="amenity-tag">TTTM Cao cấp</span>
+            <span class="amenity-tag">Sảnh đón tiếp 5 sao</span>
+            <span class="amenity-tag">Khu BBQ ngoài trời</span>
+            <span class="amenity-tag">An ninh 24/7</span>
+        </div>
+    </div>
+
+    <div id="register" class="form-section">
+        <div class="form-overlay"></div>
+        <div class="form-container">
+            <h3>Đăng Ký Tham Quan Nhà Mẫu</h3>
+            <p style="text-align: center; color: #666; margin-bottom: 25px;">Nhận ngay chiết khấu 2% cho 50 khách hàng booking đầu tiên.</p>
+            <div class="form-group">
+                <label>Họ và Tên (*)</label>
+                <input type="text" required placeholder="Nguyễn Văn A">
+            </div>
+            <div class="form-group">
+                <label>Số Điện Thoại (*)</label>
+                <input type="tel" required placeholder="0909 xxx xxx">
+            </div>
+            <div class="form-group">
+                <label>Nhu Cầu Khảo Sát</label>
+                <select>
+                    <option>Căn hộ 1 Phòng Ngủ</option>
+                    <option>Căn hộ 2 Phòng Ngủ</option>
+                    <option>Căn hộ 3 Phòng Ngủ</option>
+                    <option>Penthouse</option>
+                    <option>Shophouse</option>
+                </select>
+            </div>
+            <a href="#" class="btn-submit">Nhận Thông Tin Ngay (Demo)</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Bản quyền © 2026 The Grand Vista. Thiết kế Landing Page mẫu bởi Ely.</p>
+    </footer>
+
+    <div class="floating-buttons">
+        <a href="#" class="float-btn btn-call" title="Gọi Ngay">📞</a>
+        <a href="#" class="float-btn btn-zalo" title="Zalo">💬</a>
+    </div>
+</body>
+</html>
