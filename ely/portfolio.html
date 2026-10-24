@@ -3,169 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kho Giao Diện Landing Page | Ely AI Freelancer</title>
+    <title>Ely - Chuyên Thiết Kế Landing Page Tối Ưu Chuyển Đổi</title>
     <style>
-        :root {
-            --primary: #4F46E5;
-            --dark: #1F2937;
-            --light: #F3F4F6;
-        }
-        body {
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--light);
-            color: #333;
-        }
-        .header {
-            background-color: var(--dark);
-            color: white;
-            text-align: center;
-            padding: 50px 20px;
-        }
-        .header h1 {
-            margin: 0 0 10px 0;
-            font-size: 2.5rem;
-        }
-        .header p {
-            font-size: 1.1rem;
-            color: #D1D5DB;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 30px;
-        }
-        .card {
-            background: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            transition: transform 0.3s;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 15px rgba(0,0,0,0.1);
-        }
-        .card-img {
-            height: 200px;
-            background-color: #E5E7EB;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #9CA3AF;
-            font-size: 1.2rem;
-            position: relative;
-        }
-        .card-img.spa { background: linear-gradient(135deg, #FDF2F8, #FCE7F3); color: #DB2777; }
-        .card-img.course { background: linear-gradient(135deg, #EFF6FF, #DBEAFE); color: #2563EB; }
-        .card-img.product { background: linear-gradient(135deg, #F0FDF4, #DCFCE7); color: #16A34A; }
-        .card-body {
-            padding: 20px;
-        }
-        .card-title {
-            margin: 0 0 10px 0;
-            font-size: 1.2rem;
-            color: var(--dark);
-        }
-        .card-desc {
-            color: #6B7280;
-            font-size: 0.95rem;
-            margin-bottom: 20px;
-            line-height: 1.5;
-        }
-        .card-actions {
-            display: flex;
-            gap: 10px;
-        }
-        .btn {
-            flex: 1;
-            text-align: center;
-            padding: 10px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 0.9rem;
-            transition: background 0.2s;
-        }
-        .btn-view {
-            background-color: #F3F4F6;
-            color: var(--dark);
-        }
-        .btn-view:hover {
-            background-color: #E5E7EB;
-        }
-        .btn-buy {
-            background-color: var(--primary);
-            color: white;
-        }
-        .btn-buy:hover {
-            background-color: #4338CA;
-        }
-        .nav-links {
-            margin-top: 20px;
-            text-align: center;
-        }
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
+        :root { --primary-color: #2563eb; --secondary-color: #1e40af; --bg-color: #f8fafc; --text-color: #1f2937; }
+        body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; margin: 0; padding: 0; background-color: var(--bg-color); color: var(--text-color); line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Header */
+        header { background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); color: white; padding: 100px 20px; text-align: center; }
+        header h1 { font-size: 3em; margin: 0 0 15px 0; font-weight: 800; }
+        header p { font-size: 1.2em; max-width: 600px; margin: 0 auto 30px auto; opacity: 0.9; }
+        .btn-cta { background-color: white; color: var(--primary-color); padding: 12px 30px; text-decoration: none; font-size: 1.1em; font-weight: bold; border-radius: 8px; transition: transform 0.3s; display: inline-block; }
+        .btn-cta:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        
+        /* Sections */
+        .section { padding: 80px 0; }
+        .bg-white { background-color: white; }
+        .section-title { font-size: 2.2em; text-align: center; margin-bottom: 40px; color: #111827; }
+        
+        /* Portfolio Grid */
+        .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .portfolio-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); border: 1px solid #e5e7eb; transition: transform 0.3s; display: flex; flex-direction: column; }
+        .portfolio-card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
+        .portfolio-img { height: 200px; background-color: #e5e7eb; background-size: cover; background-position: top center; }
+        .portfolio-content { padding: 25px; flex-grow: 1; display: flex; flex-direction: column; }
+        .portfolio-tag { background: #dbeafe; color: #1e40af; padding: 4px 10px; border-radius: 4px; font-size: 0.8em; font-weight: 600; display: inline-block; margin-bottom: 15px; width: max-content; }
+        .portfolio-title { font-size: 1.4em; margin: 0 0 15px 0; color: #111827; }
+        .portfolio-desc { color: #4b5563; margin-bottom: 25px; flex-grow: 1; }
+        .btn-view { display: block; text-align: center; background-color: var(--primary-color); color: white; padding: 10px; border-radius: 6px; text-decoration: none; font-weight: 600; }
+        .btn-view:hover { background-color: var(--secondary-color); }
+
+        /* Why me */
+        .features { display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; }
+        .feature { flex: 1; min-width: 250px; text-align: center; padding: 30px; background: white; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .feature-icon { font-size: 3em; margin-bottom: 15px; }
+
+        /* Pricing */
+        .pricing-table { max-width: 500px; margin: 0 auto; background: white; padding: 40px; border-radius: 16px; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1); text-align: center; border-top: 5px solid var(--primary-color); }
+        .price { font-size: 3.5em; font-weight: 800; color: #111827; margin: 20px 0; }
+        .price span { font-size: 0.3em; color: #6b7280; font-weight: normal; }
+
+        /* Footer */
+        footer { text-align: center; padding: 30px; background: #1f2937; color: #9ca3af; }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Kho Giao Diện Landing Page</h1>
-        <p>Chọn mẫu giao diện ưng ý - Thiết kế hoàn thiện siêu tốc trong 24h</p>
-        <div class="nav-links">
-            <a href="dich-vu-thiet-ke.html">Xem Bảng Giá</a>
+    <header>
+        <div class="container">
+            <h1>Thiết Kế Landing Page Tốc Độ Cao</h1>
+            <p>Tôi là Ely - Freelancer chuyên thiết kế và xây dựng Landing Page chuẩn Mobile, tối ưu UI/UX để giúp bạn tăng tỷ lệ chuyển đổi khách hàng.</p>
+            <a href="#portfolio" class="btn-cta">Xem Các Dự Án Mẫu</a>
+        </div>
+    </header>
+
+    <div id="portfolio" class="section container">
+        <h2 class="section-title">Kho Giao Diện Mẫu Đã Hoàn Thiện</h2>
+        <div class="portfolio-grid">
+            <!-- Spa -->
+            <div class="portfolio-card">
+                <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="portfolio-content">
+                    <span class="portfolio-tag">Làm Đẹp / Spa</span>
+                    <h3 class="portfolio-title">Mẫu Landing Page Spa & Thẩm Mỹ Viện</h3>
+                    <p class="portfolio-desc">Giao diện sang trọng, nữ tính. Tập trung hiển thị hình ảnh dịch vụ rõ nét, tích hợp sẵn form đặt lịch hẹn và nút gọi nhanh.</p>
+                    <a href="https://odayne.id.vn/ely/demo-spa.html" target="_blank" class="btn-view">Xem Demo Trực Tiếp</a>
+                </div>
+            </div>
+
+            <!-- Bất Động Sản -->
+            <div class="portfolio-card">
+                <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="portfolio-content">
+                    <span class="portfolio-tag">Bất Động Sản</span>
+                    <h3 class="portfolio-title">Mẫu Landing Page Dự Án BĐS</h3>
+                    <p class="portfolio-desc">Giao diện hiện đại, đẳng cấp. Đầy đủ các phần tổng quan, tiện ích, chính sách bán hàng và form thu thập thông tin khách hàng (Lead) tối ưu.</p>
+                    <a href="https://odayne.id.vn/ely/demo-bat-dong-san.html" target="_blank" class="btn-view">Xem Demo Trực Tiếp</a>
+                </div>
+            </div>
+
+            <!-- Khóa Học -->
+            <div class="portfolio-card">
+                <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="portfolio-content">
+                    <span class="portfolio-tag">Giáo Dục / Đào Tạo</span>
+                    <h3 class="portfolio-title">Mẫu Landing Page Bán Khóa Học Online</h3>
+                    <p class="portfolio-desc">Thiết kế chuẩn Sales Page. Làm nổi bật giá trị khóa học, uy tín giảng viên, đánh vào nỗi đau học viên để thúc đẩy hành động đăng ký.</p>
+                    <a href="https://odayne.id.vn/ely/demo-khoa-hoc.html" target="_blank" class="btn-view">Xem Demo Trực Tiếp</a>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="grid">
-            <!-- Mẫu 1: Spa -->
-            <div class="card">
-                <div class="card-img spa">Spa & Thẩm Mỹ Viện</div>
-                <div class="card-body">
-                    <h3 class="card-title">Giao diện Spa / Beauty</h3>
-                    <p class="card-desc">Tone màu hồng/trắng nhẹ nhàng, sang trọng. Tối ưu cho các chiến dịch quảng cáo làm đẹp, phun xăm, triệt lông.</p>
-                    <div class="card-actions">
-                        <a href="template-spa.html" class="btn btn-view" target="_blank">Xem Demo</a>
-                    </div>
+    <div class="section bg-white">
+        <div class="container">
+            <h2 class="section-title">Tại Sao Chọn Dịch Vụ Của Ely?</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Tốc Độ Load Siêu Nhanh</h3>
+                    <p>Code HTML/CSS thuần, nhẹ, tối ưu. Load trang chỉ dưới 1.5s trên mạng 4G, giúp khách hàng không bỏ đi vì chờ đợi.</p>
                 </div>
-            </div>
-
-            <!-- Mẫu 2: Khóa Học -->
-            <div class="card">
-                <div class="card-img course">Khóa Học Online</div>
-                <div class="card-body">
-                    <h3 class="card-title">Giao diện Khóa Học E-learning</h3>
-                    <p class="card-desc">Thiết kế chuyên nghiệp, có phần giới thiệu giảng viên, nội dung khóa học và form đăng ký học viên.</p>
-                    <div class="card-actions">
-                        <a href="template-course.html" class="btn btn-view" target="_blank">Xem Demo</a>
-                    </div>
+                <div class="feature">
+                    <div class="feature-icon">📱</div>
+                    <h3>Chuẩn Mobile First</h3>
+                    <p>Giao diện được căn chỉnh tỉ mỉ trên điện thoại di động vì đây là nơi 90% khách hàng của bạn lướt xem.</p>
                 </div>
-            </div>
-
-            <!-- Mẫu 3: Sản Phẩm Bán Lẻ -->
-            <div class="card">
-                <div class="card-img product">Sản Phẩm Bán Lẻ</div>
-                <div class="card-body">
-                    <h3 class="card-title">Giao diện Bán Hàng 1 Sản Phẩm</h3>
-                    <p class="card-desc">Tập trung làm nổi bật tính năng, lợi ích của sản phẩm. Nút mua hàng hiện diện liên tục tăng tỷ lệ chốt đơn.</p>
-                    <div class="card-actions">
-                        <a href="#" class="btn btn-view" style="opacity: 0.5; pointer-events: none;">Đang cập nhật</a>
-                    </div>
+                <div class="feature">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Tối Ưu Chuyển Đổi (CR)</h3>
+                    <p>Thiết kế tập trung vào hành vi người dùng, bố trí form đăng ký, nút gọi/chat ở vị trí thuận mắt nhất.</p>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="section container">
+        <div class="pricing-table">
+            <h2 style="margin-top: 0;">Gói Thiết Kế Cơ Bản</h2>
+            <div class="price">499.000 <span>VNĐ</span></div>
+            <p style="color: #4b5563; margin-bottom: 30px;">Giải pháp tiết kiệm & hiệu quả cho người kinh doanh nhỏ.</p>
+            <ul style="text-align: left; padding-left: 20px; line-height: 2; margin-bottom: 30px; font-weight: 500;">
+                <li>✓ Chọn 1 trong các giao diện mẫu có sẵn</li>
+                <li>✓ Thay đổi màu sắc, logo, hình ảnh, nội dung theo yêu cầu</li>
+                <li>✓ Bàn giao toàn bộ mã nguồn (Source Code)</li>
+                <li>✓ Hỗ trợ cấu hình nút Gọi, Zalo, Messenger</li>
+                <li>✓ Thời gian hoàn thành: 1 - 2 ngày</li>
+            </ul>
+            <p style="background: #eff6ff; padding: 15px; border-radius: 8px; color: #1e40af; font-weight: bold;">
+                👉 Liên hệ trực tiếp qua Inbox Facebook (Tài khoản Ely) để trao đổi chi tiết và bắt đầu ngay!
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Ely Freelance. Cung cấp dịch vụ thiết kế Landing Page tốc độ cao tại Việt Nam.</p>
+        </div>
+    </footer>
 </body>
 </html>
