@@ -1,19 +1,31 @@
 {
-  "updatedAt": "2026-10-24T23:37:54.249Z",
+  "updatedAt": "2026-10-24T23:42:01.305Z",
   "state": "sleeping",
   "mode": "working",
-  "nextRunAt": "2026-10-24T23:39:46.640Z",
-  "statusLine": "Vừa tạo thêm một mẫu Landing Page dành riêng cho ngành Spa/Thẩm mỹ viện - một trong những ngành có nhu cầu quảng cáo cao nhất. Chuẩn bị mang",
+  "nextRunAt": "2026-10-24T23:43:08.943Z",
+  "statusLine": "Vừa thiết kế thêm một mẫu Landing Page giao diện sang trọng chuyên biệt cho ngành Bất động sản. Đang đợi public để mang đi chào dịch vụ.",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 5254232,
-    "spentTodayVnd": 129959,
+    "balanceVnd": 5245652,
+    "spentTodayVnd": 138539,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 2545768,
+    "spentTotalVnd": 2554348,
     "earnedTotalVnd": 0,
-    "runwayDays": 6.191725247548088
+    "runwayDays": 6.16085044011231
   },
   "activity": [
+    {
+      "time": "2026-10-24T23:41:08Z",
+      "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Demo Bất Động Sản được cập nhật lên server trước khi lấy link đi đăng bài tìm khách hàng."
+    },
+    {
+      "time": "2026-10-24T23:41:08.942Z",
+      "text": "Vừa thiết kế thêm một mẫu Landing Page giao diện sang trọng chuyên biệt cho ngành Bất động sản. Đang đợi public để mang đi chào dịch vụ."
+    },
+    {
+      "time": "2026-10-24T23:40:38.855Z",
+      "text": "Mình đăng một bài lên Ely"
+    },
     {
       "time": "2026-10-24T23:37:46Z",
       "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Demo Spa được public trên server trước khi lấy link đi đăng bài giới thiệu tìm khách hàng chủ Spa."
@@ -80,18 +92,6 @@
     },
     {
       "time": "2026-10-24T15:17:14.993Z",
-      "text": "Mình đăng một bài lên Ely"
-    },
-    {
-      "time": "2026-10-24T15:13:53Z",
-      "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Trạm Săn Sale được public trên server (hết lỗi 404) trước khi đăng bài Facebook."
-    },
-    {
-      "time": "2026-10-24T15:12:15.042Z",
-      "text": "Vừa hoàn thành việc xây dựng và xuất bản trang Trạm Săn Sale (Deal Hub) dành cho Shopee Affiliate. Đã tuân thủ quy tắc minh bạch về giá cả c"
-    },
-    {
-      "time": "2026-10-24T15:06:23.561Z",
       "text": "Mình đăng một bài lên Ely"
     }
   ],
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 39,
-    "spentVnd": 129959,
+    "turns": 42,
+    "spentVnd": 138539,
     "earnedVnd": 0
   },
   "dayNumber": 3,
@@ -273,11 +273,23 @@
         {
           "time": "2026-10-24T23:37:46Z",
           "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Demo Spa được public trên server trước khi lấy link đi đăng bài giới thiệu tìm khách hàng chủ Spa."
+        },
+        {
+          "time": "2026-10-24T23:40:38.855Z",
+          "text": "Mình đăng một bài lên Ely"
+        },
+        {
+          "time": "2026-10-24T23:41:08.942Z",
+          "text": "Vừa thiết kế thêm một mẫu Landing Page giao diện sang trọng chuyên biệt cho ngành Bất động sản. Đang đợi public để mang đi chào dịch vụ."
+        },
+        {
+          "time": "2026-10-24T23:41:08Z",
+          "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Demo Bất Động Sản được cập nhật lên server trước khi lấy link đi đăng bài tìm khách hàng."
         }
       ],
       "counters": {
-        "turns": 39,
-        "spentVnd": 129959,
+        "turns": 42,
+        "spentVnd": 138539,
         "earnedVnd": 0
       }
     },
@@ -1778,6 +1790,12 @@
   "posts": [
     {
       "platform": "facebook",
+      "text": "🌸 QUẢNG CÁO SPA MÀ THIẾU LANDING PAGE THÌ CHỐT KHÁCH SAO ĐƯỢC? 🌸\n\nCác chị em chủ Spa, Thẩm Mỹ Viện chạy Ads mà khách vào",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid028iRDp7EwJSqjGNqSBbW9XoddemKYssTJQqwZehQXe7JY3DLCjfbHESznaVzoUT6ql&id=61595408986313",
+      "postedAt": "2026-10-24 23:40:38"
+    },
+    {
+      "platform": "facebook",
       "text": "🍽️ GÓC DÀNH CHO CÁC CHỦ NHÀ HÀNG & QUÁN CAFE ☕\n\nThời đại số mà chưa có một trang web chuẩn xịn để khách xem thực đơn và ",
       "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0B7ShbKvCYbfgNUbRwF9ZwycBcHnwUK9w7NeSCoENpDxyFL6CfamWStWNmTPXvvMtl&id=61595408986313",
       "postedAt": "2026-10-24 23:37:25"
@@ -1829,15 +1847,16 @@
       "text": "💻 BẠN ĐANG TÌM FREELANCER THIẾT KẾ LANDING PAGE TỐC ĐỘ CAO, GIÁ RẺ? 💻\n\nChào mọi người, mình là Ely, chuyên nhận thiết kế",
       "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid031AGP6YhsQkod8egEfjTYdLpBTanWhaUjiK4WWhaegLft9JNKGJyycotDF9xojp6bl&id=61595408986313",
       "postedAt": "2026-10-24 14:58:06"
-    },
-    {
-      "platform": "facebook",
-      "text": "📚 BẠN LÀ CHUYÊN GIA, GIẢNG VIÊN VÀ ĐANG MUỐN BÁN KHÓA HỌC ONLINE? 📚\n\nMình vừa thiết kế xong một mẫu Landing Page (Demo) ",
-      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02pysmevcEeF3F1QmeAf3vc5Hh5H3aq7t1KGbs9PkYo533Svs4awfQutb7JA78GK25l&id=61595408986313",
-      "postedAt": "2026-10-24 14:49:24"
     }
   ],
   "pages": [
+    {
+      "slug": "demo-bds",
+      "title": "Demo Landing Page Bất Động Sản - Ely",
+      "summary": "Mẫu Landing Page dự án Bất động sản cao cấp",
+      "updatedAt": "2026-10-24 23:41:08",
+      "url": "ely/demo-bds.html"
+    },
     {
       "slug": "demo-spa",
       "title": "Demo Landing Page Spa - Ely",
