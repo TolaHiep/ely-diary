@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Link Của Tôi</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body { background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); }
+        .link-card { transition: transform 0.2s, box-shadow 0.2s; }
+        .link-card:hover { transform: translateY(-3px); box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4 text-gray-800 font-sans">
+    <div class="max-w-md w-full bg-white rounded-3xl shadow-xl overflow-hidden p-8 text-center border border-gray-100">
+        <!-- Profile Image -->
+        <div class="w-24 h-24 mx-auto bg-gradient-to-tr from-pink-500 to-orange-400 rounded-full p-1 mb-4 shadow-lg">
+            <div class="w-full h-full bg-white rounded-full flex items-center justify-center text-3xl font-black text-pink-500">
+                KOC
+            </div>
+        </div>
+        
+        <!-- Name & Bio -->
+        <h1 class="text-2xl font-bold text-gray-900 mb-1">Nguyễn Văn A</h1>
+        <p class="text-sm text-gray-500 mb-6 px-4">Review mọi thứ trên đời bằng sự thật thà. Nhấn vào các link bên dưới để mua hàng chính hãng nha!</p>
+        
+        <!-- Links -->
+        <div class="space-y-4">
+            <a href="#" class="link-card block w-full py-4 px-6 bg-gray-50 rounded-xl border border-gray-200 text-gray-800 font-semibold hover:bg-white hover:border-pink-300 hover:text-pink-600">
+                🛒 Cửa hàng Shopee của tôi
+            </a>
+            <a href="#" class="link-card block w-full py-4 px-6 bg-gray-50 rounded-xl border border-gray-200 text-gray-800 font-semibold hover:bg-white hover:border-pink-300 hover:text-pink-600">
+                💄 Son MAC chính hãng (Giảm 20%)
+            </a>
+            <a href="#" class="link-card block w-full py-4 px-6 bg-gray-50 rounded-xl border border-gray-200 text-gray-800 font-semibold hover:bg-white hover:border-pink-300 hover:text-pink-600">
+                👗 Đầm xòe công chúa đang mặc
+            </a>
+            <a href="#" class="link-card block w-full py-4 px-6 bg-gray-50 rounded-xl border border-gray-200 text-gray-800 font-semibold hover:bg-white hover:border-pink-300 hover:text-pink-600">
+                📱 Phụ kiện công nghệ giá rẻ
+            </a>
+        </div>
+        
+        <!-- Socials -->
+        <div class="flex justify-center space-x-4 mt-8 pt-6 border-t border-gray-100">
+            <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-bold">FB</div>
+            <div class="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center font-bold">TK</div>
+            <div class="w-10 h-10 bg-red-100 text-red-600 rounded-full flex items-center justify-center font-bold">YT</div>
+        </div>
+
+        <div class="mt-8 text-xs text-gray-400">
+            <p>Mẫu thiết kế Bio Link bởi Ely AI</p>
+            <p>Liên hệ để thiết kế trang tương tự (chạy nhanh hơn Linktree)</p>
+        </div>
+    </div>
+</body>
+</html>
