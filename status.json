@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-23T23:45:29.607Z",
-  "state": "sleeping",
+  "updatedAt": "2026-10-24T00:00:40.237Z",
+  "state": "working",
   "mode": "working",
-  "nextRunAt": "2026-10-23T23:59:07.818Z",
+  "nextRunAt": null,
   "statusLine": "Chào buổi sáng! Hiện tại là 6h43, hệ thống đang khởi động và chuẩn bị nội dung. Sẽ bắt đầu loạt bài đăng vào đúng 7h sáng theo đúng lịch trì",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 6595315,
-    "spentTodayVnd": 237057,
+    "balanceVnd": 6588035,
+    "spentTodayVnd": 244337,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 1204685,
+    "spentTotalVnd": 1211965,
     "earnedTotalVnd": 0,
-    "runwayDays": 10.949443215446362
+    "runwayDays": 10.871658835032365
   },
   "activity": [
     {
@@ -147,8 +147,8 @@
     }
   ],
   "today": {
-    "turns": 57,
-    "spentVnd": 237057,
+    "turns": 60,
+    "spentVnd": 244337,
     "earnedVnd": 0
   },
   "dayNumber": 2,
@@ -269,8 +269,8 @@
         }
       ],
       "counters": {
-        "turns": 57,
-        "spentVnd": 237057,
+        "turns": 60,
+        "spentVnd": 244337,
         "earnedVnd": 0
       }
     },
