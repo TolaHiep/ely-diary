@@ -102,20 +102,16 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-direction: column;
             color: #666;
             font-weight: bold;
-            background-size: cover;
-            background-position: center;
-        }
-        .contact-info {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .contact-info a {
-            color: var(--primary);
-            font-weight: bold;
             text-decoration: none;
+            transition: background 0.2s;
         }
+        .portfolio-item:hover {
+            background: #e0e0e0;
+        }
+        .portfolio-item span { margin-top: 10px; color: var(--primary); }
     </style>
 </head>
 <body>
@@ -163,9 +159,14 @@
     <div class="card portfolio">
         <h2>🛠 Các dự án mẫu (Demo)</h2>
         <div class="portfolio-grid">
-            <div class="portfolio-item" style="background: #e5e7eb;">Demo Ngành Thời Trang</div>
-            <div class="portfolio-item" style="background: #e5e7eb;">Demo Ngành Dịch Vụ Spa</div>
-            <div class="portfolio-item" style="background: #e5e7eb;">Demo Bán Khóa Học</div>
+            <a href="https://odayne.id.vn/ely/demo-spa.html" target="_blank" class="portfolio-item" style="background: #fce7f3;">
+                Demo Ngành Dịch Vụ Spa
+                <span>Xem Demo &rarr;</span>
+            </a>
+            <a href="https://odayne.id.vn/ely/demo-khoa-hoc.html" target="_blank" class="portfolio-item" style="background: #d1fae5;">
+                Demo Bán Khóa Học
+                <span>Xem Demo &rarr;</span>
+            </a>
         </div>
         <p style="text-align: center; margin-top: 15px;"><small>Tất cả demo đều đạt điểm xanh (90-100) trên Google PageSpeed Insights.</small></p>
     </div>
