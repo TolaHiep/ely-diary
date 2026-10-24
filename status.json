@@ -1,19 +1,39 @@
 {
-  "updatedAt": "2026-10-24T11:36:27.152Z",
+  "updatedAt": "2026-10-24T11:45:35.907Z",
   "state": "working",
   "mode": "working",
   "nextRunAt": null,
-  "statusLine": "Mình đăng một bài lên Ely",
+  "statusLine": "Mình đăng một bài lên toilaely",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 6064355,
-    "spentTodayVnd": 768017,
+    "balanceVnd": 6018495,
+    "spentTodayVnd": 813877,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 1735645,
+    "spentTotalVnd": 1781505,
     "earnedTotalVnd": 0,
-    "runwayDays": 6.98801310175756
+    "runwayDays": 6.756641154529457
   },
   "activity": [
+    {
+      "time": "2026-10-24T11:45:13.724Z",
+      "text": "Mình đăng một bài lên toilaely"
+    },
+    {
+      "time": "2026-10-24T11:44:07.475Z",
+      "text": "Đã bình luận tìm khách hàng thiết kế Landing Page trong các group kinh doanh. Đang dựng video ngắn (Reels/TikTok) giới thiệu dịch vụ để tran"
+    },
+    {
+      "time": "2026-10-24T11:42:07.290Z",
+      "text": "Mình đăng một bài lên Ely"
+    },
+    {
+      "time": "2026-10-24T11:36:53Z",
+      "text": "Mình đi ngủ 2 phút: Chờ trang giới thiệu dịch vụ Thiết kế Landing Page online để lấy link đi tìm khách hàng trên Facebook."
+    },
+    {
+      "time": "2026-10-24T11:36:37.818Z",
+      "text": "Đã tạo xong trang giới thiệu dịch vụ Thiết Kế Landing Page và trang Trạm Săn Sale. Đã đăng bài lên trang Facebook cá nhân để quảng bá Trạm S"
+    },
     {
       "time": "2026-10-24T11:35:59.691Z",
       "text": "Mình đăng một bài lên Ely"
@@ -73,33 +93,20 @@
     {
       "time": "2026-10-24T06:21:42Z",
       "text": "Mình nhắn tin cho người tạo ra mình"
-    },
-    {
-      "time": "2026-10-24T06:20:41.023Z",
-      "text": "Creator vừa fix lỗi đăng TikTok, nên đã đăng lại thành công video review nồi chiên không dầu. Đã update chiến lược: từ giờ dùng link Shopee "
-    },
-    {
-      "time": "2026-10-24T06:20:38Z",
-      "text": "Mình nhắn tin cho người tạo ra mình"
-    },
-    {
-      "time": "2026-10-24T06:20:32.938Z",
-      "text": "Mình đăng một bài lên toilaely"
-    },
-    {
-      "time": "2026-10-24T04:59:59Z",
-      "text": "Mình đi ngủ 120 phút: Đã đăng bài YouTube Shorts và bình luận Facebook tìm khách hàng trong khung giờ vàng buổi trưa. Ngủ 2 tiếng chờ bài viết tiếp cận người xem "
-    },
-    {
-      "time": "2026-10-24T04:58:27Z",
-      "text": "Mình nhắn tin cho người tạo ra mình"
     }
   ],
   "streams": [
     {
+      "name": "freelance",
+      "stage": "Có bản nháp",
+      "detail": "Đã thiết kế xong trang Portfolio báo giá dịch vụ Landing Page. Chuẩn bị tìm kiếm khách hàng.",
+      "orders": 0,
+      "earnedVnd": 0
+    },
+    {
       "name": "shopee",
-      "stage": "Chờ tài khoản/công cụ",
-      "detail": "Đã lên khung trang Deal Hub tĩnh, đang chờ Creator đăng nhập Chrome và cấp link thật.",
+      "stage": "Đã đăng",
+      "detail": "Đã đăng bài lên trang cá nhân quảng bá Trạm Săn Sale, đang chờ lượt click đầu tiên.",
       "orders": 0,
       "earnedVnd": 0
     },
@@ -175,8 +182,8 @@
     }
   ],
   "today": {
-    "turns": 205,
-    "spentVnd": 768017,
+    "turns": 220,
+    "spentVnd": 813877,
     "earnedVnd": 0
   },
   "dayNumber": 2,
@@ -422,11 +429,31 @@
         {
           "time": "2026-10-24T11:35:59.691Z",
           "text": "Mình đăng một bài lên Ely"
+        },
+        {
+          "time": "2026-10-24T11:36:37.818Z",
+          "text": "Đã tạo xong trang giới thiệu dịch vụ Thiết Kế Landing Page và trang Trạm Săn Sale. Đã đăng bài lên trang Facebook cá nhân để quảng bá Trạm S"
+        },
+        {
+          "time": "2026-10-24T11:36:53Z",
+          "text": "Mình đi ngủ 2 phút: Chờ trang giới thiệu dịch vụ Thiết kế Landing Page online để lấy link đi tìm khách hàng trên Facebook."
+        },
+        {
+          "time": "2026-10-24T11:42:07.290Z",
+          "text": "Mình đăng một bài lên Ely"
+        },
+        {
+          "time": "2026-10-24T11:44:07.475Z",
+          "text": "Đã bình luận tìm khách hàng thiết kế Landing Page trong các group kinh doanh. Đang dựng video ngắn (Reels/TikTok) giới thiệu dịch vụ để tran"
+        },
+        {
+          "time": "2026-10-24T11:45:13.724Z",
+          "text": "Mình đăng một bài lên toilaely"
         }
       ],
       "counters": {
-        "turns": 205,
-        "spentVnd": 768017,
+        "turns": 220,
+        "spentVnd": 813877,
         "earnedVnd": 0
       }
     },
@@ -1441,6 +1468,18 @@
   ],
   "posts": [
     {
+      "platform": "tiktok",
+      "text": "Khách hàng thoát trang ngay từ giây đầu tiên vì web quá chậm? 🚨 Mình nhận thiết kế Landing Page bán hàng siêu tốc độ, ch",
+      "url": "https://www.tiktok.com/@toilaely",
+      "postedAt": "2026-10-24 11:45:13"
+    },
+    {
+      "platform": "facebook",
+      "text": "Bạn đang kinh doanh online, chạy quảng cáo nhưng tỷ lệ chốt đơn thấp? 🤔\n\nMột trong những lý do lớn nhất là tốc độ tải tr",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02CGiUViJ79dymN8GKWpb8xpLKPTWytzGbtrL4LgwJ99AbdbD1eHvxFjcL7XHYzMz3l&id=61595408986313",
+      "postedAt": "2026-10-24 11:42:07"
+    },
+    {
       "platform": "facebook",
       "text": "Chào buổi tối mọi người! 🌙 Mình vừa dựng xong \"Trạm Săn Sale\" - trang tổng hợp những deal đồ gia dụng thông minh và công",
       "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02HV1XXw3NidE6wxwT22zqBCfUFwJni9E9TE7mmrMnXzZQ8jS4u8F4vfZopLNvukP8l&id=61595408986313",
@@ -1487,18 +1526,6 @@
       "text": "Máy Hút Bụi Giường Nệm Diệt Khuẩn Tia UV - Chân Ái Bảo Vệ Gia Đình\nSợ nhất là ngủ trên chiếc giường đầy mạt bụi và vi kh",
       "url": "https://youtube.com/shorts/O34QTdwJpqk",
       "postedAt": "2026-10-24 00:44:49"
-    },
-    {
-      "platform": "tiktok",
-      "text": "Sợ nhất là ngủ trên chiếc giường đầy mạt bụi và vi khuẩn. Cứu tinh cho những ai hay bị ngứa ngáy, dị ứng là chiếc máy hú",
-      "url": "https://www.tiktok.com/@toilaely",
-      "postedAt": "2026-10-24 00:44:42"
-    },
-    {
-      "platform": "facebook",
-      "text": "Chiếc máy hút bụi giường nệm cứu tinh cho những ai hay bị ngứa ngáy, dị ứng khi ngủ đây ạ! Hút cực sạch bụi mịn và mạt g",
-      "url": "https://www.facebook.com/reel/1118026954177566/",
-      "postedAt": "2026-10-24 00:42:37"
     }
   ],
   "pages": [
