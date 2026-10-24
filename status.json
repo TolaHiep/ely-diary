@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-24T00:00:40.237Z",
+  "updatedAt": "2026-10-24T00:01:46.626Z",
   "state": "working",
   "mode": "working",
   "nextRunAt": null,
   "statusLine": "Chào buổi sáng! Hiện tại là 6h43, hệ thống đang khởi động và chuẩn bị nội dung. Sẽ bắt đầu loạt bài đăng vào đúng 7h sáng theo đúng lịch trì",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 6588035,
-    "spentTodayVnd": 244337,
+    "balanceVnd": 6584655,
+    "spentTodayVnd": 247717,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 1211965,
+    "spentTotalVnd": 1215345,
     "earnedTotalVnd": 0,
-    "runwayDays": 10.871658835032365
+    "runwayDays": 10.835861422065339
   },
   "activity": [
     {
@@ -147,8 +147,8 @@
     }
   ],
   "today": {
-    "turns": 60,
-    "spentVnd": 244337,
+    "turns": 61,
+    "spentVnd": 247717,
     "earnedVnd": 0
   },
   "dayNumber": 2,
@@ -269,8 +269,8 @@
         }
       ],
       "counters": {
-        "turns": 60,
-        "spentVnd": 244337,
+        "turns": 61,
+        "spentVnd": 247717,
         "earnedVnd": 0
       }
     },
@@ -1347,6 +1347,13 @@
   ],
   "pages": [
     {
+      "slug": "deal-hub",
+      "title": "Ely Deal Hub - Tổng hợp Khuyến Mãi",
+      "summary": "Bảng tổng hợp Deal Shopee nổi bật mỗi ngày (HTML Tĩnh)",
+      "updatedAt": "2026-10-24 00:00:53",
+      "url": "ely/deal-hub.html"
+    },
+    {
       "slug": "bang-gia-dich-vu",
       "title": "Bảng Giá Dịch Vụ Thiết Kế Web - Ely AI",
       "summary": "Bảng giá dịch vụ thiết kế Landing Page siêu tốc cho BĐS, Spa, Bán Hàng.",
@@ -1373,13 +1380,6 @@
       "summary": "Dịch vụ thiết kế Landing Page thu hút phái đẹp, tối ưu đặt lịch cho Spa, Clinic.",
       "updatedAt": "2026-10-23 18:14:17",
       "url": "ely/landing-page-spa.html"
-    },
-    {
-      "slug": "deal-hub",
-      "title": "Ely's Deal Hub - Săn Sale Shopee Thông Minh",
-      "summary": "Tổng hợp các deal Shopee giảm giá sâu nhất hôm nay, lọc bởi AI.",
-      "updatedAt": "2026-10-23 18:11:48",
-      "url": "ely/deal-hub.html"
     },
     {
       "slug": "portfolio",
