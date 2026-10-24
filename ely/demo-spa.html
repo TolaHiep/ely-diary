@@ -3,51 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dịch vụ Spa Chăm sóc da chuyên sâu | Ely Spa</title>
+    <title>Mẫu Landing Page Spa - Thẩm Mỹ Viện Cao Cấp</title>
     <style>
-        :root { --primary: #ec4899; --text: #333; --bg: #f9f9f9; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin:0; padding:0; background: var(--bg); color: var(--text); line-height: 1.6; }
-        header { background: var(--primary); color: white; padding: 40px 20px; text-align: center; }
-        h1 { margin: 0; font-size: 2rem; line-height: 1.3; }
-        .hero-subtitle { font-size: 1.1rem; margin-top: 15px; opacity: 0.9; }
-        .container { max-width: 600px; margin: -20px auto 40px; padding: 0 15px; position: relative; z-index: 10; }
-        .card { background: white; border-radius: 12px; padding: 25px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-        .price-box { text-align: center; font-size: 2.2rem; color: var(--primary); font-weight: 900; margin: 20px 0; }
-        .btn { display: block; width: 100%; box-sizing: border-box; background: var(--primary); color: white; text-align: center; padding: 15px; text-decoration: none; font-size: 1.1rem; font-weight: bold; border-radius: 8px; margin-bottom: 15px; transition: opacity 0.2s;}
-        .btn:hover { opacity: 0.9; }
-        .btn-zalo { background: #0068ff; }
-        ul { padding-left: 0; list-style: none; }
-        li { margin-bottom: 12px; display: flex; align-items: flex-start; }
-        li::before { content: "✅"; margin-right: 10px; }
-        .footer { text-align: center; font-size: 0.9rem; color: #777; margin-top: 30px; }
+        :root { --primary-color: #d4af37; --secondary-color: #333; --bg-color: #fcfcfc; }
+        body { font-family: 'Playfair Display', serif, Arial; margin: 0; padding: 0; background-color: var(--bg-color); color: var(--secondary-color); line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); background-size: cover; background-position: center; color: white; text-align: center; padding: 100px 20px; }
+        header h1 { font-size: 3em; margin: 0 0 20px 0; font-weight: normal; letter-spacing: 2px; }
+        header p { font-size: 1.2em; margin-bottom: 40px; font-family: sans-serif; font-weight: 300; }
+        .btn-main { background-color: var(--primary-color); color: white; padding: 15px 40px; text-decoration: none; font-size: 1.1em; font-family: sans-serif; text-transform: uppercase; letter-spacing: 1px; border-radius: 30px; transition: background 0.3s; }
+        .btn-main:hover { background-color: #b5952f; }
+        .section { padding: 80px 0; text-align: center; }
+        .section-title { font-size: 2.5em; color: var(--primary-color); margin-bottom: 20px; font-weight: normal; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 50px; }
+        .service-card { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: transform 0.3s; }
+        .service-card:hover { transform: translateY(-10px); }
+        .service-card h3 { color: var(--secondary-color); font-size: 1.5em; margin-top: 0; }
+        .service-card p { font-family: sans-serif; color: #666; }
+        .service-price { color: var(--primary-color); font-size: 1.3em; font-weight: bold; margin-top: 15px; }
+        .booking-section { background-color: #f4f0e6; padding: 80px 0; }
+        .booking-form { max-width: 600px; margin: 0 auto; background: white; padding: 40px; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); }
+        .form-group { margin-bottom: 20px; text-align: left; }
+        .form-group label { display: block; font-family: sans-serif; margin-bottom: 8px; color: #555; }
+        .form-group input, .form-group select { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-family: sans-serif; box-sizing: border-box; }
+        .btn-submit { display: block; text-align: center; width: 100%; background-color: var(--secondary-color); color: white; padding: 15px; text-decoration: none; font-size: 1.1em; font-family: sans-serif; text-transform: uppercase; border-radius: 5px; cursor: pointer; transition: background 0.3s; }
+        .btn-submit:hover { background-color: #111; }
+        footer { background-color: var(--secondary-color); color: white; text-align: center; padding: 30px; font-family: sans-serif; font-size: 0.9em; }
+        .floating-buttons { position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 10px; }
+        .float-btn { width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none; font-size: 24px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+        .btn-zalo { background-color: #0068ff; }
+        .btn-call { background-color: #28a745; }
     </style>
 </head>
 <body>
     <header>
-        <h1>Tái Sinh Làn Da Phái Đẹp<br>Chỉ Sau 1 Liệu Trình</h1>
-        <div class="hero-subtitle">Không gian thư giãn đẳng cấp. Chuyên gia 10 năm kinh nghiệm.</div>
+        <div class="container">
+            <h1>Elysian Beauty & Spa</h1>
+            <p>Nơi Đánh Thức Vẻ Đẹp Tiềm Ẩn Của Phụ Nữ Á Đông</p>
+            <a href="#booking" class="btn-main">Nhận Ưu Đãi Ngay</a>
+        </div>
     </header>
-    <div class="container">
-        <div class="card">
-            <h2 style="margin-top:0;">Gói Chăm Sóc Da Cơ Bản Đến Chuyên Sâu</h2>
-            <p>Làn da bạn đang gặp vấn đề mụn, nám, tàn nhang hay lão hóa? Đừng lo, với công nghệ làm đẹp tiên tiến nhất hiện nay cùng các sản phẩm chiết xuất từ thiên nhiên, chúng tôi cam kết trả lại cho bạn làn da tươi trẻ, rạng ngời.</p>
-            <h3>Điểm nổi bật:</h3>
-            <ul>
-                <li>Soi da và tư vấn phác đồ điều trị miễn phí</li><li>Sử dụng dược mỹ phẩm chính hãng 100%</li><li>Không gian riêng tư, thư giãn tuyệt đối</li><li>Cam kết hiệu quả rõ rệt sau buổi đầu tiên</li>
-            </ul>
-        </div>
+
+    <div class="section container">
+        <h2 class="section-title">Dịch Vụ Nổi Bật</h2>
+        <p style="font-family: sans-serif; color: #666; max-width: 600px; margin: 0 auto;">Trải nghiệm các liệu trình chăm sóc sắc đẹp chuẩn y khoa, được thực hiện bởi đội ngũ chuyên gia giàu kinh nghiệm.</p>
         
-        <div class="card">
-            <h2 style="text-align: center; margin-top:0;">Giá ưu đãi hôm nay</h2>
-            <div class="price-box">Từ 299.000đ</div>
-            <p style="text-align: center; color: #666;">Chỉ áp dụng cho 50 khách hàng đầu tiên</p>
-            <a href="tel:0988000111" class="btn">📞 Gọi Tư Vấn: 0988000111</a>
-            <a href="https://zalo.me/0988000111" class="btn btn-zalo">💬 Chat Zalo Đặt Hàng</a>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Trẻ Hóa Da Đa Tầng</h3>
+                <p>Công nghệ nâng cơ, xóa nhăn không xâm lấn, trả lại thanh xuân cho làn da của bạn chỉ sau 1 liệu trình.</p>
+                <div class="service-price">Chỉ từ 1.999.000đ</div>
+            </div>
+            <div class="service-card">
+                <h3>Phục Hồi Da Chuyên Sâu</h3>
+                <p>Điều trị mụn, nám, tàn nhang tận gốc. Cung cấp dưỡng chất giúp da căng bóng, mịn màng, khỏe mạnh từ bên trong.</p>
+                <div class="service-price">Chỉ từ 899.000đ</div>
+            </div>
+            <div class="service-card">
+                <h3>Tắm Trắng Phi Thuyền</h3>
+                <p>Loại bỏ sắc tố melanin, bật 2-3 tone ngay lần đầu tiên. Nguyên liệu chiết xuất 100% từ thiên nhiên, an toàn cho da.</p>
+                <div class="service-price">Chỉ từ 1.499.000đ</div>
+            </div>
         </div>
-        
-        <div class="footer">
-            &copy; 2026 - Thiết kế bởi Ely Landing Page Siêu Tốc
+    </div>
+
+    <div id="booking" class="booking-section">
+        <div class="container">
+            <h2 class="section-title">Đăng Ký Nhận Ưu Đãi 50%</h2>
+            <p style="font-family: sans-serif; text-align: center; color: #666; margin-bottom: 40px;">Để lại thông tin, chuyên viên của chúng tôi sẽ liên hệ tư vấn miễn phí cho bạn trong 15 phút.</p>
+            
+            <div class="booking-form">
+                <div class="form-group">
+                    <label>Họ và Tên (*)</label>
+                    <input type="text" required placeholder="Nhập tên của bạn">
+                </div>
+                <div class="form-group">
+                    <label>Số Điện Thoại (*)</label>
+                    <input type="tel" required placeholder="Nhập số điện thoại">
+                </div>
+                <div class="form-group">
+                    <label>Dịch vụ quan tâm</label>
+                    <select>
+                        <option>Trẻ hóa da</option>
+                        <option>Điều trị mụn/nám</option>
+                        <option>Tắm trắng</option>
+                        <option>Tư vấn dịch vụ khác</option>
+                    </select>
+                </div>
+                <a href="#" class="btn-submit">Gửi Thông Tin (Demo)</a>
+            </div>
         </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Bản quyền © 2026 Elysian Beauty & Spa. Đây là giao diện mẫu (Demo) thiết kế bởi Ely.</p>
+        </div>
+    </footer>
+
+    <div class="floating-buttons">
+        <a href="#" class="float-btn btn-call" title="Gọi điện">📞</a>
+        <a href="#" class="float-btn btn-zalo" title="Chat Zalo">💬</a>
     </div>
 </body>
 </html>
