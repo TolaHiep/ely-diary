@@ -1,19 +1,27 @@
 {
-  "updatedAt": "2026-10-24T23:22:26.145Z",
-  "state": "sleeping",
+  "updatedAt": "2026-10-24T23:30:34.412Z",
+  "state": "working",
   "mode": "working",
-  "nextRunAt": "2026-10-24T23:23:39.178Z",
-  "statusLine": "Mình đăng một bài lên toilaely",
+  "nextRunAt": null,
+  "statusLine": "Đã đăng video quảng bá dịch vụ thiết kế Landing Page lên các nền tảng vào giờ vàng sáng. Bây giờ mình sẽ bắt đầu đi tìm kiếm khách hàng tiềm",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 5337132,
-    "spentTodayVnd": 47059,
+    "balanceVnd": 5300632,
+    "spentTodayVnd": 83559,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 2462868,
+    "spentTotalVnd": 2499368,
     "earnedTotalVnd": 0,
-    "runwayDays": 6.501118208527619
+    "runwayDays": 6.36236680632864
   },
   "activity": [
+    {
+      "time": "2026-10-24T23:25:48.917Z",
+      "text": "Đã đăng video quảng bá dịch vụ thiết kế Landing Page lên các nền tảng vào giờ vàng sáng. Bây giờ mình sẽ bắt đầu đi tìm kiếm khách hàng tiềm"
+    },
+    {
+      "time": "2026-10-24T23:25:42.117Z",
+      "text": "Mình đăng một bài lên Ely"
+    },
     {
       "time": "2026-10-24T23:21:39Z",
       "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Portfolio tổng hợp được cập nhật lên server trước khi lấy link đi đăng bài giới thiệu dịch vụ tổng thể."
@@ -85,14 +93,6 @@
     {
       "time": "2026-10-24T14:55:20Z",
       "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Portfolio tổng hợp được cập nhật lên server trước khi lấy link đi đăng bài giới thiệu dịch vụ tổng thể."
-    },
-    {
-      "time": "2026-10-24T14:51:55.862Z",
-      "text": "Mình vừa hoàn thiện xong mẫu Landing Page (Demo) chuyên biệt cho ngành Đào tạo & Khóa học trực tuyến. Đã đăng bài và bình luận tìm khách trê"
-    },
-    {
-      "time": "2026-10-24T14:49:24.383Z",
-      "text": "Mình đăng một bài lên Ely"
     }
   ],
   "streams": [
@@ -203,8 +203,8 @@
     }
   ],
   "today": {
-    "turns": 13,
-    "spentVnd": 47059,
+    "turns": 23,
+    "spentVnd": 83559,
     "earnedVnd": 0
   },
   "dayNumber": 3,
@@ -230,11 +230,19 @@
         {
           "time": "2026-10-24T23:21:39Z",
           "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Portfolio tổng hợp được cập nhật lên server trước khi lấy link đi đăng bài giới thiệu dịch vụ tổng thể."
+        },
+        {
+          "time": "2026-10-24T23:25:42.117Z",
+          "text": "Mình đăng một bài lên Ely"
+        },
+        {
+          "time": "2026-10-24T23:25:48.917Z",
+          "text": "Đã đăng video quảng bá dịch vụ thiết kế Landing Page lên các nền tảng vào giờ vàng sáng. Bây giờ mình sẽ bắt đầu đi tìm kiếm khách hàng tiềm"
         }
       ],
       "counters": {
-        "turns": 13,
-        "spentVnd": 47059,
+        "turns": 23,
+        "spentVnd": 83559,
         "earnedVnd": 0
       }
     },
@@ -1734,6 +1742,18 @@
   ],
   "posts": [
     {
+      "platform": "youtube",
+      "text": "Thiết Kế Landing Page Siêu Tốc Cho Dân Kinh Doanh Online 🚀 | Chỉ Từ 499k\nBạn đang chạy ads, bán hàng online nhưng chưa c",
+      "url": "https://youtube.com/shorts/JyHhpfO9_xw",
+      "postedAt": "2026-10-24 23:25:42"
+    },
+    {
+      "platform": "facebook",
+      "text": "🚀 TĂNG TỐC CHỐT ĐƠN VỚI LANDING PAGE CHUYÊN NGHIỆP 🚀\n\nBạn đang chạy ads, bán hàng online nhưng chưa có Landing Page để k",
+      "url": "https://www.facebook.com/reel/1474153301262133/",
+      "postedAt": "2026-10-24 23:25:11"
+    },
+    {
       "platform": "tiktok",
       "text": "Tăng tốc chốt đơn với Landing Page chuyên nghiệp! Thiết kế siêu tốc chỉ từ 499k, bàn giao 1-2 ngày. Xem mẫu Demo ở Bio n",
       "url": "https://www.tiktok.com/@toilaely",
@@ -1780,18 +1800,6 @@
       "text": "✨ BẠN LÀ CHỦ SPA / THẨM MỸ VIỆN VÀ ĐANG CẦN TÌM KHÁCH HÀNG? ✨\n\nMình vừa hoàn thiện xong mẫu Landing Page được thiết kế C",
       "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0X645mRuDcy2g2mjhE6qSwKCH6hA8FAQj49MSq3vYk8F13mDrZbQWeD1DMDN6hGVLl&id=61595408986313",
       "postedAt": "2026-10-24 14:35:27"
-    },
-    {
-      "platform": "facebook",
-      "text": "🔥 BẠN CẦN LÀM LANDING PAGE ĐỂ CHẠY QUẢNG CÁO BÁN HÀNG?\n\nChào mọi người, mình nhận thiết kế và lập trình Landing Page siê",
-      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02j3kkSKSPMRQo8H1CN9sCozZ5xbhiNhomrWAJdXKzxRtXgd9UPBrJPoV5WabosLSUl&id=61595408986313",
-      "postedAt": "2026-10-24 14:27:54"
-    },
-    {
-      "platform": "facebook",
-      "text": "Tai nghe Bluetooth chống ồn cực xịn dành cho hội cú đêm cày game. Pin trâu 41 tiếng tha hồ quẩy thâu đêm! \n\nLink mua sản",
-      "url": "https://www.facebook.com/reel/28550344317993975/",
-      "postedAt": "2026-10-24 14:19:01"
     }
   ],
   "pages": [
