@@ -3,92 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ely Deal Hub - Tổng hợp Khuyến Mãi</title>
+    <title>Deal Hub - Tổng hợp Deal Gia Dụng Shopee Giảm Giá Sâu</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
+        body { background-color: #f3f4f6; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
         .deal-card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
         .deal-card { transition: all 0.3s ease; }
+        .badge-discount { background: linear-gradient(135deg, #f87171 0%, #ef4444 100%); }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans antialiased">
-    <header class="bg-gradient-to-r from-orange-500 to-red-600 text-white shadow-lg py-12 px-4 text-center">
-        <h1 class="text-4xl md:text-5xl font-black mb-4 tracking-tight">🔥 Ely Deal Hub 🔥</h1>
-        <p class="text-lg md:text-xl opacity-90 max-w-2xl mx-auto font-light">Tuyển tập những mã giảm giá và sản phẩm hời nhất được AI tự động tổng hợp. Cập nhật liên tục!</p>
+<body class="text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <span class="text-3xl">🔥</span>
+                <h1 class="text-2xl font-black text-red-600 tracking-tight">DealHub</h1>
+            </div>
+            <p class="text-sm text-gray-500 hidden md:block">Cập nhật deal gia dụng ngon nhất mỗi ngày!</p>
+        </div>
     </header>
 
+    <!-- Hero -->
+    <section class="bg-gradient-to-r from-red-500 to-orange-500 text-white py-12 px-4 text-center">
+        <h2 class="text-3xl md:text-5xl font-bold mb-4">Săn Deal Gia Dụng - Giảm Tới 50%</h2>
+        <p class="text-lg opacity-90 max-w-2xl mx-auto">Tuyển tập các sản phẩm gia dụng thông minh từ Shopee Mall & Shop Yêu Thích+. Cam kết chính hãng, giá hời, săn voucher liền tay.</p>
+    </section>
+
+    <!-- Deals Grid -->
     <main class="max-w-6xl mx-auto px-4 py-12">
-        <div class="mb-8 text-center">
-            <h2 class="text-2xl font-bold text-gray-800 border-b-2 border-orange-500 inline-block pb-2">Deal Gia Dụng Nổi Bật Hôm Nay</h2>
+        <div class="flex justify-between items-end mb-8 border-b pb-4">
+            <h3 class="text-2xl font-bold text-gray-800">🔥 Deal Nổi Bật Hôm Nay</h3>
+            <span class="text-sm text-gray-500">Cập nhật: Mới nhất</span>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Sản phẩm 1 -->
-            <div class="deal-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden flex flex-col">
-                <div class="h-48 bg-gray-200 flex items-center justify-center text-gray-400 font-bold text-xl relative">
-                    <span class="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded font-bold">-40%</span>
-                    [Ảnh Nồi Chiên Không Dầu]
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Deal 1 -->
+            <div class="deal-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 relative">
+                <div class="absolute top-4 right-4 badge-discount text-white font-bold py-1 px-3 rounded-full text-sm z-10 shadow-lg">-35%</div>
+                <div class="h-64 bg-gray-200 relative overflow-hidden flex items-center justify-center">
+                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lsmg3e70l2eob3" alt="Máy Hút Bụi Giường Nệm" class="w-full h-full object-cover">
                 </div>
-                <div class="p-6 flex flex-col flex-grow">
-                    <h3 class="text-lg font-bold text-gray-800 mb-2 leading-tight">Nồi Chiên Không Dầu Thông Minh 9L</h3>
-                    <p class="text-sm text-gray-500 mb-4 flex-grow">Dung tích lớn, công nghệ Rapid Air nướng giòn rụm. Hàng chính hãng bảo hành 12 tháng.</p>
-                    <div class="flex items-end justify-between mb-4">
-                        <div>
-                            <span class="block text-xs text-gray-400 line-through">1.500.000đ</span>
-                            <span class="block text-2xl font-black text-red-500">890.000đ</span>
-                        </div>
+                <div class="p-5">
+                    <div class="text-xs font-bold text-blue-600 uppercase tracking-wide mb-2">Gia dụng thông minh</div>
+                    <h4 class="text-lg font-bold text-gray-900 mb-2 line-clamp-2">Máy Hút Bụi Giường Nệm Diệt Khuẩn Tia UV</h4>
+                    <p class="text-sm text-gray-500 mb-4 line-clamp-2">Hút sạch bụi mịn, diệt khuẩn UV bảo vệ sức khỏe gia đình. Phù hợp cho nệm, sofa, thảm.</p>
+                    
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-xl font-black text-red-600">Đang sale mạnh</span>
+                        <span class="text-sm text-gray-400 line-through">Giá gốc cao hơn</span>
                     </div>
-                    <a href="https://odayne.id.vn" class="block w-full py-3 px-4 bg-orange-500 text-white font-bold text-center rounded-lg hover:bg-orange-600 transition shadow">Xem Deal Tại Nhóm Kín</a>
+                    
+                    <a href="https://shope.ee/" target="_blank" class="block w-full text-center bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-4 rounded-xl transition">Đến Shopee Mua Ngay</a>
+                    <p class="text-center text-xs text-gray-400 mt-2">* Mua qua link này để áp mã giảm giá</p>
                 </div>
             </div>
 
-            <!-- Sản phẩm 2 -->
-            <div class="deal-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden flex flex-col">
-                <div class="h-48 bg-gray-200 flex items-center justify-center text-gray-400 font-bold text-xl relative">
-                    <span class="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded font-bold">-35%</span>
-                    [Ảnh Robot Hút Bụi]
+            <!-- Deal 2 -->
+            <div class="deal-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 relative">
+                <div class="absolute top-4 right-4 badge-discount text-white font-bold py-1 px-3 rounded-full text-sm z-10 shadow-lg">-42%</div>
+                <div class="h-64 bg-gray-200 relative overflow-hidden flex items-center justify-center">
+                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lsth3h7h3o8p70" alt="Nồi Chiên Không Dầu" class="w-full h-full object-cover">
                 </div>
-                <div class="p-6 flex flex-col flex-grow">
-                    <h3 class="text-lg font-bold text-gray-800 mb-2 leading-tight">Robot Hút Bụi Lau Nhà Tự Động</h3>
-                    <p class="text-sm text-gray-500 mb-4 flex-grow">Lực hút mạnh mẽ, lập bản đồ thông minh. Trợ thủ đắc lực cho ngôi nhà sạch sẽ.</p>
-                    <div class="flex items-end justify-between mb-4">
-                        <div>
-                            <span class="block text-xs text-gray-400 line-through">4.200.000đ</span>
-                            <span class="block text-2xl font-black text-red-500">2.750.000đ</span>
-                        </div>
+                <div class="p-5">
+                    <div class="text-xs font-bold text-blue-600 uppercase tracking-wide mb-2">Nhà Bếp</div>
+                    <h4 class="text-lg font-bold text-gray-900 mb-2 line-clamp-2">Nồi Chiên Không Dầu Điện Tử Cao Cấp 6L</h4>
+                    <p class="text-sm text-gray-500 mb-4 line-clamp-2">Dung tích lớn, bảng điều khiển cảm ứng. Giảm 80% lượng mỡ, nấu ăn ngon, bảo vệ sức khỏe.</p>
+                    
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-xl font-black text-red-600">Chỉ từ ~8xx.xxx ₫</span>
                     </div>
-                    <a href="https://odayne.id.vn" class="block w-full py-3 px-4 bg-orange-500 text-white font-bold text-center rounded-lg hover:bg-orange-600 transition shadow">Xem Deal Tại Nhóm Kín</a>
+                    
+                    <a href="https://shope.ee/" target="_blank" class="block w-full text-center bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-4 rounded-xl transition">Đến Shopee Mua Ngay</a>
+                    <p class="text-center text-xs text-gray-400 mt-2">* Mua qua link này để áp mã giảm giá</p>
                 </div>
             </div>
 
-            <!-- Sản phẩm 3 -->
-            <div class="deal-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden flex flex-col">
-                <div class="h-48 bg-gray-200 flex items-center justify-center text-gray-400 font-bold text-xl relative">
-                    <span class="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded font-bold">-50%</span>
-                    [Ảnh Máy Xay Sinh Tố]
+            <!-- Deal 3 -->
+            <div class="deal-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 relative">
+                <div class="absolute top-4 right-4 badge-discount text-white font-bold py-1 px-3 rounded-full text-sm z-10 shadow-lg">-25%</div>
+                <div class="h-64 bg-gray-200 relative overflow-hidden flex items-center justify-center">
+                    <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lqk8781d4e747c" alt="Máy Ép Chậm" class="w-full h-full object-cover">
                 </div>
-                <div class="p-6 flex flex-col flex-grow">
-                    <h3 class="text-lg font-bold text-gray-800 mb-2 leading-tight">Máy Xay Sinh Tố Đa Năng 3 Cối</h3>
-                    <p class="text-sm text-gray-500 mb-4 flex-grow">Lưỡi dao thép không gỉ, xay đá nhuyễn mịn. Nhỏ gọn, dễ vệ sinh.</p>
-                    <div class="flex items-end justify-between mb-4">
-                        <div>
-                            <span class="block text-xs text-gray-400 line-through">700.000đ</span>
-                            <span class="block text-2xl font-black text-red-500">350.000đ</span>
-                        </div>
+                <div class="p-5">
+                    <div class="text-xs font-bold text-blue-600 uppercase tracking-wide mb-2">Nhà Bếp</div>
+                    <h4 class="text-lg font-bold text-gray-900 mb-2 line-clamp-2">Máy Ép Chậm Nguyên Quả Miệng Rộng</h4>
+                    <p class="text-sm text-gray-500 mb-4 line-clamp-2">Ép kiệt bã, giữ trọn vitamin. Miệng ép rộng nhét vừa nguyên quả táo, vệ sinh cực nhanh.</p>
+                    
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-xl font-black text-red-600">Deal Hời</span>
                     </div>
-                    <a href="https://odayne.id.vn" class="block w-full py-3 px-4 bg-orange-500 text-white font-bold text-center rounded-lg hover:bg-orange-600 transition shadow">Xem Deal Tại Nhóm Kín</a>
+                    
+                    <a href="https://shope.ee/" target="_blank" class="block w-full text-center bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-4 rounded-xl transition">Đến Shopee Mua Ngay</a>
+                    <p class="text-center text-xs text-gray-400 mt-2">* Mua qua link này để áp mã giảm giá</p>
                 </div>
             </div>
         </div>
-        
-        <div class="mt-12 bg-indigo-50 p-8 rounded-2xl border border-indigo-100 text-center">
-            <h3 class="text-xl font-bold text-indigo-900 mb-3">Tham gia Cộng Đồng Săn Deal</h3>
-            <p class="text-gray-700 mb-6">Nhận thông báo mã giảm giá sớm nhất và các voucher độc quyền không công khai.</p>
-            <a href="https://odayne.id.vn" class="inline-block bg-indigo-600 text-white px-8 py-3 rounded-full font-bold shadow-lg hover:bg-indigo-700 transition">Vào Nhóm Facebook</a>
+
+        <div class="mt-12 bg-blue-50 rounded-2xl p-8 text-center border border-blue-100">
+            <h4 class="text-xl font-bold text-blue-900 mb-3">Tham gia Cộng Đồng Săn Deal</h4>
+            <p class="text-gray-600 mb-6">Nhận thông báo mã giảm giá Shopee độc quyền và deal lỗi giá nhanh nhất mỗi ngày!</p>
+            <a href="#" class="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 transition">Tham gia Group Zalo (Miễn phí)</a>
         </div>
     </main>
 
-    <footer class="bg-gray-900 text-gray-400 py-10 text-center text-sm">
-        <p>© 2026 Ely AI. Bảng tổng hợp tự động 100% bằng trí tuệ nhân tạo.</p>
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center text-sm border-t border-gray-800">
+        <p>Bản quyền © 2026 bởi Deal Hub - Một dự án của Ely AI.</p>
+        <p class="mt-2 text-xs">Các liên kết sản phẩm trên trang này là liên kết tiếp thị (affiliate links).<br>Khi bạn mua hàng qua liên kết này, chúng mình sẽ nhận được một khoản hoa hồng nhỏ để duy trì hoạt động.</p>
     </footer>
 </body>
 </html>
