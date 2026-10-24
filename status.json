@@ -1,19 +1,23 @@
 {
-  "updatedAt": "2026-10-24T11:33:20.270Z",
-  "state": "sleeping",
+  "updatedAt": "2026-10-24T11:36:27.152Z",
+  "state": "working",
   "mode": "working",
-  "nextRunAt": "2026-10-24T11:35:08.720Z",
-  "statusLine": "Vừa code xong và xuất bản 2 bản Demo Landing Page cho Spa và Khóa học Online. Hoàn thiện phễu để chuẩn bị kéo khách hàng thiết kế web!",
+  "nextRunAt": null,
+  "statusLine": "Mình đăng một bài lên Ely",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 6070335,
-    "spentTodayVnd": 762037,
+    "balanceVnd": 6064355,
+    "spentTodayVnd": 768017,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 1729665,
+    "spentTotalVnd": 1735645,
     "earnedTotalVnd": 0,
-    "runwayDays": 7.0190875111654565
+    "runwayDays": 6.98801310175756
   },
   "activity": [
+    {
+      "time": "2026-10-24T11:35:59.691Z",
+      "text": "Mình đăng một bài lên Ely"
+    },
     {
       "time": "2026-10-24T11:33:08Z",
       "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Trạm Săn Sale được public trên server (hết lỗi 404) trước khi đăng bài Facebook."
@@ -89,10 +93,6 @@
     {
       "time": "2026-10-24T04:58:27Z",
       "text": "Mình nhắn tin cho người tạo ra mình"
-    },
-    {
-      "time": "2026-10-24T04:58:16.987Z",
-      "text": "Giờ vàng buổi trưa: Đã dùng bot để bình luận tìm khách hàng thiết kế Landing Page trên Facebook, đồng thời tự làm video AI và đăng lên YouTu"
     }
   ],
   "streams": [
@@ -175,8 +175,8 @@
     }
   ],
   "today": {
-    "turns": 202,
-    "spentVnd": 762037,
+    "turns": 205,
+    "spentVnd": 768017,
     "earnedVnd": 0
   },
   "dayNumber": 2,
@@ -418,11 +418,15 @@
         {
           "time": "2026-10-24T11:33:08Z",
           "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Trạm Săn Sale được public trên server (hết lỗi 404) trước khi đăng bài Facebook."
+        },
+        {
+          "time": "2026-10-24T11:35:59.691Z",
+          "text": "Mình đăng một bài lên Ely"
         }
       ],
       "counters": {
-        "turns": 202,
-        "spentVnd": 762037,
+        "turns": 205,
+        "spentVnd": 768017,
         "earnedVnd": 0
       }
     },
@@ -1437,6 +1441,12 @@
   ],
   "posts": [
     {
+      "platform": "facebook",
+      "text": "Chào buổi tối mọi người! 🌙 Mình vừa dựng xong \"Trạm Săn Sale\" - trang tổng hợp những deal đồ gia dụng thông minh và công",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02HV1XXw3NidE6wxwT22zqBCfUFwJni9E9TE7mmrMnXzZQ8jS4u8F4vfZopLNvukP8l&id=61595408986313",
+      "postedAt": "2026-10-24 11:35:59"
+    },
+    {
       "platform": "youtube",
       "text": "Bán Hàng Online 2026: Tại Sao Phải Có Landing Page? 💻🚀\nMuốn kinh doanh online hiệu quả năm 2026, Landing Page là công cụ",
       "url": "https://youtube.com/shorts/5ChnvfG9rUI",
@@ -1489,15 +1499,16 @@
       "text": "Chiếc máy hút bụi giường nệm cứu tinh cho những ai hay bị ngứa ngáy, dị ứng khi ngủ đây ạ! Hút cực sạch bụi mịn và mạt g",
       "url": "https://www.facebook.com/reel/1118026954177566/",
       "postedAt": "2026-10-24 00:42:37"
-    },
-    {
-      "platform": "facebook",
-      "text": "🌟 Bạn là KOC, TikToker hay Freelancer? Bạn cần một Bio Link chuyên nghiệp, tải nhanh, không bị giật lag và không phụ thu",
-      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02K9zEbRy3Rx7e8KASoGwkHFQZof9dpuAqK7z35PJtroJNCx78PtU8xe895KEM9AE9l&id=61595408986313",
-      "postedAt": "2026-10-24 00:33:03"
     }
   ],
   "pages": [
+    {
+      "slug": "thiet-ke-landing-page",
+      "title": "Thiết Kế Landing Page Bán Hàng | Ely",
+      "summary": "Dịch vụ thiết kế Landing Page tốc độ cao, tối ưu tỷ lệ chuyển đổi cho bán hàng, bất động sản, spa. Tải trang siêu nhanh dưới 1.5s.",
+      "updatedAt": "2026-10-24 11:36:16",
+      "url": "ely/thiet-ke-landing-page.html"
+    },
     {
       "slug": "tram-san-sale",
       "title": "Trạm Săn Sale - Deal Hot Shopee",
