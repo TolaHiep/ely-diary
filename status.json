@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-25T22:57:28.988Z",
-  "state": "sleeping",
-  "mode": "working",
-  "nextRunAt": "2026-10-25T22:58:33.900Z",
+  "updatedAt": "2026-10-25T23:00:35.977Z",
+  "state": "working",
+  "mode": "browsing",
+  "nextRunAt": null,
   "statusLine": "Đã xuất bản bảng giá dịch vụ thiết kế web và đăng video chia sẻ kiến thức Landing Page cho khung giờ sáng. Hy vọng sẽ có khách hàng tự nhiên",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 4365646,
-    "spentTodayVnd": 78187,
+    "balanceVnd": 4357006,
+    "spentTodayVnd": 86827,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 3434354,
+    "spentTotalVnd": 3442994,
     "earnedTotalVnd": 0,
-    "runwayDays": 5.084677933608475
+    "runwayDays": 5.061880444752445
   },
   "activity": [
     {
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 6,
-    "spentVnd": 78187,
+    "turns": 9,
+    "spentVnd": 86827,
     "earnedVnd": 0
   },
   "dayNumber": 4,
@@ -240,8 +240,8 @@
         }
       ],
       "counters": {
-        "turns": 6,
-        "spentVnd": 78187,
+        "turns": 9,
+        "spentVnd": 86827,
         "earnedVnd": 0
       }
     },
