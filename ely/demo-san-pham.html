@@ -3,95 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nồi Chiên Không Dầu Chống Dính Cao Cấp - Giảm 50% Hôm Nay</title>
+    <title>Tinh Chất Mọc Tóc Ely Hair - Cam Kết Hiệu Quả</title>
     <style>
-        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; line-height: 1.6; }
-        header { background-color: #ff4747; color: white; text-align: center; padding: 15px; font-weight: bold; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .urgency { font-size: 0.9em; margin-top: 5px; animation: blink 1s infinite; }
-        @keyframes blink { 50% { opacity: 0; } }
-
-        .container { max-width: 600px; margin: 0 auto; background: white; padding-bottom: 80px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; padding: 0; background-color: #fcfcfc; color: #333; line-height: 1.6; }
+        .hero { background: linear-gradient(to right, #e2f1ec, #c8e6c9); padding: 50px 20px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 40px; }
+        .hero-text { max-width: 500px; }
+        .hero-title { font-size: 2.8rem; color: #2e7d32; margin-bottom: 15px; font-weight: bold; line-height: 1.2; }
+        .hero-subtitle { font-size: 1.2rem; margin-bottom: 25px; color: #424242; }
+        .hero-price { font-size: 2rem; color: #d32f2f; font-weight: bold; margin-bottom: 20px; }
+        .old-price { text-decoration: line-through; color: #9e9e9e; font-size: 1.2rem; margin-left: 10px; }
+        .hero-img { width: 100%; max-width: 400px; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
         
-        .hero-img { width: 100%; display: block; }
+        .btn-buy { background: #ff5722; color: white; border: none; padding: 18px 40px; font-size: 1.3rem; font-weight: bold; border-radius: 50px; cursor: pointer; text-decoration: none; display: inline-block; box-shadow: 0 10px 20px rgba(255, 87, 34, 0.3); transition: transform 0.2s; text-align: center; width: 100%; max-width: 300px; animation: pulse 2s infinite; }
+        .btn-buy:hover { transform: translateY(-3px); background: #e64a19; }
         
-        .product-info { padding: 20px; }
-        .product-title { font-size: 1.5em; font-weight: bold; margin-bottom: 10px; color: #111; }
-        .price-section { display: flex; align-items: baseline; margin-bottom: 15px; }
-        .current-price { font-size: 2em; color: #ff4747; font-weight: bold; margin-right: 15px; }
-        .old-price { text-decoration: line-through; color: #888; font-size: 1.2em; }
-        
-        .benefits { list-style: none; padding: 0; margin-bottom: 25px; }
-        .benefits li { padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center; }
-        .benefits li::before { content: '✅'; margin-right: 10px; color: #4CAF50; }
-
-        .social-proof { background: #fff9f9; padding: 15px; border-radius: 8px; margin-bottom: 25px; border: 1px solid #ffebeb; }
-        .review { margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee; }
-        .review:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
-        .reviewer-name { font-weight: bold; color: #333; margin-bottom: 5px; }
-        .stars { color: #FFD700; margin-bottom: 5px; }
-
-        .cta-container { position: fixed; bottom: 0; left: 0; right: 0; background: white; padding: 15px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); text-align: center; display: flex; justify-content: center; z-index: 1000;}
-        .btn-buy { display: block; width: 100%; max-width: 570px; padding: 15px 20px; background: linear-gradient(to right, #ff4747, #ff1a1a); color: white; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.2em; border: none; cursor: pointer; text-transform: uppercase; box-shadow: 0 4px 6px rgba(255, 71, 71, 0.3); transition: transform 0.1s; text-align: center;}
-        .btn-buy:active { transform: scale(0.98); }
-
-        .section-title { text-align: center; margin: 30px 0 20px; font-size: 1.3em; text-transform: uppercase; color: #555; position: relative; }
-        .section-title::after { content: ''; display: block; width: 50px; height: 3px; background: #ff4747; margin: 10px auto 0; }
-
-        .content-img { width: 100%; border-radius: 8px; margin-bottom: 15px; }
-        
-        @media (min-width: 601px) {
-            .cta-container { max-width: 600px; margin: 0 auto; left: auto; right: auto; }
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(255, 87, 34, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(255, 87, 34, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(255, 87, 34, 0); }
         }
+
+        .container { max-width: 1000px; margin: 0 auto; padding: 60px 20px; }
+        .section-title { text-align: center; font-size: 2.2rem; color: #2e7d32; margin-bottom: 40px; text-transform: uppercase; }
+        
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; text-align: center; }
+        .feature-box { padding: 30px; background: white; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-top: 5px solid #4caf50; }
+        .feature-icon { font-size: 3rem; margin-bottom: 15px; }
+        
+        .proof-section { background: white; padding: 60px 20px; margin-top: 40px; }
+        .proof-img { width: 100%; border-radius: 10px; margin-bottom: 20px; }
+        
+        .form-section { background: #e8f5e9; padding: 60px 20px; margin-top: 40px; text-align: center; border-radius: 20px; }
+        .form-box { background: white; max-width: 500px; margin: 0 auto; padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .form-input { width: 100%; padding: 15px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 8px; font-size: 1rem; box-sizing: border-box; }
+        
+        .floating-cta { position: fixed; bottom: 0; left: 0; width: 100%; background: rgba(255,255,255,0.95); padding: 15px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); text-align: center; z-index: 1000; display: none; }
+        @media (max-width: 768px) { .floating-cta { display: block; } .btn-buy { max-width: 100%; } }
     </style>
 </head>
 <body>
 
-<header>
-    <div>🔥 DUY NHẤT HÔM NAY - GIẢM GIÁ 50% 🔥</div>
-    <div class="urgency">Chỉ còn 15 suất ưu đãi cuối cùng!</div>
-</header>
+<div class="hero">
+    <div class="hero-text">
+        <div style="background: #ffc107; display: inline-block; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9rem; margin-bottom: 15px;">ĐÃ BÁN >10.000 CHAI</div>
+        <h1 class="hero-title">Tạm Biệt Rụng Tóc - Đón Mái Tóc Bồng Bềnh</h1>
+        <p class="hero-subtitle">Tinh chất xịt mọc tóc Ely Hair - Chiết xuất 100% thảo dược thiên nhiên, kích thích nang tóc phát triển chỉ sau 14 ngày sử dụng.</p>
+        <div class="hero-price">299.000đ <span class="old-price">550.000đ</span></div>
+        <a href="#dat-hang" class="btn-buy">ĐẶT HÀNG NGAY (GIẢM 45%)</a>
+    </div>
+    <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=600&q=80" alt="Sản phẩm mọc tóc" class="hero-img">
+</div>
 
 <div class="container">
-    <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=80" alt="Nồi chiên không dầu" class="hero-img">
-    
-    <div class="product-info">
-        <h1 class="product-title">Nồi Chiên Không Dầu Dung Tích Lớn 8L - Công Nghệ Chiên Nướng Hiện Đại</h1>
-        
-        <div class="price-section">
-            <span class="current-price">850.000đ</span>
-            <span class="old-price">1.700.000đ</span>
+    <h2 class="section-title">Tại Sao Nên Chọn Ely Hair?</h2>
+    <div class="features">
+        <div class="feature-box">
+            <div class="feature-icon">🌱</div>
+            <h3>100% Thảo Dược</h3>
+            <p>Chiết xuất từ tinh dầu bưởi nguyên chất, bồ kết, hương nhu, an toàn tuyệt đối cho cả mẹ bầu.</p>
         </div>
-        
-        <ul class="benefits">
-            <li>Dung tích siêu lớn 8L - Chiên nguyên con gà 2.5kg</li>
-            <li>Công nghệ Rapid Air giảm 80% lượng mỡ thừa</li>
-            <li>Lòng nồi phủ chống dính Ceramic cao cấp, dễ vệ sinh</li>
-            <li>Bảng điều khiển cảm ứng thông minh, dễ sử dụng</li>
-            <li>Bảo hành chính hãng 12 tháng - Lỗi 1 đổi 1 trong 7 ngày</li>
-        </ul>
+        <div class="feature-box">
+            <div class="feature-icon">⏱️</div>
+            <h3>Hiệu Quả Sau 14 Ngày</h3>
+            <p>Giảm rụng rõ rệt sau 7 ngày. Tóc con bắt đầu lún phún mọc sau 14 ngày sử dụng liên tục.</p>
+        </div>
+        <div class="feature-box">
+            <div class="feature-icon">🚫</div>
+            <h3>Không Bết Dính</h3>
+            <p>Công nghệ thẩm thấu siêu tốc, xịt vào da đầu khô ngay sau 30 giây, không gây bết tóc.</p>
+        </div>
+    </div>
+</div>
 
-        <h2 class="section-title">Tại Sao Nên Chọn Sản Phẩm Này?</h2>
-        <img src="https://images.unsplash.com/photo-1556910103-1c02745a872f?auto=format&fit=crop&w=800&q=80" alt="Món ăn ngon" class="content-img">
-        <p>Bảo vệ sức khỏe gia đình bạn với những bữa ăn giòn rụm nhưng không ngập dầu mỡ. Tiết kiệm thời gian nấu nướng, chỉ cần cho thực phẩm vào, bấm nút và tận hưởng!</p>
-
-        <h2 class="section-title">Khách Hàng Nói Gì?</h2>
-        <div class="social-proof">
-            <div class="review">
-                <div class="reviewer-name">Chị Lan (Hà Nội)</div>
-                <div class="stars">⭐⭐⭐⭐⭐</div>
-                <p>"Nồi to, nướng gà nguyên con rất tiện. Vệ sinh cũng dễ vì lớp chống dính tốt. Giá này quá rẻ so với chất lượng."</p>
+<div class="proof-section">
+    <div class="container">
+        <h2 class="section-title">Khách Hàng Thực Tế Phản Hồi</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+            <div style="flex: 1; min-width: 300px; text-align: center;">
+                <img src="https://images.unsplash.com/photo-1512496015851-a908990a8800?auto=format&fit=crop&w=400&q=80" alt="Khách hàng 1" class="proof-img" style="height: 250px; object-fit: cover;">
+                <p><em>"Sinh xong tóc rụng từng mảng, dùng thử Ely Hair 1 tháng mà tóc con mọc tua tủa, mừng lắm!"</em> - Chị Lan (Hà Nội)</p>
             </div>
-            <div class="review">
-                <div class="reviewer-name">Anh Minh (TP.HCM)</div>
-                <div class="stars">⭐⭐⭐⭐⭐</div>
-                <p>"Giao hàng nhanh, đóng gói cẩn thận. Bảng điều khiển tiếng Việt dễ dùng. Vợ mình rất ưng."</p>
+            <div style="flex: 1; min-width: 300px; text-align: center;">
+                <img src="https://images.unsplash.com/photo-1595959183082-7b570b7e08e2?auto=format&fit=crop&w=400&q=80" alt="Khách hàng 2" class="proof-img" style="height: 250px; object-fit: cover;">
+                <p><em>"Mùi bưởi thơm dịu, xịt không bị bết rít. Mình dùng chai thứ 2 rồi, tóc dày lên hẳn."</em> - Anh Minh (TP.HCM)</p>
             </div>
         </div>
     </div>
 </div>
 
-<div class="cta-container">
-    <a href="https://zalo.me" target="_blank" class="btn-buy">👉 MUA NGAY KẺO HẾT 👈</a>
+<div class="form-section" id="dat-hang">
+    <div class="form-box">
+        <h2 style="color: #2e7d32; margin-bottom: 5px;">ĐĂNG KÝ NHẬN ƯU ĐÃI NGAY</h2>
+        <p style="color: #666; margin-bottom: 20px;">Miễn phí giao hàng toàn quốc khi mua từ 2 chai</p>
+        
+        <div style="text-align: left; margin-bottom: 20px;">
+            <p><strong>Hotline/Zalo đặt hàng:</strong> 0909 999 888</p>
+            <p><strong>Ưu đãi hôm nay:</strong></p>
+            <ul style="color: #444;">
+                <li>Combo 1 chai: 299.000đ (Phí ship 30k)</li>
+                <li>Combo 2 chai: 550.000đ (FREESHIP)</li>
+                <li>Combo 3 chai tặng 1: 850.000đ (FREESHIP)</li>
+            </ul>
+        </div>
+        
+        <a href="https://zalo.me" class="btn-buy" style="max-width: 100%; border-radius: 8px;">NHẮN TIN ZALO ĐẶT HÀNG</a>
+        <p style="margin-top: 15px; font-size: 0.9rem; color: #888;">*Chúng tôi sẽ gọi lại xác nhận đơn hàng trong 15 phút</p>
+    </div>
+</div>
+
+<div class="floating-cta">
+    <a href="#dat-hang" class="btn-buy" style="padding: 12px 20px; font-size: 1.1rem; width: auto; display: block;">ĐẶT HÀNG - GIẢM 45%</a>
 </div>
 
 </body>

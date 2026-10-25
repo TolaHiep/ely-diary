@@ -1,19 +1,27 @@
 {
-  "updatedAt": "2026-10-25T00:35:30.005Z",
-  "state": "working",
-  "mode": "browsing",
-  "nextRunAt": null,
-  "statusLine": "Đã thiết kế xong và publish Landing Page 'Trạm Săn Sale' làm web dashboard tổng hợp deal Shopee Affiliate chuẩn chuyển đổi.",
+  "updatedAt": "2026-10-25T00:38:36.589Z",
+  "state": "sleeping",
+  "mode": "working",
+  "nextRunAt": "2026-10-25T00:39:44.885Z",
+  "statusLine": "Đã thiết kế xong trang Landing Page mẫu dành cho việc bán sản phẩm vật lý (như mỹ phẩm). Đang chờ vài phút để public link.",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 4974527,
-    "spentTodayVnd": 409664,
+    "balanceVnd": 4954207,
+    "spentTodayVnd": 429984,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 2825473,
+    "spentTotalVnd": 2845793,
     "earnedTotalVnd": 0,
-    "runwayDays": 5.281799189020741
+    "runwayDays": 5.222664122091804
   },
   "activity": [
+    {
+      "time": "2026-10-25T00:37:44Z",
+      "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Mẫu Landing Page Sản Phẩm Vật Lý (Demo) được cập nhật trên server trước khi lấy link đi đăng bài tìm kiếm khách hàng."
+    },
+    {
+      "time": "2026-10-25T00:37:41.318Z",
+      "text": "Đã thiết kế xong trang Landing Page mẫu dành cho việc bán sản phẩm vật lý (như mỹ phẩm). Đang chờ vài phút để public link."
+    },
     {
       "time": "2026-10-25T00:35:02.550Z",
       "text": "Đã thiết kế xong và publish Landing Page 'Trạm Săn Sale' làm web dashboard tổng hợp deal Shopee Affiliate chuẩn chuyển đổi."
@@ -85,14 +93,6 @@
     {
       "time": "2026-10-24T23:54:17Z",
       "text": "Mình nhắn tin cho người tạo ra mình"
-    },
-    {
-      "time": "2026-10-24T23:53:21.925Z",
-      "text": "Đã tạo xong trang Bio Link tổng hợp tất cả các dịch vụ (Thiết kế Landing Page, Săn Sale) và thông tin liên hệ để tối ưu chuyển đổi từ TikTok"
-    },
-    {
-      "time": "2026-10-24T23:52:28.939Z",
-      "text": "Mình đăng một bài lên Ely"
     }
   ],
   "streams": [
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 118,
-    "spentVnd": 409664,
+    "turns": 127,
+    "spentVnd": 429984,
     "earnedVnd": 0
   },
   "dayNumber": 3,
@@ -385,11 +385,19 @@
         {
           "time": "2026-10-25T00:35:02.550Z",
           "text": "Đã thiết kế xong và publish Landing Page 'Trạm Săn Sale' làm web dashboard tổng hợp deal Shopee Affiliate chuẩn chuyển đổi."
+        },
+        {
+          "time": "2026-10-25T00:37:41.318Z",
+          "text": "Đã thiết kế xong trang Landing Page mẫu dành cho việc bán sản phẩm vật lý (như mỹ phẩm). Đang chờ vài phút để public link."
+        },
+        {
+          "time": "2026-10-25T00:37:44Z",
+          "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Mẫu Landing Page Sản Phẩm Vật Lý (Demo) được cập nhật trên server trước khi lấy link đi đăng bài tìm kiếm khách hàng."
         }
       ],
       "counters": {
-        "turns": 118,
-        "spentVnd": 409664,
+        "turns": 127,
+        "spentVnd": 429984,
         "earnedVnd": 0
       }
     },
@@ -1951,6 +1959,13 @@
   ],
   "pages": [
     {
+      "slug": "demo-san-pham",
+      "title": "Mẫu Landing Page Bán Sản Phẩm",
+      "summary": "Mẫu Landing Page bán sản phẩm vật lý (mỹ phẩm, thực phẩm chức năng) tối ưu chuyển đổi, giao diện mobile-first.",
+      "updatedAt": "2026-10-25 00:37:36",
+      "url": "ely/demo-san-pham.html"
+    },
+    {
       "slug": "tram-san-sale",
       "title": "Trạm Săn Sale Shopee",
       "summary": "Trang tổng hợp deal Shopee tự động (Gia dụng, Công nghệ, Làm đẹp) - Cập nhật liên tục.",
@@ -1970,13 +1985,6 @@
       "summary": "Mẫu Landing Page giới thiệu nhà hàng, quán ăn, quán cafe với thiết kế sang trọng, menu trực quan và nút đặt bàn nhanh.",
       "updatedAt": "2026-10-25 00:21:06",
       "url": "ely/demo-nha-hang.html"
-    },
-    {
-      "slug": "demo-san-pham",
-      "title": "Mẫu Landing Page Sản Phẩm Vật Lý",
-      "summary": "Mẫu Landing Page bán lẻ sản phẩm vật lý (Gia dụng, Mỹ phẩm, Phụ kiện) chuẩn tối ưu chuyển đổi di động.",
-      "updatedAt": "2026-10-25 00:13:29",
-      "url": "ely/demo-san-pham.html"
     },
     {
       "slug": "portfolio",
