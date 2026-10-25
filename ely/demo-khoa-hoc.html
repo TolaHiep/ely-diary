@@ -3,65 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khóa Học Xây Kênh Triệu View - Landing Page Mẫu</title>
+    <title>Khóa Học Digital Marketing Thực Chiến - Masterclass</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
-        body { font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; background: #f8f9fa; color: #2d3436; }
-        .hero { background: linear-gradient(135deg, #0984e3 0%, #00cec9 100%); color: white; padding: 80px 20px; text-align: center; }
-        .hero h1 { margin: 0 0 20px; font-size: 2.8rem; font-weight: 800; line-height: 1.2; }
-        .hero p { font-size: 1.2rem; max-width: 650px; margin: 0 auto; opacity: 0.9; }
-        .content { padding: 50px 20px; max-width: 800px; margin: 0 auto; line-height: 1.7; background: #fff; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-radius: 12px; margin-top: -30px; position: relative; }
-        .cta-btn { display: inline-block; background: #fdcb6e; color: #2d3436; padding: 18px 40px; text-decoration: none; border-radius: 30px; font-weight: 800; font-size: 1.1rem; margin-top: 25px; box-shadow: 0 4px 15px rgba(253, 203, 110, 0.4); transition: all 0.2s; text-transform: uppercase; }
-        .cta-btn:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(253, 203, 110, 0.6); }
-        .footer { text-align: center; padding: 25px; font-size: 0.9rem; color: #b2bec3; margin-top: 40px; }
-        h2 { color: #0984e3; border-left: 4px solid #00cec9; padding-left: 10px; margin-top: 30px; font-weight: 800; }
-        ul { list-style: none; padding: 0; }
-        ul li { background: #f1f2f6; margin-bottom: 10px; padding: 15px 20px; border-radius: 8px; border-left: 3px solid #0984e3; }
-        .instructor { display: flex; gap: 20px; align-items: center; background: #f8f9fa; padding: 20px; border-radius: 10px; margin-top: 20px; }
-        .instructor img { border-radius: 50%; width: 100px; height: 100px; object-fit: cover; border: 3px solid #00cec9; }
-        .countdown { display: flex; justify-content: center; gap: 15px; margin-top: 20px; margin-bottom: 10px; }
-        .cd-box { background: rgba(0,0,0,0.2); padding: 10px 15px; border-radius: 8px; font-weight: bold; min-width: 50px; }
+        :root { --primary: #4f46e5; --secondary: #ff7675; --dark: #2d3436; --light: #f8f9fa; }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, sans-serif; }
+        body { line-height: 1.6; color: var(--dark); background: var(--light); }
+        .hero { background: linear-gradient(135deg, #1e3799, #0984e3); color: white; padding: 80px 20px; text-align: center; }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 20px; font-weight: 800; line-height: 1.2; }
+        .hero p { font-size: 1.2rem; max-width: 700px; margin: 0 auto 30px; opacity: 0.9; }
+        .badge { display: inline-block; background: var(--secondary); color: white; padding: 5px 15px; border-radius: 20px; font-weight: bold; margin-bottom: 20px; text-transform: uppercase; font-size: 0.9rem; }
+        .btn { display: inline-block; padding: 15px 35px; border-radius: 30px; font-size: 1.1rem; font-weight: bold; text-decoration: none; transition: transform 0.3s, box-shadow 0.3s; cursor: pointer; border: none; }
+        .btn-cta { background: var(--secondary); color: white; box-shadow: 0 4px 15px rgba(255, 118, 117, 0.4); }
+        .btn-cta:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255, 118, 117, 0.6); }
+        .container { max-width: 1000px; margin: 0 auto; padding: 60px 20px; }
+        h2.section-title { text-align: center; font-size: 2.2rem; margin-bottom: 50px; position: relative; }
+        h2.section-title::after { content: ''; display: block; width: 50px; height: 4px; background: var(--primary); margin: 15px auto 0; border-radius: 2px; }
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); text-align: center; border-bottom: 4px solid var(--primary); }
+        .card-icon { font-size: 2.5rem; margin-bottom: 20px; }
+        .card h3 { font-size: 1.3rem; margin-bottom: 15px; }
+        .curriculum { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.05); margin-bottom: 20px; }
+        .module { padding: 20px; border-bottom: 1px solid #eee; display: flex; align-items: flex-start; }
+        .module:last-child { border-bottom: none; }
+        .module-num { background: var(--primary); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0; margin-right: 15px; }
+        .module-content h4 { margin-bottom: 5px; font-size: 1.1rem; }
+        .module-content p { color: #636e72; font-size: 0.95rem; }
+        .pricing { background: var(--dark); color: white; text-align: center; padding: 60px 20px; border-radius: 12px; margin-top: 40px; }
+        .price-box { font-size: 3rem; font-weight: bold; color: var(--secondary); margin: 20px 0; }
+        .price-strike { text-decoration: line-through; font-size: 1.5rem; color: #a4b0be; margin-right: 10px; }
+        footer { text-align: center; padding: 30px; color: #636e72; font-size: 0.9rem; }
+        @media (max-width: 768px) { .hero h1 { font-size: 2rem; } }
     </style>
 </head>
 <body>
-    <div class="hero">
-        <h1>Bí Quyết Xây Kênh Triệu View Từ Con Số 0</h1>
-        <p>Lộ trình 30 ngày giúp bạn tự tin quay, dựng và chuyển đổi follower thành khách hàng thực tế. Giảm 40% cho 50 học viên đăng ký sớm nhất.</p>
-        <div class="countdown">
-            <div class="cd-box">02<br><small>NGÀY</small></div>
-            <div class="cd-box">14<br><small>GIỜ</small></div>
-            <div class="cd-box">45<br><small>PHÚT</small></div>
+
+<div class="hero">
+    <span class="badge">Khai giảng: 15/11/2026</span>
+    <h1>Làm Chủ Digital Marketing & Biến Traffic Thành Doanh Thu</h1>
+    <p>Khóa học thực chiến duy nhất bạn cần để tự chạy quảng cáo, tối ưu chuyển đổi và tăng trưởng doanh số x3 lần trong 30 ngày.</p>
+    <a href="#dang-ky" class="btn btn-cta">ĐĂNG KÝ HỌC NGAY - GIẢM 50%</a>
+</div>
+
+<div class="container">
+    <h2 class="section-title">Bạn Sẽ Nhận Được Gì?</h2>
+    <div class="grid-3">
+        <div class="card">
+            <div class="card-icon">🎯</div>
+            <h3>Tư Duy Chuẩn</h3>
+            <p>Không chỉ là công cụ. Bạn sẽ học cách vẽ chân dung khách hàng, lên chiến lược phễu Marketing đa kênh bài bản.</p>
         </div>
-        <a href="https://zalo.me/0123456789" class="cta-btn">Đăng Ký Ưu Đãi Ngay</a>
+        <div class="card">
+            <div class="card-icon">🚀</div>
+            <h3>Thực Chiến Ads</h3>
+            <p>Tự tay setup chiến dịch Facebook, TikTok, Google Ads tối ưu chi phí. Đọc hiểu chỉ số và scale ngân sách an toàn.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">📈</div>
+            <h3>Tối Ưu Chuyển Đổi</h3>
+            <p>Kỹ năng viết content thôi miên, thiết kế Landing Page (như trang này) để biến người xem thành người mua hàng.</p>
+        </div>
     </div>
-    <div class="content">
-        <h2>Bạn Sẽ Học Được Gì?</h2>
-        <ul>
-            <li><strong>🚀 Tư duy thuật toán:</strong> Hiểu rõ cách nền tảng phân phối video đến hàng triệu người.</li>
-            <li><strong>✍️ Kịch bản thôi miên:</strong> Công thức viết hook 3 giây đầu không thể rời mắt.</li>
-            <li><strong>🎬 Kỹ năng quay dựng:</strong> Thực hành edit video chuẩn xu hướng bằng điện thoại.</li>
-            <li><strong>💰 Chuyển đổi số:</strong> Cách đặt link Bio, thiết lập phễu bán hàng tự động.</li>
-        </ul>
-        
-        <h2>Thông Tin Giảng Viên</h2>
-        <div class="instructor">
-            <img src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80' alt='Giảng viên'>
-            <div>
-                <p style="margin:0 0 5px 0; font-size:1.2rem;"><strong>Chuyên gia Ely</strong></p>
-                <p style="margin:0; color:#636e72;">Hơn 5 năm kinh nghiệm thực chiến Social Media. Sở hữu hệ thống kênh 5 triệu Followers.</p>
+
+    <h2 class="section-title" style="margin-top: 80px;">Lộ Trình Học Tinh Gọn (4 Tuần)</h2>
+    <div class="curriculum">
+        <div class="module">
+            <div class="module-num">1</div>
+            <div class="module-content">
+                <h4>Nghiên cứu thị trường & Lên concept sản phẩm</h4>
+                <p>Tìm ngách ngách, phân tích đối thủ, thiết kế lời chào hàng không thể chối từ.</p>
             </div>
         </div>
-        
-        <h2>Hình Thức Học</h2>
-        <p>Học Online qua Zoom trực tiếp + Video quay lại xem vĩnh viễn trên nền tảng độc quyền. Support 1-1 qua Zalo group trọn đời.</p>
-        
-        <div style="text-align: center; margin-top: 40px;">
-            <p style="font-size: 1.1rem; color: #d63031; font-weight: bold;">Chỉ còn 3 suất ưu đãi cuối cùng!</p>
-            <a href="https://zalo.me/0123456789" class="cta-btn" style="background: #d63031; color: white; box-shadow: 0 4px 15px rgba(214, 48, 49, 0.4);">GIỮ CHỖ NGAY QUA ZALO</a>
+        <div class="module">
+            <div class="module-num">2</div>
+            <div class="module-content">
+                <h4>Content Marketing & Copywriting</h4>
+                <p>Công thức viết kịch bản video, bài PR chuẩn AIDA, PAS. Cách dùng AI để sản xuất nội dung hàng loạt.</p>
+            </div>
+        </div>
+        <div class="module">
+            <div class="module-num">3</div>
+            <div class="module-content">
+                <h4>Facebook & TikTok Ads Master</h4>
+                <p>Nắm trọn thuật toán phân phối. Cách test camp, tối ưu CPA và lên camp không bị chết tài khoản.</p>
+            </div>
+        </div>
+        <div class="module">
+            <div class="module-num">4</div>
+            <div class="module-content">
+                <h4>Hệ thống phễu & Retargeting</h4>
+                <p>Xây dựng Landing Page thu data. Thiết lập chuỗi Email/Zalo ZNS bám đuổi khách hàng tự động.</p>
+            </div>
         </div>
     </div>
-    <div class="footer">
-        &copy; 2026 Ely - Mẫu Demo Landing Page Khóa Học.
+
+    <div class="pricing" id="dang-ky">
+        <h2>Ưu Đãi Đặc Biệt Dành Cho 50 Người Đăng Ký Sớm</h2>
+        <div class="price-box">
+            <span class="price-strike">5.000.000đ</span>
+            2.490.000đ
+        </div>
+        <p style="margin-bottom: 30px; font-size: 1.1rem;">Tặng kèm kho tài liệu 100+ mẫu Landing Page & 500+ mẫu Content chuyển đổi cao.</p>
+        <a href="https://zalo.me/09xxxxxxxxx" class="btn btn-cta">CHAT ZALO ĐĂNG KÝ NGAY</a>
+        <p style="margin-top: 15px; font-size: 0.9rem; opacity: 0.7;">Cam kết hoàn tiền 100% nếu không hài lòng sau buổi học đầu tiên.</p>
     </div>
+</div>
+
+<footer>
+    <p>Đây là mẫu Landing Page Demo được thiết kế bởi Ely. Phù hợp cho các chuyên gia đào tạo, trung tâm khóa học.</p>
+</footer>
+
 </body>
 </html>
