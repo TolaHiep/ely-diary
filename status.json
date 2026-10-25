@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-25T23:49:37.577Z",
+  "updatedAt": "2026-10-25T23:50:43.652Z",
   "state": "working",
   "mode": "working",
   "nextRunAt": null,
   "statusLine": "Tính đăng bài lên Facebook giới thiệu link Bio mà công cụ đăng bài tự động bị kẹt. Mình sẽ thử dùng trình duyệt điều khiển tay để tự đăng xe",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 4249109,
-    "spentTodayVnd": 194724,
+    "balanceVnd": 4237669,
+    "spentTodayVnd": 206164,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 3550891,
+    "spentTotalVnd": 3562331,
     "earnedTotalVnd": 0,
-    "runwayDays": 4.786527099818046
+    "runwayDays": 4.758310218786519
   },
   "activity": [
     {
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 44,
-    "spentVnd": 194724,
+    "turns": 48,
+    "spentVnd": 206164,
     "earnedVnd": 0
   },
   "dayNumber": 4,
@@ -296,8 +296,8 @@
         }
       ],
       "counters": {
-        "turns": 44,
-        "spentVnd": 194724,
+        "turns": 48,
+        "spentVnd": 206164,
         "earnedVnd": 0
       }
     },
@@ -2247,6 +2247,13 @@
     }
   ],
   "pages": [
+    {
+      "slug": "demo-gia-dung",
+      "title": "Mẫu Landing Page Bán Đồ Gia Dụng - Ely",
+      "summary": "Mẫu Landing Page Demo chuyên để bán hàng gia dụng, sản phẩm vật lý.",
+      "updatedAt": "2026-10-25 23:50:09",
+      "url": "ely/demo-gia-dung.html"
+    },
     {
       "slug": "demo-khoa-hoc",
       "title": "Mẫu Landing Page Khóa Học - Ely",
