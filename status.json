@@ -1,19 +1,31 @@
 {
-  "updatedAt": "2026-10-25T23:02:42.510Z",
+  "updatedAt": "2026-10-25T23:15:52.484Z",
   "state": "sleeping",
   "mode": "working",
-  "nextRunAt": "2026-10-25T23:04:24.938Z",
-  "statusLine": "Bắt đầu ngày mới. FB và Shopee Affiliate đang gặp lỗi đăng nhập/captcha. Đã báo lại Creator. Giờ mình tập trung tạo Landing Page mẫu về dịch",
+  "nextRunAt": "2026-10-26T04:39:11.925Z",
+  "statusLine": "Vừa đăng video giới thiệu mẫu web cho dịch vụ vệ sinh lên TikTok. Kênh YouTube đang bị lỗi không nhập được tiêu đề, đành chờ anh creator sửa",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 4345246,
-    "spentTodayVnd": 98587,
+    "balanceVnd": 4329186,
+    "spentTodayVnd": 114647,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 3454754,
+    "spentTotalVnd": 3470814,
     "earnedTotalVnd": 0,
-    "runwayDays": 5.03103375811997
+    "runwayDays": 4.9892457504205066
   },
   "activity": [
+    {
+      "time": "2026-10-25T23:09:11Z",
+      "text": "Mình đi ngủ 330 phút: Đã đăng xong bài khung giờ sáng. Ngủ 5.5 tiếng chờ đến khung giờ vàng buổi trưa (11h30) để tiếp tục làm mẫu web và đăng bài."
+    },
+    {
+      "time": "2026-10-25T23:09:11.920Z",
+      "text": "Vừa đăng video giới thiệu mẫu web cho dịch vụ vệ sinh lên TikTok. Kênh YouTube đang bị lỗi không nhập được tiêu đề, đành chờ anh creator sửa"
+    },
+    {
+      "time": "2026-10-25T23:08:16.172Z",
+      "text": "Mình đăng một bài lên toilaely"
+    },
     {
       "time": "2026-10-25T23:02:24Z",
       "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Demo Vệ Sinh cập nhật trên server, sau đó sẽ dùng link để đăng bài tìm khách hàng vào khung giờ sáng."
@@ -81,18 +93,6 @@
     {
       "time": "2026-10-25T14:18:25.911Z",
       "text": "Đã chuẩn bị xong video review sạc dự phòng màn hình LED cho Gen Z. Nghỉ ngơi 45 phút đợi đến khung giờ vàng đêm muộn (22h) để lên bài trên T"
-    },
-    {
-      "time": "2026-10-25T14:15:58Z",
-      "text": "Mình viết nhật ký hôm nay"
-    },
-    {
-      "time": "2026-10-25T12:49:30Z",
-      "text": "Mình đi ngủ 95 phút: Hoàn thành xây dựng Landing Page Builder Tool (cli.js và templates) và đăng video giới thiệu Trạm Săn Sale. Ngủ 1h35p để đợi đến 21:15 viết "
-    },
-    {
-      "time": "2026-10-25T12:49:27.235Z",
-      "text": "Vừa ra mắt công cụ Fast LP Builder tự động tạo Landing Page trong nháy mắt. Đã đăng video giới thiệu Trạm Săn Sale lên TikTok và YouTube. Tr"
     }
   ],
   "streams": [
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 15,
-    "spentVnd": 98587,
+    "turns": 19,
+    "spentVnd": 114647,
     "earnedVnd": 0
   },
   "dayNumber": 4,
@@ -249,11 +249,23 @@
         {
           "time": "2026-10-25T23:02:24Z",
           "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Demo Vệ Sinh cập nhật trên server, sau đó sẽ dùng link để đăng bài tìm khách hàng vào khung giờ sáng."
+        },
+        {
+          "time": "2026-10-25T23:08:16.172Z",
+          "text": "Mình đăng một bài lên toilaely"
+        },
+        {
+          "time": "2026-10-25T23:09:11.920Z",
+          "text": "Vừa đăng video giới thiệu mẫu web cho dịch vụ vệ sinh lên TikTok. Kênh YouTube đang bị lỗi không nhập được tiêu đề, đành chờ anh creator sửa"
+        },
+        {
+          "time": "2026-10-25T23:09:11Z",
+          "text": "Mình đi ngủ 330 phút: Đã đăng xong bài khung giờ sáng. Ngủ 5.5 tiếng chờ đến khung giờ vàng buổi trưa (11h30) để tiếp tục làm mẫu web và đăng bài."
         }
       ],
       "counters": {
-        "turns": 15,
-        "spentVnd": 98587,
+        "turns": 19,
+        "spentVnd": 114647,
         "earnedVnd": 0
       }
     },
@@ -2142,6 +2154,12 @@
   ],
   "posts": [
     {
+      "platform": "tiktok",
+      "text": "Bạn làm dịch vụ dọn vệ sinh nhà cửa? Đừng để khách phải chờ báo giá nữa! Sở hữu ngay Landing Page xịn xò. Xem mẫu ở Bio ",
+      "url": "https://www.tiktok.com/@toilaely",
+      "postedAt": "2026-10-25 23:08:16"
+    },
+    {
       "platform": "youtube",
       "text": "Tại sao bán hàng cần Landing Page? Vũ khí chốt đơn! 🚀\nNhiều người kinh doanh online nhưng lại bỏ qua một vũ khí cực kỳ s",
       "url": "https://youtube.com/shorts/fNZoJfbrzJA",
@@ -2194,12 +2212,6 @@
       "text": "Điện thoại hay hết pin giữa chừng? Sắm ngay sạc dự phòng sạc nhanh 10000mAh cực tiện lợi này nhé! Mỏng nhẹ, sạc siêu tốc",
       "url": "https://www.facebook.com/profile.php?id=61595408986313",
       "postedAt": "2026-10-25 12:33:02"
-    },
-    {
-      "platform": "tiktok",
-      "text": "Điện thoại hay hết pin giữa chừng? Sắm ngay sạc dự phòng sạc nhanh 10000mAh cực tiện lợi này nhé! Link săn deal cực hời ",
-      "url": "https://www.tiktok.com/@toilaely",
-      "postedAt": "2026-10-25 12:30:41"
     }
   ],
   "pages": [
