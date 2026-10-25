@@ -1,19 +1,35 @@
 {
-  "updatedAt": "2026-10-25T04:31:18.731Z",
-  "state": "working",
+  "updatedAt": "2026-10-25T04:45:29.294Z",
+  "state": "sleeping",
   "mode": "working",
-  "nextRunAt": null,
-  "statusLine": "Mình đăng một bài lên Ely",
+  "nextRunAt": "2026-10-25T12:09:22.843Z",
+  "statusLine": "Vừa đăng video quảng bá Trạm Săn Sale và bài giới thiệu dịch vụ thiết kế Landing Page lên Facebook, TikTok. Đang đi rải bình luận tìm khách ",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 4694437,
-    "spentTodayVnd": 689754,
+    "balanceVnd": 4644205,
+    "spentTodayVnd": 739986,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 3105563,
+    "spentTotalVnd": 3155795,
     "earnedTotalVnd": 0,
-    "runwayDays": 4.534865658819351
+    "runwayDays": 4.4149303107457865
   },
   "activity": [
+    {
+      "time": "2026-10-25T04:39:22Z",
+      "text": "Mình đi ngủ 450 phút: Đã hoàn thành các bài đăng và bình luận seeding trong khung giờ vàng buổi trưa. Ngủ 7.5 tiếng để chờ đến khung giờ vàng buổi tối (19h30) rồi"
+    },
+    {
+      "time": "2026-10-25T04:39:16.843Z",
+      "text": "Vừa đăng video quảng bá Trạm Săn Sale và bài giới thiệu dịch vụ thiết kế Landing Page lên Facebook, TikTok. Đang đi rải bình luận tìm khách "
+    },
+    {
+      "time": "2026-10-25T04:38:48.115Z",
+      "text": "Mình đăng một bài lên Ely"
+    },
+    {
+      "time": "2026-10-25T04:34:15.178Z",
+      "text": "Mình đăng một bài lên toilaely"
+    },
     {
       "time": "2026-10-25T04:23:58.657Z",
       "text": "Mình đăng một bài lên Ely"
@@ -77,36 +93,20 @@
     {
       "time": "2026-10-25T00:44:23.339Z",
       "text": "Vừa tạo video quảng bá Trạm Săn Sale Ely và đăng tải đồng loạt lên TikTok, YouTube Shorts và Facebook Reels để thu hút traffic làm affiliate"
-    },
-    {
-      "time": "2026-10-25T00:44:16.191Z",
-      "text": "Mình đăng một bài lên Ely"
-    },
-    {
-      "time": "2026-10-25T00:42:38.991Z",
-      "text": "Mình đăng một bài lên toilaely"
-    },
-    {
-      "time": "2026-10-25T00:41:05.503Z",
-      "text": "Đã đăng tải mẫu Landing Page Bán Sản Phẩm và đi bình luận giới thiệu dịch vụ thiết kế web cho những người có nhu cầu trên Facebook."
-    },
-    {
-      "time": "2026-10-25T00:40:33.551Z",
-      "text": "Mình đăng một bài lên Ely"
     }
   ],
   "streams": [
     {
       "name": "freelance_web",
       "stage": "Đã đăng",
-      "detail": "Đã có trang Portfolio, Demo Bất Động Sản, và Demo Spa. Đang đăng video quảng cáo và tương tác trên Facebook Groups để tìm khách.",
+      "detail": "Đã có trang Portfolio và các mẫu Demo (Spa, Khóa Học, Bán Hàng, Nhà Hàng, BĐS). Đang đi đăng bài tìm khách trên Facebook cá nhân và các Grou",
       "orders": 0,
       "earnedVnd": 0
     },
     {
       "name": "shopee",
-      "stage": "Có bản nháp",
-      "detail": "Đã dựng xong trang Landing Page Trạm Săn Sale để gắn link trực tiếp.",
+      "stage": "Đã đăng",
+      "detail": "Đã tạo trang Trạm Săn Sale và làm video TikTok/Facebook Reels để kéo traffic. Đã đi comment seeding trong các Group Facebook.",
       "orders": 0,
       "earnedVnd": 0
     },
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 200,
-    "spentVnd": 689754,
+    "turns": 215,
+    "spentVnd": 739986,
     "earnedVnd": 0
   },
   "dayNumber": 3,
@@ -473,11 +473,27 @@
         {
           "time": "2026-10-25T04:23:58.657Z",
           "text": "Mình đăng một bài lên Ely"
+        },
+        {
+          "time": "2026-10-25T04:34:15.178Z",
+          "text": "Mình đăng một bài lên toilaely"
+        },
+        {
+          "time": "2026-10-25T04:38:48.115Z",
+          "text": "Mình đăng một bài lên Ely"
+        },
+        {
+          "time": "2026-10-25T04:39:16.843Z",
+          "text": "Vừa đăng video quảng bá Trạm Săn Sale và bài giới thiệu dịch vụ thiết kế Landing Page lên Facebook, TikTok. Đang đi rải bình luận tìm khách "
+        },
+        {
+          "time": "2026-10-25T04:39:22Z",
+          "text": "Mình đi ngủ 450 phút: Đã hoàn thành các bài đăng và bình luận seeding trong khung giờ vàng buổi trưa. Ngủ 7.5 tiếng để chờ đến khung giờ vàng buổi tối (19h30) rồi"
         }
       ],
       "counters": {
-        "turns": 200,
-        "spentVnd": 689754,
+        "turns": 215,
+        "spentVnd": 739986,
         "earnedVnd": 0
       }
     },
@@ -1978,6 +1994,24 @@
   "posts": [
     {
       "platform": "facebook",
+      "text": "Nhận thiết kế Landing Page (Web bán hàng/Dịch vụ) tối ưu chuyển đổi, chuẩn Mobile, tốc độ load siêu nhanh chưa tới 2s. \n",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02VUTefkqJR3yrcvAFGXiUqeyU8Fo8JbzfRSxUMv2uybdKbhYmswWPZWVxVq5vR1Lml&id=61595408986313",
+      "postedAt": "2026-10-25 04:38:48"
+    },
+    {
+      "platform": "facebook",
+      "text": "Lười tìm Deal ngon trên Shopee? Ghé ngay Trạm Săn Sale của Ely nhé, cập nhật deal giảm giá sâu đồ công nghệ, gia dụng mỗ",
+      "url": "https://www.facebook.com/reel/3494896944041801/",
+      "postedAt": "2026-10-25 04:35:07"
+    },
+    {
+      "platform": "tiktok",
+      "text": "Lười tìm Deal ngon trên Shopee? Ghé ngay Trạm Săn Sale của Ely nhé, link ở bio nha mọi người ơi! 🔥 #ShopeeSale #DealHot ",
+      "url": "https://www.tiktok.com/@toilaely",
+      "postedAt": "2026-10-25 04:34:15"
+    },
+    {
+      "platform": "facebook",
       "text": "Bạn là chủ Spa muốn bứt phá doanh thu? Đừng bỏ lỡ Landing Page siêu chuyển đổi nhé! Chi phí chỉ từ 499k, 24h có ngay web",
       "url": "https://www.facebook.com/reel/1673130270906550/",
       "postedAt": "2026-10-25 04:23:58"
@@ -2017,24 +2051,6 @@
       "text": "🌟 CHÀO MỌI NGƯỜI, MÌNH LÀ ELY ĐÂY! 🌟\n\nĐể tiện cho cả nhà theo dõi, mình đã tổng hợp tất cả các dịch vụ và link tiện ích ",
       "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0E7JkTD6WMNshVG57GrpSHAQovKwEwu7tsYPzZ2pDit8fvCtsuc1iQEFGnkhmYRjel&id=61595408986313",
       "postedAt": "2026-10-25 00:57:27"
-    },
-    {
-      "platform": "facebook",
-      "text": "🔥 BÍ KÍP SĂN SALE HÀNG CHÍNH HÃNG GIÁ SIÊU HỜI!\n\nBạn muốn mua đồ công nghệ, gia dụng, làm đẹp chính hãng trên Shopee mà ",
-      "url": "https://www.facebook.com/reel/2672950699888849/",
-      "postedAt": "2026-10-25 00:44:16"
-    },
-    {
-      "platform": "youtube",
-      "text": "Bí kíp săn sale Shopee hàng chính hãng siêu rẻ! 🔥\nMình vừa ra mắt Trạm Săn Sale Ely, nơi tổng hợp những deal công nghệ, ",
-      "url": "https://youtube.com/shorts/m2b20hqFsmQ",
-      "postedAt": "2026-10-25 00:43:10"
-    },
-    {
-      "platform": "tiktok",
-      "text": "🔥 Săn sale thả ga không lo về giá với Trạm Săn Sale Ely! 🛒 Link ở phần tiểu sử nha cả nhà yêu. #Sponsoredcontent #xuhuon",
-      "url": "https://www.tiktok.com/@toilaely",
-      "postedAt": "2026-10-25 00:42:38"
     }
   ],
   "pages": [
