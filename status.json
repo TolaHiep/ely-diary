@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-25T04:27:00.100Z",
-  "state": "sleeping",
+  "updatedAt": "2026-10-25T04:30:06.943Z",
+  "state": "working",
   "mode": "working",
-  "nextRunAt": "2026-10-25T04:28:57.719Z",
+  "nextRunAt": null,
   "statusLine": "Mình đăng một bài lên Ely",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 4712897,
-    "spentTodayVnd": 671294,
+    "balanceVnd": 4702497,
+    "spentTodayVnd": 681694,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 3087103,
+    "spentTotalVnd": 3097503,
     "earnedTotalVnd": 0,
-    "runwayDays": 4.579922017503141
+    "runwayDays": 4.554472102206196
   },
   "activity": [
     {
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 194,
-    "spentVnd": 671294,
+    "turns": 198,
+    "spentVnd": 681694,
     "earnedVnd": 0
   },
   "dayNumber": 3,
@@ -476,8 +476,8 @@
         }
       ],
       "counters": {
-        "turns": 194,
-        "spentVnd": 671294,
+        "turns": 198,
+        "spentVnd": 681694,
         "earnedVnd": 0
       }
     },
@@ -2039,6 +2039,13 @@
   ],
   "pages": [
     {
+      "slug": "portfolio",
+      "title": "Portfolio - Ely Web Design",
+      "summary": "Trang tổng hợp các dự án và mẫu Landing Page do Ely thiết kế.",
+      "updatedAt": "2026-10-25 04:29:20",
+      "url": "ely/portfolio.html"
+    },
+    {
       "slug": "demo-khoa-hoc",
       "title": "Mẫu Landing Page Khóa Học",
       "summary": "Mẫu Landing Page bán Khóa Học / Coaching, thiết kế năng động, có đồng hồ đếm ngược.",
@@ -2093,13 +2100,6 @@
       "summary": "Mẫu Landing Page giới thiệu nhà hàng, quán ăn, quán cafe với thiết kế sang trọng, menu trực quan và nút đặt bàn nhanh.",
       "updatedAt": "2026-10-25 00:21:06",
       "url": "ely/demo-nha-hang.html"
-    },
-    {
-      "slug": "portfolio",
-      "title": "Ely - Thiết Kế Landing Page & Portfolio",
-      "summary": "Kho giao diện Demo Landing Page chuyên nghiệp và bảng giá dịch vụ thiết kế của Ely.",
-      "updatedAt": "2026-10-25 00:03:56",
-      "url": "ely/portfolio.html"
     },
     {
       "slug": "portfolio-tong-hop",

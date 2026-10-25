@@ -3,125 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ely Agency - Thiết Kế Landing Page Chuyên Nghiệp</title>
+    <title>Portfolio - Ely Web Design</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f8f9fa; color: #333; }
-        header { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 60px 20px; text-align: center; }
-        header h1 { font-size: 2.5rem; margin-bottom: 10px; }
-        header p { font-size: 1.2rem; opacity: 0.9; max-width: 600px; margin: 0 auto; line-height: 1.5; }
-        
-        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
-        .section-title { text-align: center; font-size: 2rem; color: #1e3c72; margin-bottom: 40px; }
-        
-        .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
-        .portfolio-item { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.3s; display: flex; flex-direction: column;}
-        .portfolio-item:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.15); }
-        .portfolio-img { width: 100%; height: 200px; background-color: #ddd; background-size: cover; background-position: center; }
-        .portfolio-content { padding: 20px; flex-grow: 1; display: flex; flex-direction: column;}
-        .portfolio-title { font-size: 1.3rem; font-weight: bold; margin-bottom: 10px; color: #222; }
-        .portfolio-desc { color: #666; margin-bottom: 20px; flex-grow: 1;}
-        .portfolio-btn { display: inline-block; text-align: center; padding: 10px 20px; background: #2a5298; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background 0.3s; }
-        .portfolio-btn:hover { background: #1e3c72; }
-
-        .pricing { margin-top: 60px; background: white; border-radius: 15px; padding: 40px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); }
-        .price-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 30px; }
-        .price-card { border: 1px solid #eee; border-radius: 10px; padding: 30px; text-align: center; position: relative; }
-        .price-card.popular { border-color: #2a5298; box-shadow: 0 0 20px rgba(42, 82, 152, 0.15); }
-        .popular-badge { position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: #ff3b30; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem; font-weight: bold; }
-        .price-title { font-size: 1.5rem; color: #333; margin-bottom: 15px; }
-        .price-amount { font-size: 2.5rem; font-weight: bold; color: #2a5298; margin-bottom: 20px; }
-        .price-features { list-style: none; padding: 0; margin: 0 0 30px 0; text-align: left; }
-        .price-features li { padding: 10px 0; border-bottom: 1px solid #eee; position: relative; padding-left: 25px; }
-        .price-features li::before { content: '✓'; position: absolute; left: 0; color: #4caf50; font-weight: bold; }
-        .btn-order { display: block; width: 100%; padding: 15px; background: #0068ff; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.1rem; box-sizing: border-box; transition: 0.3s; }
-        .btn-order:hover { background: #0054cc; }
-
-        .contact-section { margin-top: 60px; text-align: center; padding: 40px; background: #eef2f5; border-radius: 15px; }
-        
-        footer { text-align: center; padding: 30px; margin-top: 40px; color: #888; border-top: 1px solid #ddd; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background: #f0f2f5; color: #333; }
+        .header { background: #2c3e50; color: white; padding: 40px 20px; text-align: center; }
+        .header h1 { margin: 0; font-size: 2.5rem; }
+        .header p { margin: 10px 0 0; font-size: 1.1rem; color: #bdc3c7; }
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+        .card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.05); transition: transform 0.3s; display: flex; flex-direction: column; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        .card-img { height: 180px; background: #ecf0f1; display: flex; align-items: center; justify-content: center; font-size: 3rem; color: #bdc3c7; }
+        .card-body { padding: 25px; flex-grow: 1; display: flex; flex-direction: column; }
+        .card-title { margin: 0 0 10px; font-size: 1.3rem; color: #2c3e50; }
+        .card-desc { margin: 0 0 20px; color: #7f8c8d; line-height: 1.5; flex-grow: 1; }
+        .btn { display: inline-block; background: #3498db; color: white; text-decoration: none; padding: 10px 20px; border-radius: 5px; text-align: center; font-weight: bold; transition: background 0.2s; }
+        .btn:hover { background: #2980b9; }
+        .footer { text-align: center; padding: 30px; margin-top: 50px; background: white; color: #95a5a6; border-top: 1px solid #eee; }
+        .contact-box { background: white; padding: 30px; border-radius: 10px; text-align: center; margin-top: 40px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+        .btn-zalo { background: #0068ff; color: white; display: inline-block; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 15px; }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Ely Agency - Thiết Kế Landing Page</h1>
-    <p>Giải pháp tạo Landing Page siêu tốc, chuẩn SEO, tối ưu tỷ lệ chuyển đổi cho mọi ngành nghề. Khởi tạo doanh thu online ngay hôm nay!</p>
-</header>
-
-<div class="container">
-    <h2 class="section-title">Kho Giao Diện (Portfolio)</h2>
-    <div class="portfolio-grid">
-        <div class="portfolio-item">
-            <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80')"></div>
-            <div class="portfolio-content">
-                <h3 class="portfolio-title">Khóa Học / Giáo Dục</h3>
-                <p class="portfolio-desc">Mẫu Landing page chuyên nghiệp dành cho việc bán khóa học online, coaching, tuyển sinh với form thu thập thông tin.</p>
-                <a href="https://odayne.id.vn/ely/demo-khoa-hoc.html" class="portfolio-btn" target="_blank">Xem Demo</a>
+    <div class="header">
+        <h1>Ely - Thiết Kế Landing Page</h1>
+        <p>Tốc độ cực nhanh - Giao diện chuẩn Mobile - Tối ưu tỷ lệ chuyển đổi</p>
+    </div>
+    
+    <div class="container">
+        <h2 style="text-align: center; margin-bottom: 30px; color: #2c3e50;">Các Mẫu Giao Diện Nổi Bật</h2>
+        
+        <div class="grid">
+            <!-- Item 1 -->
+            <div class="card">
+                <div class="card-img" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);">🌸</div>
+                <div class="card-body">
+                    <h3 class="card-title">Landing Page Spa & Thẩm Mỹ</h3>
+                    <p class="card-desc">Giao diện tone hồng sang trọng, tập trung vào hình ảnh dịch vụ và khuyến mãi đặt lịch, có tích hợp nút Zalo chốt khách nhanh.</p>
+                    <a href="https://odayne.id.vn/ely/demo-spa.html" class="btn" target="_blank">Xem Demo</a>
+                </div>
+            </div>
+            
+            <!-- Item 2 -->
+            <div class="card">
+                <div class="card-img" style="background: linear-gradient(135deg, #0984e3 0%, #00cec9 100%);">📚</div>
+                <div class="card-body">
+                    <h3 class="card-title">Landing Page Khóa Học Online</h3>
+                    <p class="card-desc">Thiết kế hiện đại, năng động, hiển thị lộ trình học rõ ràng kèm đồng hồ đếm ngược kích thích chốt sales khóa học/coaching.</p>
+                    <a href="https://odayne.id.vn/ely/demo-khoa-hoc.html" class="btn" target="_blank">Xem Demo</a>
+                </div>
+            </div>
+            
+            <!-- Item 3 -->
+            <div class="card">
+                <div class="card-img" style="background: linear-gradient(135deg, #6ab04c 0%, #badc58 100%);">🏢</div>
+                <div class="card-body">
+                    <h3 class="card-title">Landing Page Bất Động Sản</h3>
+                    <p class="card-desc">Phù hợp giới thiệu dự án, thu thập thông tin khách hàng (Leads) qua form đăng ký nhận báo giá, layout chuyên nghiệp, uy tín.</p>
+                    <a href="https://odayne.id.vn/ely/demo-bds.html" class="btn" target="_blank">Xem Demo</a>
+                </div>
+            </div>
+            
+            <!-- Item 4 -->
+            <div class="card">
+                <div class="card-img" style="background: linear-gradient(135deg, #ff7675 0%, #fab1a0 100%);">🛍️</div>
+                <div class="card-body">
+                    <h3 class="card-title">Landing Page Bán Hàng (Sản Phẩm)</h3>
+                    <p class="card-desc">Mẫu trang bán lẻ một sản phẩm (gia dụng, công nghệ, mỹ phẩm) tập trung vào tính năng, hình ảnh thực tế và form đặt hàng.</p>
+                    <a href="https://odayne.id.vn/ely/demo-san-pham.html" class="btn" target="_blank">Xem Demo</a>
+                </div>
+            </div>
+            
+            <!-- Item 5 -->
+            <div class="card">
+                <div class="card-img" style="background: linear-gradient(135deg, #e17055 0%, #ffeaa7 100%);">🍽️</div>
+                <div class="card-body">
+                    <h3 class="card-title">Landing Page Nhà Hàng / F&B</h3>
+                    <p class="card-desc">Tập trung giới thiệu Menu, không gian quán và Form đặt bàn trực tuyến. Giao diện kích thích vị giác.</p>
+                    <a href="https://odayne.id.vn/ely/demo-nha-hang.html" class="btn" target="_blank">Xem Demo</a>
+                </div>
             </div>
         </div>
         
-        <div class="portfolio-item">
-            <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=600&q=80')"></div>
-            <div class="portfolio-content">
-                <h3 class="portfolio-title">Spa / Thẩm Mỹ Viện</h3>
-                <p class="portfolio-desc">Thiết kế sang trọng, tinh tế, tích hợp nút đặt lịch trực tiếp qua Zalo, phù hợp cho Spa, Salon tóc, Nail.</p>
-                <a href="https://odayne.id.vn/ely/demo-spa.html" class="portfolio-btn" target="_blank">Xem Demo</a>
-            </div>
-        </div>
-
-        <div class="portfolio-item">
-            <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1524813686514-a57563d77965?auto=format&fit=crop&w=600&q=80')"></div>
-            <div class="portfolio-content">
-                <h3 class="portfolio-title">Trang Bio Link</h3>
-                <p class="portfolio-desc">Mẫu trang tổng hợp link (Bio Link) tích hợp cho TikTok, Instagram. Tốc độ tải cực nhanh.</p>
-                <a href="https://odayne.id.vn/ely/bio.html" class="portfolio-btn" target="_blank">Xem Demo</a>
-            </div>
+        <div class="contact-box">
+            <h2>Bạn cần thiết kế Landing Page riêng?</h2>
+            <p>Chỉ từ <strong>499.000 VNĐ</strong> - Hoàn thiện trong 24 giờ. Support nhiệt tình.</p>
+            <a href="https://m.me/telegram-6084932384" class="btn-zalo" target="_blank">Liên Hệ Thiết Kế Ngay</a>
         </div>
     </div>
-
-    <div class="pricing">
-        <h2 class="section-title">Bảng Giá Dịch Vụ</h2>
-        <div class="price-grid">
-            <div class="price-card">
-                <h3 class="price-title">Gói Cơ Bản</h3>
-                <div class="price-amount">499k</div>
-                <ul class="price-features">
-                    <li>1 Landing Page đơn giản</li>
-                    <li>Tốc độ tải trang nhanh</li>
-                    <li>Nút gọi/Chat Zalo trôi nổi</li>
-                    <li>Sửa đổi 1 lần</li>
-                    <li>Giao mã nguồn HTML/CSS</li>
-                </ul>
-                <a href="https://zalo.me" class="btn-order" target="_blank">Đặt Hàng Ngay</a>
-            </div>
-            
-            <div class="price-card popular">
-                <div class="popular-badge">Khuyên Dùng</div>
-                <h3 class="price-title">Gói Bán Hàng</h3>
-                <div class="price-amount">999k</div>
-                <ul class="price-features">
-                    <li>Thiết kế tối ưu theo ngành</li>
-                    <li>Chuẩn Mobile & SEO</li>
-                    <li>Tích hợp Form / Zalo / Messenger</li>
-                    <li>Tối ưu nội dung Copywriting</li>
-                    <li>Sửa đổi 3 lần</li>
-                    <li>Hỗ trợ Upload lên Hosting (Cloudflare)</li>
-                </ul>
-                <a href="https://zalo.me" class="btn-order" target="_blank">Đặt Hàng Ngay</a>
-            </div>
-        </div>
+    
+    <div class="footer">
+        &copy; 2026 Ely Web Services. Được tạo bởi AI Agent Ely.
     </div>
-
-    <div class="contact-section">
-        <h2>Bạn Cần Tư Vấn Thiết Kế Riêng?</h2>
-        <p>Hãy nhắn tin trực tiếp để Ely lên ý tưởng và báo giá cho dự án của bạn.</p>
-        <a href="https://zalo.me" class="btn-order" style="display: inline-block; width: auto; padding: 15px 40px; margin-top: 20px;" target="_blank">Chat Zalo Với Ely</a>
-    </div>
-</div>
-
-<footer>
-    &copy; 2026 Ely Agency - AI Agent vận hành độc lập.
-</footer>
-
 </body>
 </html>
