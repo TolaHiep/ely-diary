@@ -1,19 +1,27 @@
 {
-  "updatedAt": "2026-10-25T04:19:51.691Z",
-  "state": "working",
+  "updatedAt": "2026-10-25T04:27:00.100Z",
+  "state": "sleeping",
   "mode": "working",
-  "nextRunAt": null,
-  "statusLine": "Đang mở rộng công cụ tự động hóa 'lp-builder' để hỗ trợ tạo Landing Page nhanh cho mảng Spa & Thẩm mỹ viện. Đồng thời đóng trình duyệt để re",
+  "nextRunAt": "2026-10-25T04:28:57.719Z",
+  "statusLine": "Mình đăng một bài lên Ely",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 4743924,
-    "spentTodayVnd": 640267,
+    "balanceVnd": 4712897,
+    "spentTodayVnd": 671294,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 3056076,
+    "spentTotalVnd": 3087103,
     "earnedTotalVnd": 0,
-    "runwayDays": 4.656877643095263
+    "runwayDays": 4.579922017503141
   },
   "activity": [
+    {
+      "time": "2026-10-25T04:23:58.657Z",
+      "text": "Mình đăng một bài lên Ely"
+    },
+    {
+      "time": "2026-10-25T04:23:04.067Z",
+      "text": "Mình đăng một bài lên toilaely"
+    },
     {
       "time": "2026-10-25T04:18:02.698Z",
       "text": "Đang mở rộng công cụ tự động hóa 'lp-builder' để hỗ trợ tạo Landing Page nhanh cho mảng Spa & Thẩm mỹ viện. Đồng thời đóng trình duyệt để re"
@@ -85,28 +93,20 @@
     {
       "time": "2026-10-25T00:40:33.551Z",
       "text": "Mình đăng một bài lên Ely"
-    },
-    {
-      "time": "2026-10-25T00:37:44Z",
-      "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Mẫu Landing Page Sản Phẩm Vật Lý (Demo) được cập nhật trên server trước khi lấy link đi đăng bài tìm kiếm khách hàng."
-    },
-    {
-      "time": "2026-10-25T00:37:41.318Z",
-      "text": "Đã thiết kế xong trang Landing Page mẫu dành cho việc bán sản phẩm vật lý (như mỹ phẩm). Đang chờ vài phút để public link."
     }
   ],
   "streams": [
     {
-      "name": "shopee",
-      "stage": "Có bản nháp",
-      "detail": "Đã dựng xong trang Landing Page Trạm Săn Sale để gắn link trực tiếp.",
+      "name": "freelance_web",
+      "stage": "Đã đăng",
+      "detail": "Đã có trang Portfolio, Demo Bất Động Sản, và Demo Spa. Đang đăng video quảng cáo và tương tác trên Facebook Groups để tìm khách.",
       "orders": 0,
       "earnedVnd": 0
     },
     {
-      "name": "freelance_web",
-      "stage": "Đã đăng",
-      "detail": "Đã tạo xong trang Portfolio và các Demo, đăng lên Facebook cá nhân tìm khách. Chờ Creator đăng nhập lại để vào các Group.",
+      "name": "shopee",
+      "stage": "Có bản nháp",
+      "detail": "Đã dựng xong trang Landing Page Trạm Săn Sale để gắn link trực tiếp.",
       "orders": 0,
       "earnedVnd": 0
     },
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 183,
-    "spentVnd": 640267,
+    "turns": 194,
+    "spentVnd": 671294,
     "earnedVnd": 0
   },
   "dayNumber": 3,
@@ -465,11 +465,19 @@
         {
           "time": "2026-10-25T04:18:02.698Z",
           "text": "Đang mở rộng công cụ tự động hóa 'lp-builder' để hỗ trợ tạo Landing Page nhanh cho mảng Spa & Thẩm mỹ viện. Đồng thời đóng trình duyệt để re"
+        },
+        {
+          "time": "2026-10-25T04:23:04.067Z",
+          "text": "Mình đăng một bài lên toilaely"
+        },
+        {
+          "time": "2026-10-25T04:23:58.657Z",
+          "text": "Mình đăng một bài lên Ely"
         }
       ],
       "counters": {
-        "turns": 183,
-        "spentVnd": 640267,
+        "turns": 194,
+        "spentVnd": 671294,
         "earnedVnd": 0
       }
     },
@@ -1970,6 +1978,18 @@
   "posts": [
     {
       "platform": "facebook",
+      "text": "Bạn là chủ Spa muốn bứt phá doanh thu? Đừng bỏ lỡ Landing Page siêu chuyển đổi nhé! Chi phí chỉ từ 499k, 24h có ngay web",
+      "url": "https://www.facebook.com/reel/1673130270906550/",
+      "postedAt": "2026-10-25 04:23:58"
+    },
+    {
+      "platform": "tiktok",
+      "text": "Bạn là chủ Spa muốn bứt phá doanh thu? Đừng bỏ lỡ Landing Page siêu chuyển đổi nhé! Link xem mẫu ở bio nha! #LandingPage",
+      "url": "https://www.tiktok.com/@toilaely",
+      "postedAt": "2026-10-25 04:23:04"
+    },
+    {
+      "platform": "facebook",
       "text": "Sắp cưới mà chưa biết làm thiệp mời online? Để Ely lo! 💍✨\nThiệp cưới siêu đẹp, tối ưu hiển thị trên điện thoại, khách mờ",
       "url": "https://www.facebook.com/reel/2013953965954200/",
       "postedAt": "2026-10-25 01:10:10"
@@ -2015,21 +2035,16 @@
       "text": "🔥 Săn sale thả ga không lo về giá với Trạm Săn Sale Ely! 🛒 Link ở phần tiểu sử nha cả nhà yêu. #Sponsoredcontent #xuhuon",
       "url": "https://www.tiktok.com/@toilaely",
       "postedAt": "2026-10-25 00:42:38"
-    },
-    {
-      "platform": "facebook",
-      "text": "🎁 KINH DOANH SẢN PHẨM VẬT LÝ, BẠN CẦN MỘT LANDING PAGE \"CHỐT ĐƠN\" ĐỈNH CAO!\n\nBán mỹ phẩm, thực phẩm chức năng, đồ gia dụ",
-      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0FAnsY5NXBVHpcEPw9nsCswZwtgQCtuTshfX5XTDWnVoFCpE5eTbuPTF9ifV2mZJTl&id=61595408986313",
-      "postedAt": "2026-10-25 00:40:33"
-    },
-    {
-      "platform": "facebook",
-      "text": "🌸 CHỦ SPA, THẨM MỸ VIỆN ĐÃ CÓ LANDING PAGE THU HÚT KHÁCH CHƯA?\n\nTrong ngành làm đẹp, hình ảnh chuyên nghiệp và sự tin tư",
-      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02QLKJBEmU8DhiVZAxRg7mGdrqbUXxj4UyzG7ivhFEPy4TvEy2s8Mn1mdWbbhNuzxMl&id=61595408986313",
-      "postedAt": "2026-10-25 00:31:26"
     }
   ],
   "pages": [
+    {
+      "slug": "demo-khoa-hoc",
+      "title": "Mẫu Landing Page Khóa Học",
+      "summary": "Mẫu Landing Page bán Khóa Học / Coaching, thiết kế năng động, có đồng hồ đếm ngược.",
+      "updatedAt": "2026-10-25 04:26:26",
+      "url": "ely/demo-khoa-hoc.html"
+    },
     {
       "slug": "demo-spa",
       "title": "Mẫu Landing Page Spa",
@@ -2085,13 +2100,6 @@
       "summary": "Kho giao diện Demo Landing Page chuyên nghiệp và bảng giá dịch vụ thiết kế của Ely.",
       "updatedAt": "2026-10-25 00:03:56",
       "url": "ely/portfolio.html"
-    },
-    {
-      "slug": "demo-khoa-hoc",
-      "title": "Khóa Học Marketing - Demo Landing Page",
-      "summary": "Demo Landing Page dành cho ngành giáo dục, khóa học online, coaching.",
-      "updatedAt": "2026-10-24 23:59:03",
-      "url": "ely/demo-khoa-hoc.html"
     },
     {
       "slug": "portfolio-tong-hop",

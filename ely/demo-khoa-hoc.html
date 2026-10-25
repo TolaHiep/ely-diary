@@ -3,91 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khóa Học Marketing Thực Chiến - Demo Landing Page</title>
+    <title>Khóa Học Xây Kênh Triệu View - Landing Page Mẫu</title>
     <style>
-        body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.6; background: #fff; }
-        .hero { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80') center/cover; color: white; text-align: center; padding: 100px 20px; }
-        .hero h1 { font-size: 2.5rem; margin-bottom: 20px; color: #ffeb3b; text-transform: uppercase; }
-        .hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto 30px; }
-        .cta-btn { display: inline-block; background: #ff3b30; color: white; padding: 15px 40px; font-size: 1.3rem; text-decoration: none; border-radius: 5px; font-weight: bold; text-transform: uppercase; box-shadow: 0 4px 15px rgba(255, 59, 48, 0.4); transition: 0.3s; }
-        .cta-btn:hover { background: #e62a1f; transform: scale(1.05); }
-        
-        .section { padding: 60px 20px; text-align: center; }
-        .section h2 { font-size: 2rem; color: #1e3c72; margin-bottom: 40px; }
-        .grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; max-width: 1000px; margin: 0 auto; }
-        .card { background: #f9f9f9; padding: 30px; border-radius: 10px; width: 280px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
-        .card h3 { color: #d32f2f; }
-        
-        .instructor { background: #1e3c72; color: white; padding: 60px 20px; }
-        .instructor-content { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 40px; max-width: 1000px; margin: 0 auto; }
-        .instructor img { width: 200px; height: 200px; border-radius: 50%; border: 5px solid #ffeb3b; object-fit: cover; }
-        .instructor-info { max-width: 500px; text-align: left; }
-        .instructor-info h2 { margin-top: 0; color: #ffeb3b; }
-        
-        .form-section { background: #f4f4f4; padding: 60px 20px; text-align: center; }
-        .form-container { background: white; max-width: 500px; margin: 0 auto; padding: 40px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-top: 5px solid #ff3b30; }
-        .btn-zalo { display: block; width: 100%; background: #0068ff; color: white; border: none; padding: 15px; font-size: 1.2rem; font-weight: bold; border-radius: 5px; cursor: pointer; text-transform: uppercase; transition: 0.3s; text-decoration: none; margin-top: 20px; box-sizing: border-box;}
-        .btn-zalo:hover { background: #0054cc; }
-        
-        .floating-contact { position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 15px; }
-        .floating-btn { width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.3); transition: 0.3s; font-size: 12px; text-align: center; }
-        .zalo-btn { background: #0068ff; }
-        .zalo-btn:hover { background: #0054cc; transform: scale(1.1); }
-        footer { text-align: center; padding: 20px; background: #333; color: white; }
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+        body { font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; background: #f8f9fa; color: #2d3436; }
+        .hero { background: linear-gradient(135deg, #0984e3 0%, #00cec9 100%); color: white; padding: 80px 20px; text-align: center; }
+        .hero h1 { margin: 0 0 20px; font-size: 2.8rem; font-weight: 800; line-height: 1.2; }
+        .hero p { font-size: 1.2rem; max-width: 650px; margin: 0 auto; opacity: 0.9; }
+        .content { padding: 50px 20px; max-width: 800px; margin: 0 auto; line-height: 1.7; background: #fff; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-radius: 12px; margin-top: -30px; position: relative; }
+        .cta-btn { display: inline-block; background: #fdcb6e; color: #2d3436; padding: 18px 40px; text-decoration: none; border-radius: 30px; font-weight: 800; font-size: 1.1rem; margin-top: 25px; box-shadow: 0 4px 15px rgba(253, 203, 110, 0.4); transition: all 0.2s; text-transform: uppercase; }
+        .cta-btn:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(253, 203, 110, 0.6); }
+        .footer { text-align: center; padding: 25px; font-size: 0.9rem; color: #b2bec3; margin-top: 40px; }
+        h2 { color: #0984e3; border-left: 4px solid #00cec9; padding-left: 10px; margin-top: 30px; font-weight: 800; }
+        ul { list-style: none; padding: 0; }
+        ul li { background: #f1f2f6; margin-bottom: 10px; padding: 15px 20px; border-radius: 8px; border-left: 3px solid #0984e3; }
+        .instructor { display: flex; gap: 20px; align-items: center; background: #f8f9fa; padding: 20px; border-radius: 10px; margin-top: 20px; }
+        .instructor img { border-radius: 50%; width: 100px; height: 100px; object-fit: cover; border: 3px solid #00cec9; }
+        .countdown { display: flex; justify-content: center; gap: 15px; margin-top: 20px; margin-bottom: 10px; }
+        .cd-box { background: rgba(0,0,0,0.2); padding: 10px 15px; border-radius: 8px; font-weight: bold; min-width: 50px; }
     </style>
 </head>
 <body>
-
-<div class="hero">
-    <h1>Khóa Học Marketing Thực Chiến 2026</h1>
-    <p>Bí quyết X3 doanh số bán hàng online chỉ sau 30 ngày. Không lý thuyết suông, 100% cầm tay chỉ việc trên chiến dịch thực tế của bạn!</p>
-    <a href="#dang-ky" class="cta-btn">Đăng Ký Nhận Ưu Đãi 50%</a>
-</div>
-
-<div class="section">
-    <h2>Bạn Nhận Được Gì Sau Khóa Học?</h2>
-    <div class="grid">
-        <div class="card">
-            <h3>Tư Duy Chạy Ads</h3>
-            <p>Hiểu sâu về thuật toán Facebook, TikTok để tối ưu chi phí quảng cáo thấp nhất.</p>
+    <div class="hero">
+        <h1>Bí Quyết Xây Kênh Triệu View Từ Con Số 0</h1>
+        <p>Lộ trình 30 ngày giúp bạn tự tin quay, dựng và chuyển đổi follower thành khách hàng thực tế. Giảm 40% cho 50 học viên đăng ký sớm nhất.</p>
+        <div class="countdown">
+            <div class="cd-box">02<br><small>NGÀY</small></div>
+            <div class="cd-box">14<br><small>GIỜ</small></div>
+            <div class="cd-box">45<br><small>PHÚT</small></div>
         </div>
-        <div class="card">
-            <h3>Xây Dựng Nội Dung</h3>
-            <p>Sở hữu công thức viết content và làm video ngắn viral chốt đơn không lối thoát.</p>
+        <a href="https://zalo.me/0123456789" class="cta-btn">Đăng Ký Ưu Đãi Ngay</a>
+    </div>
+    <div class="content">
+        <h2>Bạn Sẽ Học Được Gì?</h2>
+        <ul>
+            <li><strong>🚀 Tư duy thuật toán:</strong> Hiểu rõ cách nền tảng phân phối video đến hàng triệu người.</li>
+            <li><strong>✍️ Kịch bản thôi miên:</strong> Công thức viết hook 3 giây đầu không thể rời mắt.</li>
+            <li><strong>🎬 Kỹ năng quay dựng:</strong> Thực hành edit video chuẩn xu hướng bằng điện thoại.</li>
+            <li><strong>💰 Chuyển đổi số:</strong> Cách đặt link Bio, thiết lập phễu bán hàng tự động.</li>
+        </ul>
+        
+        <h2>Thông Tin Giảng Viên</h2>
+        <div class="instructor">
+            <img src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80' alt='Giảng viên'>
+            <div>
+                <p style="margin:0 0 5px 0; font-size:1.2rem;"><strong>Chuyên gia Ely</strong></p>
+                <p style="margin:0; color:#636e72;">Hơn 5 năm kinh nghiệm thực chiến Social Media. Sở hữu hệ thống kênh 5 triệu Followers.</p>
+            </div>
         </div>
-        <div class="card">
-            <h3>Tối Ưu Chuyển Đổi</h3>
-            <p>Biết cách thiết lập kịch bản chốt sale, chăm sóc khách hàng tự động để tăng tỷ lệ quay lại.</p>
+        
+        <h2>Hình Thức Học</h2>
+        <p>Học Online qua Zoom trực tiếp + Video quay lại xem vĩnh viễn trên nền tảng độc quyền. Support 1-1 qua Zalo group trọn đời.</p>
+        
+        <div style="text-align: center; margin-top: 40px;">
+            <p style="font-size: 1.1rem; color: #d63031; font-weight: bold;">Chỉ còn 3 suất ưu đãi cuối cùng!</p>
+            <a href="https://zalo.me/0123456789" class="cta-btn" style="background: #d63031; color: white; box-shadow: 0 4px 15px rgba(214, 48, 49, 0.4);">GIỮ CHỖ NGAY QUA ZALO</a>
         </div>
     </div>
-</div>
-
-<div class="instructor">
-    <div class="instructor-content">
-        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80" alt="Chuyên gia">
-        <div class="instructor-info">
-            <h2>Giảng Viên: Chuyên Gia Nguyễn Văn A</h2>
-            <p>Hơn 10 năm kinh nghiệm thực chiến trong lĩnh vực Digital Marketing. Đã tư vấn và chạy các chiến dịch ngân sách tỷ đồng cho hơn 500 thương hiệu vừa và nhỏ tại Việt Nam.</p>
-            <p><em>"Tôi không dạy lý thuyết, tôi chỉ cho bạn cách làm ra tiền thật."</em></p>
-        </div>
+    <div class="footer">
+        &copy; 2026 Ely - Mẫu Demo Landing Page Khóa Học.
     </div>
-</div>
-
-<div class="form-section" id="dang-ky">
-    <div class="form-container">
-        <h2 style="color: #1e3c72; margin-top: 0;">Đăng Ký Sớm Nhận Ưu Đãi</h2>
-        <p style="color: #666; margin-bottom: 20px;">Nhắn tin trực tiếp qua Zalo cho trợ lý để nhận tư vấn lộ trình học phù hợp nhất với bạn.</p>
-        <a href="https://zalo.me" class="btn-zalo" target="_blank">Nhận Tư Vấn Qua Zalo Ngay</a>
-    </div>
-</div>
-
-<footer>
-    <p>&copy; 2026 Demo Landing Page Khóa Học - Thiết kế bởi Ely.</p>
-</footer>
-
-<div class="floating-contact">
-    <a href="https://zalo.me" class="floating-btn zalo-btn" target="_blank">Chat<br>Zalo</a>
-</div>
-
 </body>
 </html>
