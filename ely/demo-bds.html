@@ -3,86 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sky Park Residence - Tuyệt Tác Căn Hộ Trên Mây</title>
+    <title>Khu Đô Thị Xanh Ecopark - Nơi Khởi Nguồn Hạnh Phúc</title>
     <style>
-        body { font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.6; }
-        header { background: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80') center center/cover; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; color: white; position: relative; }
-        header::before { content: ''; position: absolute; top:0; left:0; width:100%; height:100%; background: linear-gradient(rgba(10, 34, 64, 0.7), rgba(10, 34, 64, 0.7)); }
-        .hero-content { position: relative; z-index: 1; padding: 0 20px; max-width: 800px; }
-        .hero-content h1 { font-size: 3.5rem; margin-bottom: 10px; color: #d4af37; text-transform: uppercase; letter-spacing: 2px; }
-        .hero-content p { font-size: 1.3rem; margin-bottom: 30px; font-weight: 300; }
-        .btn-gold { display: inline-block; background: #d4af37; color: #0a2240; padding: 15px 35px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 1.1rem; text-transform: uppercase; transition: 0.3s; }
-        .btn-gold:hover { background: #b5952f; color: white; }
-        
-        .section { padding: 80px 20px; text-align: center; }
-        .section h2 { color: #0a2240; font-size: 2.5rem; margin-bottom: 20px; text-transform: uppercase; position: relative; display: inline-block; }
-        .section h2::after { content: ''; position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 80px; height: 3px; background: #d4af37; }
-        
-        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1200px; margin: 40px auto 0; }
-        .card { background: #f8f9fa; padding: 30px; border-radius: 10px; text-align: left; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: transform 0.3s; }
-        .card:hover { transform: translateY(-10px); }
-        .card h3 { color: #0a2240; font-size: 1.5rem; margin-top: 0; }
-        .card p { color: #666; }
-        
-        .bg-navy { background: #0a2240; color: white; }
-        .bg-navy h2 { color: white; }
-        .bg-navy h2::after { background: #d4af37; }
-        
-        .cta-box { background: white; color: #333; padding: 40px; border-radius: 10px; max-width: 600px; margin: 40px auto 0; text-align: center; }
-        .cta-box h3 { color: #0a2240; font-size: 1.8rem; margin-top: 0; }
-        .form-input { width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; font-family: inherit; }
-        .form-btn { width: 100%; background: #d4af37; color: #0a2240; border: none; padding: 15px; font-weight: bold; font-size: 1.1rem; border-radius: 5px; cursor: pointer; text-transform: uppercase; transition: 0.3s; }
-        .form-btn:hover { background: #b5952f; color: white; }
-
-        footer { background: #051426; color: rgba(255,255,255,0.7); text-align: center; padding: 20px; font-size: 0.9rem; }
-        .floating-zalo { position: fixed; bottom: 20px; right: 20px; background: #0a2240; border: 2px solid #d4af37; color: #d4af37; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; text-decoration: none; box-shadow: 0 5px 15px rgba(0,0,0,0.3); z-index: 99; transition: 0.3s; }
-        .floating-zalo:hover { background: #d4af37; color: #0a2240; }
+        body { font-family: sans-serif; margin: 0; padding: 0; background: #ffffff; color: #2c3e50; }
+        .hero { background: #27ae60; color: white; padding: 60px 20px; text-align: center; }
+        .hero h1 { margin: 0 0 15px; font-size: 2.5rem; }
+        .hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto; }
+        .content { padding: 40px 20px; max-width: 800px; margin: 0 auto; line-height: 1.6; }
+        .cta-btn { display: inline-block; background: #e74c3c; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.2s; }
+        .cta-btn:hover { transform: translateY(-2px); }
+        .footer { text-align: center; padding: 20px; font-size: 0.9rem; color: #666; border-top: 1px solid #ddd; margin-top: 40px; }
+        .image-gallery { display: flex; flex-direction: column; gap: 15px; margin-top: 20px; }
+        .image-gallery img { width: 100%; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        @media (min-width: 600px) {
+            .image-gallery { flex-direction: row; }
+        }
     </style>
 </head>
 <body>
-
-<header>
-    <div class="hero-content">
-        <h1>Sky Park Residence</h1>
-        <p>Biểu tượng sống đẳng cấp giữa tầng không. Nơi hội tụ tinh hoa của thiết kế hiện đại và tiện ích 5 sao xứng tầm giới thượng lưu.</p>
-        <a href="#nhan-bao-gia" class="btn-gold">Nhận Bảng Giá & CSBH Mới Nhất</a>
+    <div class="hero">
+        <h1>Sở Hữu Tổ Ấm Mơ Ước</h1>
+        <p>Chiết khấu lên tới 10% cho 50 khách hàng đầu tiên. Hỗ trợ vay ngân hàng 0% lãi suất trong 24 tháng.</p>
+        <a href="https://zalo.me/0123456789" class="cta-btn">Đăng Ký Nhận Bảng Giá</a>
     </div>
-</header>
-
-<div class="section">
-    <h2>Thông Tin Tổng Quan</h2>
-    <div class="grid-3">
-        <div class="card">
-            <h3>Vị Trí Đắc Địa</h3>
-            <p>Nằm tại quỹ đất vàng cuối cùng của trung tâm thành phố, kết nối giao thông hoàn hảo tới các khu vực trọng điểm, dễ dàng di chuyển.</p>
+    <div class="content">
+        <h2>Tổng Quan Dự Án</h2>
+        <p>Dự án khu đô thị sinh thái xanh, tích hợp đầy đủ tiện ích: trường học, bệnh viện, trung tâm thương mại và công viên cây xanh rộng lớn.</p>
+        <ul>
+            <li>Vị trí đắc địa, kết nối giao thông thuận tiện.</li>
+            <li>Thiết kế thông minh, tối ưu không gian sống.</li>
+            <li>Hệ thống an ninh 24/7.</li>
+        </ul>
+        <h2>Hình Ảnh Thực Tế</h2>
+        <div class="image-gallery">
+            <img src='https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=600&q=80' alt='Mặt tiền'>
+            <img src='https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=80' alt='Nội thất'>
         </div>
-        <div class="card">
-            <h3>Thiết Kế Căn Hộ</h3>
-            <p>100% căn hộ sở hữu tầm view Panorama tuyệt đẹp, đón nắng và gió tự nhiên, nội thất bàn giao liền tường cao cấp nhập khẩu.</p>
-        </div>
-        <div class="card">
-            <h3>Tiện Ích Đặc Quyền</h3>
-            <p>Hệ thống 50+ tiện ích nội khu: Bể bơi vô cực, vườn Nhật trên mây, phòng gym 5 sao, trung tâm thương mại sầm uất ngay dưới chân đế.</p>
+        <br>
+        <p>Liên hệ ngay hôm nay để nhận thông tin chi tiết và chọn căn hộ có vị trí đẹp nhất!</p>
+        <div style="text-align: center;">
+            <a href="https://zalo.me/0123456789" class="cta-btn" style="background: #2980b9;">Chat Zalo Chuyên Viên Tư Vấn</a>
         </div>
     </div>
-</div>
-
-<div class="section bg-navy" id="nhan-bao-gia">
-    <h2>Đăng Ký Tham Quan Nhà Mẫu</h2>
-    <p style="font-size: 1.1rem; max-width: 800px; margin: 0 auto;">Chỉ còn lại 20 suất ưu đãi chiết khấu 5% cho khách hàng đăng ký trong tuần này.</p>
-    
-    <div class="cta-box">
-        <h3>Để lại thông tin</h3>
-        <p style="color: #888; font-size: 0.9rem; margin-bottom: 20px;">* Đây là trang Demo giao diện. Yêu cầu tư vấn sẽ được chuyển đến Messenger của Designer.</p>
-        <a href="https://m.me/telegram-6084932384" class="form-btn" style="display: block; text-decoration: none;">💬 Chat Messenger Để Nhận Bảng Giá</a>
+    <div class="footer">
+        &copy; 2026 Ely - Mẫu Demo Bất Động Sản.
     </div>
-</div>
-
-<footer>
-    <p>&copy; 2026 Dự án Demo Bất Động Sản. Landing Page thiết kế bởi Ely.</p>
-</footer>
-
-<a href="https://m.me/telegram-6084932384" class="floating-zalo" title="Liên hệ ngay">📞</a>
-
 </body>
 </html>
