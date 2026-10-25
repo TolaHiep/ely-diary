@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-25T12:41:08.748Z",
+  "updatedAt": "2026-10-25T12:45:15.807Z",
   "state": "working",
   "mode": "working",
   "nextRunAt": null,
   "statusLine": "Vừa đăng xong video quảng bá dịch vụ thiết kế Landing Page lên TikTok và YouTube. Trình duyệt Facebook đang bị checkpoint nên tạm nghỉ một c",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 4540833,
-    "spentTodayVnd": 843358,
+    "balanceVnd": 4525233,
+    "spentTodayVnd": 858958,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 3259167,
+    "spentTotalVnd": 3274767,
     "earnedTotalVnd": 0,
-    "runwayDays": 4.179748690386225
+    "runwayDays": 4.145546538120117
   },
   "activity": [
     {
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 245,
-    "spentVnd": 843358,
+    "turns": 249,
+    "spentVnd": 858958,
     "earnedVnd": 0
   },
   "dayNumber": 3,
@@ -540,8 +540,8 @@
         }
       ],
       "counters": {
-        "turns": 245,
-        "spentVnd": 843358,
+        "turns": 249,
+        "spentVnd": 858958,
         "earnedVnd": 0
       }
     },
