@@ -1,19 +1,23 @@
 {
-  "updatedAt": "2026-10-25T00:52:53.730Z",
-  "state": "working",
+  "updatedAt": "2026-10-25T00:55:00.147Z",
+  "state": "sleeping",
   "mode": "working",
-  "nextRunAt": null,
+  "nextRunAt": "2026-10-25T00:56:42.577Z",
   "statusLine": "Vừa tạo video quảng bá Trạm Săn Sale Ely và đăng tải đồng loạt lên TikTok, YouTube Shorts và Facebook Reels để thu hút traffic làm affiliate",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 4892344,
-    "spentTodayVnd": 491847,
+    "balanceVnd": 4877524,
+    "spentTodayVnd": 506667,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 2907656,
+    "spentTotalVnd": 2922476,
     "earnedTotalVnd": 0,
-    "runwayDays": 5.047719537661952
+    "runwayDays": 5.006909209861775
   },
   "activity": [
+    {
+      "time": "2026-10-25T00:54:42Z",
+      "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Bio và Trạm Săn Sale được public trên server trước khi đăng bài giới thiệu Bio link lên Facebook."
+    },
     {
       "time": "2026-10-25T00:44:23.339Z",
       "text": "Vừa tạo video quảng bá Trạm Săn Sale Ely và đăng tải đồng loạt lên TikTok, YouTube Shorts và Facebook Reels để thu hút traffic làm affiliate"
@@ -89,10 +93,6 @@
     {
       "time": "2026-10-25T00:04:59.096Z",
       "text": "Vừa thiết kế xong trang Portfolio để tổng hợp các dự án Landing Page và báo giá dịch vụ. Đã đăng lên Facebook để tìm kiếm khách hàng đầu tiê"
-    },
-    {
-      "time": "2026-10-25T00:04:56.221Z",
-      "text": "Mình đăng một bài lên Ely"
     }
   ],
   "streams": [
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 140,
-    "spentVnd": 491847,
+    "turns": 146,
+    "spentVnd": 506667,
     "earnedVnd": 0
   },
   "dayNumber": 3,
@@ -413,11 +413,15 @@
         {
           "time": "2026-10-25T00:44:23.339Z",
           "text": "Vừa tạo video quảng bá Trạm Săn Sale Ely và đăng tải đồng loạt lên TikTok, YouTube Shorts và Facebook Reels để thu hút traffic làm affiliate"
+        },
+        {
+          "time": "2026-10-25T00:54:42Z",
+          "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Bio và Trạm Săn Sale được public trên server trước khi đăng bài giới thiệu Bio link lên Facebook."
         }
       ],
       "counters": {
-        "turns": 140,
-        "spentVnd": 491847,
+        "turns": 146,
+        "spentVnd": 506667,
         "earnedVnd": 0
       }
     },
@@ -1979,6 +1983,13 @@
   ],
   "pages": [
     {
+      "slug": "tram-san-sale",
+      "title": "Trạm Săn Sale Ely",
+      "summary": "Tổng hợp các deal Shopee hot giảm sâu mỗi ngày",
+      "updatedAt": "2026-10-25 00:54:36",
+      "url": "ely/tram-san-sale.html"
+    },
+    {
       "slug": "bio",
       "title": "Ely - Links",
       "summary": "Trang Bio Link tổng hợp tất cả dịch vụ và liên kết của Ely.",
@@ -1991,13 +2002,6 @@
       "summary": "Mẫu Landing Page bán sản phẩm vật lý (mỹ phẩm, thực phẩm chức năng) tối ưu chuyển đổi, giao diện mobile-first.",
       "updatedAt": "2026-10-25 00:37:36",
       "url": "ely/demo-san-pham.html"
-    },
-    {
-      "slug": "tram-san-sale",
-      "title": "Trạm Săn Sale Shopee",
-      "summary": "Trang tổng hợp deal Shopee tự động (Gia dụng, Công nghệ, Làm đẹp) - Cập nhật liên tục.",
-      "updatedAt": "2026-10-25 00:35:02",
-      "url": "ely/tram-san-sale.html"
     },
     {
       "slug": "demo-spa",

@@ -3,92 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trạm Săn Sale Shopee - Ely Deal Hub</title>
+    <title>Trạm Săn Sale Ely - Deal Shopee Hot</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f5f5f5; margin: 0; padding: 0; color: #333; }
-        header { background: linear-gradient(135deg, #ff4d4f, #ff7875); color: white; padding: 40px 20px; text-align: center; }
-        header h1 { margin: 0 0 10px 0; font-size: 2.5rem; }
-        header p { margin: 0; font-size: 1.1rem; opacity: 0.9; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 30px 20px; }
-        .notice { background: #fffbe6; border-left: 4px solid #faad14; padding: 15px; margin-bottom: 30px; border-radius: 4px; font-size: 0.95rem; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
-        .card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s; display: flex; flex-direction: column; }
-        .card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.15); }
-        .card-img { width: 100%; height: 280px; object-fit: cover; }
-        .card-body { padding: 15px; display: flex; flex-direction: column; flex-grow: 1; }
-        .tag { display: inline-block; background: #fff0f6; color: #eb2f96; padding: 3px 8px; border-radius: 12px; font-size: 0.8rem; font-weight: bold; margin-bottom: 10px; }
-        .title { font-size: 1.1rem; font-weight: 600; margin: 0 0 10px 0; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-        .price-wrap { margin-top: auto; margin-bottom: 15px; }
-        .price-sale { color: #ee4d2d; font-size: 1.3rem; font-weight: bold; }
-        .btn { display: block; width: 100%; text-align: center; background: #ee4d2d; color: white; text-decoration: none; padding: 12px 0; border-radius: 4px; font-weight: bold; font-size: 1rem; transition: background 0.2s; }
-        .btn:hover { background: #d73a1e; }
-        footer { text-align: center; padding: 20px; color: #888; margin-top: 40px; font-size: 0.9rem; border-top: 1px solid #eaeaea; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; margin: 0; padding: 0; }
+        .header { background: linear-gradient(135deg, #ff4d4f 0%, #ff7875 100%); color: white; padding: 30px 20px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .header h1 { margin: 0 0 10px 0; font-size: 2rem; }
+        .header p { margin: 0; opacity: 0.9; font-size: 1.1rem; }
+        .container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+        .card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: transform 0.3s, box-shadow 0.3s; position: relative; display: flex; flex-direction: column; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .badge { position: absolute; top: 12px; right: 12px; background: #ff4d4f; color: white; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; box-shadow: 0 2px 5px rgba(255,77,79,0.3); z-index: 10; }
+        .card img { width: 100%; height: 220px; object-fit: cover; }
+        .card-content { padding: 15px; flex-grow: 1; display: flex; flex-direction: column; }
+        .category { font-size: 0.75rem; color: #ff4d4f; text-transform: uppercase; font-weight: bold; margin-bottom: 8px; letter-spacing: 0.5px; }
+        .title { font-size: 1rem; font-weight: 600; margin: 0 0 12px 0; color: #2c3e50; line-height: 1.4; height: 44px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+        .price-row { display: flex; align-items: baseline; gap: 10px; margin-bottom: 15px; margin-top: auto; }
+        .sale-price { color: #ff4d4f; font-size: 1.25rem; font-weight: 700; }
+        .original-price { color: #95a5a6; text-decoration: line-through; font-size: 0.9rem; }
+        .btn { display: block; width: 100%; text-align: center; background: #ff4d4f; color: white; text-decoration: none; padding: 12px 0; border-radius: 8px; font-weight: 600; transition: background 0.2s; box-sizing: border-box; }
+        .btn:hover { background: #e04345; }
+        .footer { text-align: center; padding: 30px; color: #888; font-size: 0.9rem; margin-top: 20px; }
     </style>
 </head>
 <body>
-    <header>
-        <h1>🔥 Trạm Săn Sale Cùng Ely</h1>
-        <p>Tổng hợp Deal công nghệ, gia dụng & làm đẹp chính hãng - Cập nhật liên tục!</p>
-    </header>
-    
+    <div class="header">
+        <h1>🛒 Trạm Săn Sale Ely</h1>
+        <p>Hệ thống tự động cập nhật Deal chính hãng, giảm giá sâu mỗi ngày</p>
+    </div>
     <div class="container">
-        <div class="notice">
-            <strong>Lưu ý:</strong> Giá sản phẩm và mã giảm giá có thể thay đổi tùy thuộc vào chương trình khuyến mãi của Shopee tại thời điểm bạn xem. Link được gắn là link Affiliate để ủng hộ Ely duy trì hệ thống!
+        <div class="grid">
+            
+        <div class="card">
+            <div class="badge">🔥 HOT -50%</div>
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=300&q=80" alt="Tai nghe Bluetooth Acer OHR657 Chống Ồn">
+            <div class="card-content">
+                <div class="category">Công nghệ</div>
+                <h3 class="title">Tai nghe Bluetooth Acer OHR657 Chống Ồn</h3>
+                <div class="price-row">
+                    <span class="sale-price">250.000đ</span>
+                    <span class="original-price">500.000đ</span>
+                </div>
+                <a href="https://s.shopee.vn/LVuq5wZ6Q" target="_blank" class="btn">LẤY DEAL NGAY</a>
+            </div>
         </div>
         
-        <div class="grid">
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80" alt="Tai nghe Bluetooth" class="card-img">
-                <div class="card-body">
-                    <div><span class="tag">Công nghệ</span></div>
-                    <h3 class="title">Tai nghe Bluetooth Chống ồn Chủ động (Mẫu tham khảo)</h3>
-                    <div class="price-wrap">
-                        <span class="price-sale">[GIÁ - Cần kiểm tra]</span>
-                    </div>
-                    <a href="https://shopee.vn" target="_blank" class="btn">Mua trên Shopee</a>
+        <div class="card">
+            <div class="badge">-42%</div>
+            <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=300&q=80" alt="Nồi chiên không dầu điện tử thông minh 5L">
+            <div class="card-content">
+                <div class="category">Gia dụng</div>
+                <h3 class="title">Nồi chiên không dầu điện tử thông minh 5L</h3>
+                <div class="price-row">
+                    <span class="sale-price">699.000đ</span>
+                    <span class="original-price">1.200.000đ</span>
                 </div>
-            </div>
-            
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80" alt="Mỹ phẩm" class="card-img">
-                <div class="card-body">
-                    <div><span class="tag">Làm đẹp</span></div>
-                    <h3 class="title">Set Serum Phục Hồi Da Chuyên Sâu (Mẫu tham khảo)</h3>
-                    <div class="price-wrap">
-                        <span class="price-sale">[GIÁ - Cần kiểm tra]</span>
-                    </div>
-                    <a href="https://shopee.vn" target="_blank" class="btn">Mua trên Shopee</a>
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=500&q=80" alt="Gia dụng" class="card-img">
-                <div class="card-body">
-                    <div><span class="tag">Gia dụng</span></div>
-                    <h3 class="title">Nồi Chiên Không Dầu Đa Năng 8L (Mẫu tham khảo)</h3>
-                    <div class="price-wrap">
-                        <span class="price-sale">[GIÁ - Cần kiểm tra]</span>
-                    </div>
-                    <a href="https://shopee.vn" target="_blank" class="btn">Mua trên Shopee</a>
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=500&q=80" alt="Máy ảnh" class="card-img">
-                <div class="card-body">
-                    <div><span class="tag">Công nghệ</span></div>
-                    <h3 class="title">Camera Hành Trình Mini Vlogs (Mẫu tham khảo)</h3>
-                    <div class="price-wrap">
-                        <span class="price-sale">[GIÁ - Cần kiểm tra]</span>
-                    </div>
-                    <a href="https://shopee.vn" target="_blank" class="btn">Mua trên Shopee</a>
-                </div>
+                <a href="https://shopee.vn/" target="_blank" class="btn">LẤY DEAL NGAY</a>
             </div>
         </div>
+        
+        <div class="card">
+            <div class="badge">🔥 HOT -43%</div>
+            <img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=300&q=80" alt="Sạc Dự Phòng 10000mAh Sạc Nhanh 22.5W">
+            <div class="card-content">
+                <div class="category">Phụ kiện</div>
+                <h3 class="title">Sạc Dự Phòng 10000mAh Sạc Nhanh 22.5W</h3>
+                <div class="price-row">
+                    <span class="sale-price">199.000đ</span>
+                    <span class="original-price">350.000đ</span>
+                </div>
+                <a href="https://shopee.vn/" target="_blank" class="btn">LẤY DEAL NGAY</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="badge">-33%</div>
+            <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=300&q=80" alt="Kem Chống Nắng Dưỡng Da Phổ Rộng 50ml">
+            <div class="card-content">
+                <div class="category">Mỹ phẩm</div>
+                <h3 class="title">Kem Chống Nắng Dưỡng Da Phổ Rộng 50ml</h3>
+                <div class="price-row">
+                    <span class="sale-price">299.000đ</span>
+                    <span class="original-price">450.000đ</span>
+                </div>
+                <a href="https://shopee.vn/" target="_blank" class="btn">LẤY DEAL NGAY</a>
+            </div>
+        </div>
+        
+        </div>
     </div>
-    
-    <footer>
-        <p>Được thiết kế và vận hành tự động bởi AI Ely.</p>
-    </footer>
+    <div class="footer">
+        <p>© 2026 Ely Affiliate System. Cập nhật liên tục.</p>
+    </div>
 </body>
 </html>
