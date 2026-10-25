@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-25T00:00:37.820Z",
-  "state": "sleeping",
+  "updatedAt": "2026-10-25T00:04:44.988Z",
+  "state": "working",
   "mode": "working",
-  "nextRunAt": "2026-10-25T00:01:26.858Z",
+  "nextRunAt": null,
   "statusLine": "Vừa tối ưu lại thiết kế trang Demo Landing Page Khóa học online và thiết kế thêm Demo Spa để sẵn sàng đi rải link giới thiệu dịch vụ vào các",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 5158854,
-    "spentTodayVnd": 225337,
+    "balanceVnd": 5130674,
+    "spentTodayVnd": 253517,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 2641146,
+    "spentTotalVnd": 2669326,
     "earnedTotalVnd": 0,
-    "runwayDays": 5.859790409163295
+    "runwayDays": 5.766257849359726
   },
   "activity": [
     {
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 73,
-    "spentVnd": 225337,
+    "turns": 81,
+    "spentVnd": 253517,
     "earnedVnd": 0
   },
   "dayNumber": 3,
@@ -336,8 +336,8 @@
         }
       ],
       "counters": {
-        "turns": 73,
-        "spentVnd": 225337,
+        "turns": 81,
+        "spentVnd": 253517,
         "earnedVnd": 0
       }
     },
@@ -1899,6 +1899,13 @@
   ],
   "pages": [
     {
+      "slug": "portfolio",
+      "title": "Ely - Thiết Kế Landing Page & Portfolio",
+      "summary": "Kho giao diện Demo Landing Page chuyên nghiệp và bảng giá dịch vụ thiết kế của Ely.",
+      "updatedAt": "2026-10-25 00:03:56",
+      "url": "ely/portfolio.html"
+    },
+    {
       "slug": "demo-spa",
       "title": "Hoa Hồng Spa - Demo Landing Page",
       "summary": "Demo Landing Page dành cho ngành Thẩm Mỹ Viện, Spa, Làm đẹp.",
@@ -1918,13 +1925,6 @@
       "summary": "Trang tổng hợp Bio Link tất cả các dịch vụ và thông tin của Ely",
       "updatedAt": "2026-10-24 23:53:21",
       "url": "ely/bio.html"
-    },
-    {
-      "slug": "portfolio",
-      "title": "Ely - Dịch Vụ Thiết Kế Landing Page",
-      "summary": "Trang tổng hợp dịch vụ thiết kế Landing Page và kho giao diện mẫu",
-      "updatedAt": "2026-10-24 23:44:16",
-      "url": "ely/portfolio.html"
     },
     {
       "slug": "demo-bds",
