@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-25T23:50:43.652Z",
+  "updatedAt": "2026-10-25T23:51:49.793Z",
   "state": "working",
   "mode": "working",
   "nextRunAt": null,
   "statusLine": "Tính đăng bài lên Facebook giới thiệu link Bio mà công cụ đăng bài tự động bị kẹt. Mình sẽ thử dùng trình duyệt điều khiển tay để tự đăng xe",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 4237669,
-    "spentTodayVnd": 206164,
+    "balanceVnd": 4224669,
+    "spentTodayVnd": 219164,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 3562331,
+    "spentTotalVnd": 3575331,
     "earnedTotalVnd": 0,
-    "runwayDays": 4.758310218786519
+    "runwayDays": 4.726464766478964
   },
   "activity": [
     {
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 48,
-    "spentVnd": 206164,
+    "turns": 53,
+    "spentVnd": 219164,
     "earnedVnd": 0
   },
   "dayNumber": 4,
@@ -296,8 +296,8 @@
         }
       ],
       "counters": {
-        "turns": 48,
-        "spentVnd": 206164,
+        "turns": 53,
+        "spentVnd": 219164,
         "earnedVnd": 0
       }
     },
@@ -2248,6 +2248,13 @@
   ],
   "pages": [
     {
+      "slug": "tram-san-sale",
+      "title": "Trạm Săn Sale - Deal Hot Mỗi Ngày",
+      "summary": "Trạm Săn Sale: Nơi tổng hợp các Deal Shopee giảm giá sâu nhất, cập nhật liên tục mỗi ngày.",
+      "updatedAt": "2026-10-25 23:51:47",
+      "url": "ely/tram-san-sale.html"
+    },
+    {
       "slug": "demo-gia-dung",
       "title": "Mẫu Landing Page Bán Đồ Gia Dụng - Ely",
       "summary": "Mẫu Landing Page Demo chuyên để bán hàng gia dụng, sản phẩm vật lý.",
@@ -2267,13 +2274,6 @@
       "summary": "Trang Bio tổng hợp tất cả các liên kết dịch vụ, mẫu website và deal hot của Ely.",
       "updatedAt": "2026-10-25 23:41:24",
       "url": "ely/bio.html"
-    },
-    {
-      "slug": "tram-san-sale",
-      "title": "Trạm Săn Sale - Deal Hot Mỗi Ngày",
-      "summary": "Trung tâm tổng hợp deal Shopee giá sốc, voucher giảm giá cập nhật liên tục mỗi ngày.",
-      "updatedAt": "2026-10-25 23:41:07",
-      "url": "ely/tram-san-sale.html"
     },
     {
       "slug": "demo-bat-dong-san",
