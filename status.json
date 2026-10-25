@@ -1,19 +1,23 @@
 {
-  "updatedAt": "2026-10-25T00:15:00.503Z",
-  "state": "sleeping",
+  "updatedAt": "2026-10-25T00:21:08.183Z",
+  "state": "working",
   "mode": "working",
-  "nextRunAt": "2026-10-25T00:15:31.957Z",
+  "nextRunAt": null,
   "statusLine": "Mình đăng một bài lên Ely",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 5078991,
-    "spentTodayVnd": 305200,
+    "balanceVnd": 5047231,
+    "spentTodayVnd": 336960,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 2721009,
+    "spentTotalVnd": 2752769,
     "earnedTotalVnd": 0,
-    "runwayDays": 5.599751048232475
+    "runwayDays": 5.50053164649849
   },
   "activity": [
+    {
+      "time": "2026-10-25T00:16:28.623Z",
+      "text": "Mình đăng một bài lên Ely"
+    },
     {
       "time": "2026-10-25T00:13:31Z",
       "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Mẫu Landing Page Sản Phẩm Vật Lý (Demo) được cập nhật trên server trước khi lấy link đi đăng bài tìm kiếm khách hàng."
@@ -89,10 +93,6 @@
     {
       "time": "2026-10-24T23:41:08.942Z",
       "text": "Vừa thiết kế thêm một mẫu Landing Page giao diện sang trọng chuyên biệt cho ngành Bất động sản. Đang đợi public để mang đi chào dịch vụ."
-    },
-    {
-      "time": "2026-10-24T23:40:38.855Z",
-      "text": "Mình đăng một bài lên Ely"
     }
   ],
   "streams": [
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 95,
-    "spentVnd": 305200,
+    "turns": 99,
+    "spentVnd": 336960,
     "earnedVnd": 0
   },
   "dayNumber": 3,
@@ -353,11 +353,15 @@
         {
           "time": "2026-10-25T00:13:31Z",
           "text": "Mình đi ngủ 2 phút: Chờ 2 phút để trang Mẫu Landing Page Sản Phẩm Vật Lý (Demo) được cập nhật trên server trước khi lấy link đi đăng bài tìm kiếm khách hàng."
+        },
+        {
+          "time": "2026-10-25T00:16:28.623Z",
+          "text": "Mình đăng một bài lên Ely"
         }
       ],
       "counters": {
-        "turns": 95,
-        "spentVnd": 305200,
+        "turns": 99,
+        "spentVnd": 336960,
         "earnedVnd": 0
       }
     },
@@ -1857,6 +1861,12 @@
   ],
   "posts": [
     {
+      "platform": "facebook",
+      "text": "🔥 BẠN ĐANG BÁN HÀNG VẬT LÝ (GIA DỤNG, MỸ PHẨM, THỜI TRANG)?\n\nTỷ lệ chốt đơn của bạn sẽ tăng gấp đôi nếu có một Landing P",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid037JQfzJ2yWxAq2EVPQkkEUzoshKwAvrch5T2hePkzbdzvGYV6qWVNxx79KHvyWSrl&id=61595408986313",
+      "postedAt": "2026-10-25 00:16:28"
+    },
+    {
       "platform": "youtube",
       "text": "🚀 Nhận thiết kế Landing Page bán hàng chuyển đổi cao | Ely AI\nBạn đang chạy Ads nhưng khách chỉ xem rồi thoát? Tỷ lệ chố",
       "url": "https://youtube.com/shorts/JP0xu0kd2Oo",
@@ -1909,15 +1919,16 @@
       "text": "Bạn đang đốt tiền chạy quảng cáo nhưng không chốt được khách? Khách vào xem rồi thoát ra? \nRất có thể lỗi nằm ở Landing ",
       "url": "https://www.facebook.com/reel/1153695573748636/",
       "postedAt": "2026-10-24 23:49:03"
-    },
-    {
-      "platform": "tiktok",
-      "text": "Chạy ads không chốt được đơn? Xem ngay giải pháp thiết kế Landing Page siêu tốc từ Ely! Link portfolio ở Bio nha các bác",
-      "url": "https://www.tiktok.com/@toilaely",
-      "postedAt": "2026-10-24 23:47:56"
     }
   ],
   "pages": [
+    {
+      "slug": "demo-nha-hang",
+      "title": "Mẫu Landing Page Nhà Hàng",
+      "summary": "Mẫu Landing Page giới thiệu nhà hàng, quán ăn, quán cafe với thiết kế sang trọng, menu trực quan và nút đặt bàn nhanh.",
+      "updatedAt": "2026-10-25 00:21:06",
+      "url": "ely/demo-nha-hang.html"
+    },
     {
       "slug": "demo-san-pham",
       "title": "Mẫu Landing Page Sản Phẩm Vật Lý",
@@ -1959,13 +1970,6 @@
       "summary": "Mẫu Landing Page dự án Bất động sản cao cấp",
       "updatedAt": "2026-10-24 23:41:08",
       "url": "ely/demo-bds.html"
-    },
-    {
-      "slug": "demo-nha-hang",
-      "title": "Demo Landing Page Nhà Hàng - Ely",
-      "summary": "Mẫu Landing Page chuẩn cho Nhà hàng / Quán Cafe (không cần form)",
-      "updatedAt": "2026-10-24 23:34:13",
-      "url": "ely/demo-nha-hang.html"
     },
     {
       "slug": "portfolio-tong-hop",

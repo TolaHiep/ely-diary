@@ -3,91 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gusto - Nhà Hàng & Cafe Chuẩn Vị</title>
+    <title>Hương Quê Restaurant - Tinh Hoa Ẩm Thực Việt</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #fff; color: #333; }
-        header { background: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; color: white; position: relative; }
-        header::before { content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0,0,0,0.5); }
-        .hero-content { position: relative; z-index: 1; padding: 0 20px; }
-        .hero-content h1 { font-size: 3rem; margin-bottom: 10px; font-family: Georgia, serif; }
-        .hero-content p { font-size: 1.2rem; margin-bottom: 30px; }
-        .btn { display: inline-block; background-color: #e67e22; color: #fff; padding: 15px 30px; text-decoration: none; border-radius: 30px; font-weight: bold; font-size: 1.1rem; transition: background 0.3s; }
-        .btn:hover { background-color: #d35400; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #fafafa; color: #333; }
+        header { background: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover; color: white; text-align: center; padding: 100px 20px; position: relative; }
+        header::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); }
+        header .content { position: relative; z-index: 1; }
+        header h1 { font-size: 3rem; margin-bottom: 10px; font-family: 'Georgia', serif; letter-spacing: 2px; }
+        header p { font-size: 1.2rem; margin-bottom: 30px; font-style: italic; }
+        .btn-book { padding: 15px 30px; background-color: #d35400; color: white; text-decoration: none; font-size: 1.2rem; font-weight: bold; border-radius: 30px; transition: background 0.3s; display: inline-block; }
+        .btn-book:hover { background-color: #e67e22; }
         
-        section { padding: 60px 20px; text-align: center; }
-        .bg-light { background-color: #f9f9f9; }
-        h2 { font-size: 2.2rem; margin-bottom: 40px; font-family: Georgia, serif; color: #2c3e50; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 50px 20px; text-align: center; }
+        .section-title { font-size: 2.2rem; color: #2c3e50; margin-bottom: 20px; font-family: 'Georgia', serif; }
+        .section-title::after { content: ''; display: block; width: 60px; height: 3px; background-color: #d35400; margin: 15px auto; }
         
-        .menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; max-width: 1000px; margin: 0 auto; }
-        .menu-item { background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.05); transition: transform 0.3s; }
+        .menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px; }
+        .menu-item { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: transform 0.3s; }
         .menu-item:hover { transform: translateY(-5px); }
-        .menu-img { height: 200px; background-size: cover; background-position: center; }
+        .menu-img { width: 100%; height: 200px; object-fit: cover; }
         .menu-info { padding: 20px; text-align: left; }
-        .menu-title { font-size: 1.2rem; font-weight: bold; margin: 0 0 10px 0; display: flex; justify-content: space-between; }
-        .menu-price { color: #e67e22; font-weight: bold; }
-        .menu-desc { color: #7f8c8d; font-size: 0.9rem; margin: 0; }
+        .menu-name { font-size: 1.3rem; font-weight: bold; margin-bottom: 10px; color: #2c3e50; }
+        .menu-desc { color: #7f8c8d; font-size: 0.95rem; margin-bottom: 15px; }
+        .menu-price { font-weight: bold; color: #d35400; font-size: 1.2rem; }
+
+        .about-section { display: flex; flex-wrap: wrap; align-items: center; gap: 40px; margin-top: 60px; background: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        .about-img { flex: 1; min-width: 300px; border-radius: 10px; overflow: hidden; }
+        .about-img img { width: 100%; display: block; }
+        .about-content { flex: 1; min-width: 300px; text-align: left; }
         
-        .contact-form { max-width: 600px; margin: 0 auto; background: #fff; padding: 40px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
-        .cta-box { margin-bottom: 20px; text-align: center; padding: 20px; border: 2px dashed #e67e22; border-radius: 10px; }
+        .contact-info { margin-top: 60px; background-color: #2c3e50; color: white; padding: 50px 20px; border-radius: 10px; }
+        .contact-info h2 { color: white; }
+        .contact-info p { margin-bottom: 10px; font-size: 1.1rem; }
         
-        footer { background: #2c3e50; color: #fff; padding: 40px 20px; text-align: center; }
-        .floating-zalo { position: fixed; bottom: 20px; right: 20px; background: #0088ff; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.2); z-index: 99; transition: transform 0.3s; }
+        .floating-zalo { position: fixed; bottom: 20px; right: 20px; background: #0068ff; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 1.5rem; text-decoration: none; box-shadow: 0 4px 10px rgba(0,104,255,0.4); z-index: 1000; transition: transform 0.3s; }
         .floating-zalo:hover { transform: scale(1.1); }
     </style>
 </head>
 <body>
 
 <header>
-    <div class="hero-content">
-        <h1>Hương Vị Tinh Tế, Không Gian Sang Trọng</h1>
-        <p>Thưởng thức tinh hoa ẩm thực trong không gian thư giãn tuyệt đối tại Gusto.</p>
-        <a href="#dat-ban" class="btn">Đặt Bàn Ngay</a>
+    <div class="content">
+        <h1>Hương Quê Restaurant</h1>
+        <p>Thưởng thức hương vị truyền thống trong không gian ấm cúng</p>
+        <a href="https://zalo.me" class="btn-book" target="_blank">Đặt Bàn Ngay</a>
     </div>
 </header>
 
-<section class="bg-light" id="thuc-don">
-    <h2>Thực Đơn Nổi Bật</h2>
+<div class="container">
+    <h2 class="section-title">Món Ăn Nổi Bật</h2>
     <div class="menu-grid">
         <div class="menu-item">
-            <div class="menu-img" style="background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500&q=60');"></div>
+            <img src="https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?auto=format&fit=crop&w=500&q=80" alt="Phở Bò" class="menu-img">
             <div class="menu-info">
-                <div class="menu-title"><span>Salad Mùa Hè</span> <span class="menu-price">129.000đ</span></div>
-                <p class="menu-desc">Rau mầm tươi, quả bơ, cà chua bi và sốt chanh leo đặc biệt.</p>
+                <div class="menu-name">Phở Bò Thố Đá</div>
+                <div class="menu-desc">Nước dùng hầm từ xương bò 24h, thịt nạm mềm tan, bánh phở dai ngon.</div>
+                <div class="menu-price">85.000đ</div>
             </div>
         </div>
         <div class="menu-item">
-            <div class="menu-img" style="background-image: url('https://images.unsplash.com/photo-1544025162-8350b9231f8b?auto=format&fit=crop&w=500&q=60');"></div>
+            <img src="https://images.unsplash.com/photo-1555126634-323283e090fa?auto=format&fit=crop&w=500&q=80" alt="Nem Rán" class="menu-img">
             <div class="menu-info">
-                <div class="menu-title"><span>Bò Bít Tết Thượng Hạng</span> <span class="menu-price">349.000đ</span></div>
-                <p class="menu-desc">Thăn ngoại bò Úc áp chảo, kèm sốt tiêu đen và khoai tây nghiền.</p>
+                <div class="menu-name">Nem Cua Bể Hải Phòng</div>
+                <div class="menu-desc">Vỏ giòn rụm, nhân cua biển tươi ngon, ăn kèm rau sống và nước chấm chua ngọt.</div>
+                <div class="menu-price">120.000đ</div>
             </div>
         </div>
         <div class="menu-item">
-            <div class="menu-img" style="background-image: url('https://images.unsplash.com/photo-1551024506-0cb4a1cb0e8b?auto=format&fit=crop&w=500&q=60');"></div>
+            <img src="https://images.unsplash.com/photo-1626074962283-7d2d3126f958?auto=format&fit=crop&w=500&q=80" alt="Cơm Niêu" class="menu-img">
             <div class="menu-info">
-                <div class="menu-title"><span>Cá Hồi Áp Chảo Măng Tây</span> <span class="menu-price">289.000đ</span></div>
-                <p class="menu-desc">Phi lê cá hồi Na Uy tươi, sốt bơ chanh đậm đà.</p>
+                <div class="menu-name">Cơm Niêu Gà Đồi</div>
+                <div class="menu-desc">Gà ta thả đồi nướng mọi, ăn kèm cơm niêu đất đập dập thơm phức.</div>
+                <div class="menu-price">150.000đ</div>
             </div>
         </div>
     </div>
-</section>
 
-<section id="dat-ban">
-    <h2>Đặt Bàn Nhanh Chóng</h2>
-    <div class="contact-form">
-        <div class="cta-box">
-            <p style="font-size: 1.1rem; color: #333; margin-bottom: 15px;">Để đặt bàn, vui lòng liên hệ với chúng tôi qua Messenger. Nhân viên sẽ hỗ trợ bạn nhanh chóng nhất!</p>
-            <a href="https://m.me/telegram-6084932384" class="btn" style="width: auto; margin-top: 10px;">💬 Chat Đặt Bàn Qua Messenger</a>
+    <div class="about-section">
+        <div class="about-img">
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=600&q=80" alt="Không gian nhà hàng">
         </div>
-        <p style="color: #7f8c8d; font-size: 0.9rem; margin-top: 20px;">* Đây là Landing Page Demo giao diện. Tính năng đặt bàn đã được điều hướng sang Messenger.</p>
+        <div class="about-content">
+            <h2 class="section-title" style="text-align: left;">Về Chúng Tôi</h2>
+            <p>Hương Quê không chỉ là một nhà hàng, mà là nơi lưu giữ những giá trị ẩm thực truyền thống Việt Nam. Với không gian rộng rãi, thoáng mát, phong cách thiết kế mộc mạc đậm chất Á Đông, chúng tôi mang đến cho thực khách cảm giác như đang dùng bữa tại chính căn nhà của mình.</p>
+            <p>Đội ngũ đầu bếp hơn 15 năm kinh nghiệm cam kết sử dụng nguyên liệu tươi sạch, không chất bảo quản để tạo ra những món ăn trọn vị nhất.</p>
+        </div>
     </div>
-</section>
 
-<footer>
-    <p>&copy; 2026 Gusto Restaurant - Thiết kế bởi Ely Landing Page.</p>
-</footer>
+    <div class="contact-info">
+        <h2 class="section-title" style="color: white;">Liên Hệ & Đặt Bàn</h2>
+        <p>📍 Địa chỉ: 123 Đường Ẩm Thực, Quận Trung Tâm, TP.HCM</p>
+        <p>📞 Hotline/Zalo: 0909 123 456</p>
+        <p>⏰ Giờ mở cửa: 09:00 - 22:00 (Thứ 2 - Chủ Nhật)</p>
+        <a href="https://zalo.me" class="btn-book" style="margin-top: 20px;" target="_blank">Chat Zalo Đặt Bàn</a>
+    </div>
+</div>
 
-<a href="https://m.me/telegram-6084932384" class="floating-zalo" title="Chat Zalo ngay!">💬</a>
+<a href="https://zalo.me" class="floating-zalo" target="_blank">💬</a>
 
 </body>
 </html>
