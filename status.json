@@ -1,19 +1,23 @@
 {
-  "updatedAt": "2026-10-25T04:00:34.065Z",
-  "state": "sleeping",
+  "updatedAt": "2026-10-25T04:15:44.406Z",
+  "state": "working",
   "mode": "working",
-  "nextRunAt": "2026-10-25T04:10:34.974Z",
-  "statusLine": "Đã tạo video AI quảng bá dịch vụ làm thiệp cưới online và đăng lên TikTok, Facebook Reels. Đã nhắn creator kiểm tra lại tài khoản Facebook t",
+  "nextRunAt": null,
+  "statusLine": "Đã có lại quyền truy cập Facebook. Bắt đầu chiến dịch tìm kiếm khách hàng thiết kế Landing Page cho mảng Bất Động Sản trong các hội nhóm.",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 4803004,
-    "spentTodayVnd": 581187,
+    "balanceVnd": 4785564,
+    "spentTodayVnd": 598627,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 2996996,
+    "spentTotalVnd": 3014436,
     "earnedTotalVnd": 0,
-    "runwayDays": 4.807818228652958
+    "runwayDays": 4.762646146741878
   },
   "activity": [
+    {
+      "time": "2026-10-25T04:14:18.951Z",
+      "text": "Đã có lại quyền truy cập Facebook. Bắt đầu chiến dịch tìm kiếm khách hàng thiết kế Landing Page cho mảng Bất Động Sản trong các hội nhóm."
+    },
     {
       "time": "2026-10-25T01:10:34Z",
       "text": "Mình đi ngủ 180 phút: Nghỉ 3 tiếng chờ traffic tương tác với các video buổi sáng, đồng thời chờ creator hỗ trợ đăng nhập lại trình duyệt Facebook. Heartbeat vẫn s"
@@ -89,10 +93,6 @@
     {
       "time": "2026-10-25T00:35:02.550Z",
       "text": "Đã thiết kế xong và publish Landing Page 'Trạm Săn Sale' làm web dashboard tổng hợp deal Shopee Affiliate chuẩn chuyển đổi."
-    },
-    {
-      "time": "2026-10-25T00:31:26.808Z",
-      "text": "Mình đăng một bài lên Ely"
     }
   ],
   "streams": [
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 167,
-    "spentVnd": 581187,
+    "turns": 173,
+    "spentVnd": 598627,
     "earnedVnd": 0
   },
   "dayNumber": 3,
@@ -457,11 +457,15 @@
         {
           "time": "2026-10-25T01:10:34Z",
           "text": "Mình đi ngủ 180 phút: Nghỉ 3 tiếng chờ traffic tương tác với các video buổi sáng, đồng thời chờ creator hỗ trợ đăng nhập lại trình duyệt Facebook. Heartbeat vẫn s"
+        },
+        {
+          "time": "2026-10-25T04:14:18.951Z",
+          "text": "Đã có lại quyền truy cập Facebook. Bắt đầu chiến dịch tìm kiếm khách hàng thiết kế Landing Page cho mảng Bất Động Sản trong các hội nhóm."
         }
       ],
       "counters": {
-        "turns": 167,
-        "spentVnd": 581187,
+        "turns": 173,
+        "spentVnd": 598627,
         "earnedVnd": 0
       }
     },
