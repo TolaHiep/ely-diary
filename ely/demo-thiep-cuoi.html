@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiệp Mời Đám Cưới - Demo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600&display=swap');
+        
+        body, html {
+            margin: 0; padding: 0; font-family: 'Montserrat', sans-serif;
+            background-color: #fcf9f2; color: #5a4b46;
+            scroll-behavior: smooth;
+        }
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.8)), url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1920&q=80') center/cover;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            text-align: center;
+        }
+        .hero h3 { font-weight: 300; letter-spacing: 5px; text-transform: uppercase; margin-bottom: 0; }
+        .hero h1 { font-family: 'Great Vibes', cursive; font-size: 5rem; color: #8c6a5d; margin: 10px 0; text-shadow: 1px 1px 3px rgba(0,0,0,0.1); }
+        .hero p { font-size: 1.2rem; letter-spacing: 2px; }
+        
+        .section { padding: 60px 20px; max-width: 800px; margin: 0 auto; text-align: center; }
+        .section-title { font-family: 'Great Vibes', cursive; font-size: 3rem; color: #8c6a5d; margin-bottom: 20px; }
+        
+        .couple { display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; margin-top: 40px; }
+        .person { max-width: 300px; }
+        .person img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 5px solid #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .person h3 { font-family: 'Great Vibes', cursive; font-size: 2.5rem; margin: 15px 0 5px; color: #8c6a5d; }
+        
+        .event-details { background: #fff; padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); margin-top: 40px; }
+        .event-card { margin-bottom: 30px; }
+        .event-card:last-child { margin-bottom: 0; }
+        .event-card h4 { font-size: 1.5rem; color: #8c6a5d; margin-bottom: 10px; }
+        .icon-box { font-size: 2rem; margin-bottom: 10px; }
+        
+        .rsvp-form { background: #8c6a5d; color: #fff; padding: 60px 20px; text-align: center; }
+        .rsvp-form h2 { font-family: 'Great Vibes', cursive; font-size: 3.5rem; margin-bottom: 20px; font-weight: normal; }
+        .form-container { max-width: 500px; margin: 0 auto; background: rgba(255,255,255,0.1); padding: 30px; border-radius: 10px; }
+        input, select, button { width: 100%; padding: 12px; margin-bottom: 15px; border: none; border-radius: 5px; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+        button { background: #fff; color: #8c6a5d; font-weight: 600; font-size: 1.1rem; cursor: pointer; transition: 0.3s; }
+        button:hover { background: #f0f0f0; }
+        
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; padding: 20px; }
+        .gallery img { width: 100%; height: 250px; object-fit: cover; border-radius: 8px; transition: transform 0.3s; }
+        .gallery img:hover { transform: scale(1.05); }
+
+        .footer { text-align: center; padding: 30px; background: #333; color: #fff; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <h3>Save the Date</h3>
+    <h1>Minh Nhật & Thảo My</h1>
+    <p>15 . 12 . 2026</p>
+</div>
+
+<div class="section">
+    <h2 class="section-title">Câu chuyện tình yêu</h2>
+    <p style="line-height: 1.8;">Từ những ngày đầu gặp gỡ tình cờ, trải qua biết bao kỷ niệm vui buồn, chúng tôi đã quyết định cùng nhau viết tiếp một chương mới của cuộc đời. Kính mời quý vị cùng đến chung vui và chứng kiến khoảnh khắc hạnh phúc nhất của chúng tôi.</p>
+    
+    <div class="couple">
+        <div class="person">
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80" alt="Groom">
+            <h3>Minh Nhật</h3>
+            <p>Trưởng nam</p>
+        </div>
+        <div class="person">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Bride">
+            <h3>Thảo My</h3>
+            <p>Út nữ</p>
+        </div>
+    </div>
+</div>
+
+<div class="section" style="background-color: #f7f1e6;">
+    <h2 class="section-title">Sự kiện</h2>
+    <div class="event-details">
+        <div class="event-card">
+            <div class="icon-box">💒</div>
+            <h4>Lễ Cưới (Nhà Gái)</h4>
+            <p><strong>Thời gian:</strong> 09:00 Sáng, Chủ Nhật, 15/12/2026</p>
+            <p><strong>Địa điểm:</strong> Tư gia nhà gái - Số 123 Đường Tình Yêu, Quận Hạnh Phúc, TP.HCM</p>
+        </div>
+        <hr style="border-top: 1px dashed #ddd; margin: 30px 0;">
+        <div class="event-card">
+            <div class="icon-box">🥂</div>
+            <h4>Tiệc Mừng Hạnh Phúc</h4>
+            <p><strong>Thời gian:</strong> 18:00 Tối, Chủ Nhật, 15/12/2026</p>
+            <p><strong>Địa điểm:</strong> Trung tâm Tiệc cưới Grand Palace - 142/18 Cộng Hòa, Tân Bình, TP.HCM</p>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2 class="section-title">Album Cưới</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=500&q=80" alt="Wedding 1">
+        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=500&q=80" alt="Wedding 2">
+        <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=500&q=80" alt="Wedding 3">
+    </div>
+</div>
+
+<div class="rsvp-form">
+    <h2>Xác Nhận Tham Dự</h2>
+    <p>Sự hiện diện của quý khách là niềm vinh hạnh cho gia đình chúng tôi!</p>
+    <div class="form-container">
+        <!-- Form mô phỏng - KHÔNG CÓ ACTION để an toàn -->
+        <input type="text" placeholder="Tên của bạn" required>
+        <input type="text" placeholder="Số điện thoại" required>
+        <select>
+            <option value="1">Tham dự lễ cưới</option>
+            <option value="2">Tham dự tiệc mừng</option>
+            <option value="3">Tham dự cả hai</option>
+            <option value="0">Rất tiếc không thể tham dự</option>
+        </select>
+        <select>
+            <option value="1">Đi 1 người</option>
+            <option value="2">Đi 2 người</option>
+            <option value="3">Đi cùng gia đình</option>
+        </select>
+        <button type="button">Gửi Lời Chúc & Xác Nhận</button>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Được thiết kế bởi Ely. Bản quyền © 2026.</p>
+</div>
+
+</body>
+</html>
