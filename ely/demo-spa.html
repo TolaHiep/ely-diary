@@ -3,96 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoa Hồng Spa - Chăm Sóc Sắc Đẹp Toàn Diện</title>
+    <title>Ely Spa & Beauty - Nơi Lưu Giữ Tuổi Thanh Xuân</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; color: #4a4a4a; background-color: #fff9f9; }
-        .hero { background: linear-gradient(rgba(255, 182, 193, 0.8), rgba(255, 182, 193, 0.8)), url('https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=80') center/cover; padding: 80px 20px; text-align: center; color: #fff; }
-        .hero h1 { font-size: 3rem; margin-bottom: 10px; color: #d81b60; text-shadow: 1px 1px 2px rgba(255,255,255,0.8); }
-        .hero p { font-size: 1.2rem; color: #333; max-width: 600px; margin: 0 auto 30px; font-weight: bold; }
-        .btn-main { display: inline-block; background-color: #d81b60; color: #fff; padding: 15px 35px; border-radius: 30px; text-decoration: none; font-size: 1.2rem; font-weight: bold; transition: all 0.3s; box-shadow: 0 4px 15px rgba(216, 27, 96, 0.4); }
-        .btn-main:hover { background-color: #c2185b; transform: translateY(-3px); box-shadow: 0 6px 20px rgba(216, 27, 96, 0.6); }
-
-        .services { padding: 60px 20px; text-align: center; max-width: 1200px; margin: 0 auto; }
-        .services h2 { color: #d81b60; font-size: 2.2rem; margin-bottom: 40px; }
-        .grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; }
-        .service-card { background: #fff; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08); width: 300px; transition: transform 0.3s; }
-        .service-card:hover { transform: translateY(-10px); }
-        .service-card img { width: 100%; height: 200px; object-fit: cover; }
-        .service-info { padding: 20px; }
-        .service-info h3 { color: #c2185b; margin-top: 0; }
-        .price { color: #d81b60; font-weight: bold; font-size: 1.2rem; margin: 10px 0; }
+        body { font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; background-color: #fff9f9; color: #4a4a4a; line-height: 1.6; }
+        header { background: linear-gradient(rgba(255, 182, 193, 0.8), rgba(255, 182, 193, 0.8)), url('https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover; color: #fff; text-align: center; padding: 120px 20px; position: relative; }
+        header h1 { font-size: 3.5rem; margin-bottom: 10px; font-weight: 300; letter-spacing: 3px; color: #fff; text-shadow: 1px 1px 4px rgba(0,0,0,0.2); }
+        header p { font-size: 1.3rem; margin-bottom: 30px; }
+        .btn-book { padding: 15px 35px; background-color: #ff6b81; color: white; text-decoration: none; font-size: 1.1rem; border-radius: 50px; transition: background 0.3s; display: inline-block; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(255, 107, 129, 0.4); }
+        .btn-book:hover { background-color: #ff4757; }
         
-        .promo { background-color: #fce4ec; padding: 60px 20px; text-align: center; }
-        .promo-box { background: #fff; max-width: 600px; margin: 0 auto; padding: 40px; border-radius: 15px; border: 2px dashed #f48fb1; box-shadow: 0 10px 30px rgba(216, 27, 96, 0.1); }
-        .promo-box h2 { color: #d81b60; margin-top: 0; }
-        .btn-zalo { display: block; width: 100%; background: #0068ff; color: white; border: none; padding: 15px; font-size: 1.2rem; font-weight: bold; border-radius: 10px; cursor: pointer; text-decoration: none; margin-top: 20px; box-sizing: border-box; transition: background 0.3s;}
-        .btn-zalo:hover { background: #0054cc; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 60px 20px; text-align: center; }
+        .section-title { font-size: 2.2rem; color: #2f3542; margin-bottom: 20px; font-weight: 400; }
+        .section-title::after { content: ''; display: block; width: 50px; height: 2px; background-color: #ff6b81; margin: 15px auto; }
+        
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px; }
+        .service-item { background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: transform 0.3s; border: 1px solid #ffeff1; }
+        .service-item:hover { transform: translateY(-10px); }
+        .service-img { width: 100%; height: 220px; object-fit: cover; }
+        .service-info { padding: 25px; text-align: center; }
+        .service-name { font-size: 1.4rem; font-weight: 600; margin-bottom: 10px; color: #2f3542; }
+        .service-desc { color: #747d8c; font-size: 0.95rem; margin-bottom: 15px; }
+        .service-price { font-weight: bold; color: #ff6b81; font-size: 1.2rem; }
 
-        .floating-contact { position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 15px; z-index: 999;}
-        .floating-btn { width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.3); transition: 0.3s; font-size: 12px; text-align: center; }
-        .zalo-btn { background: #0068ff; }
-        .zalo-btn:hover { background: #0054cc; transform: scale(1.1); }
-        .call-btn { background: #4caf50; }
-        .call-btn:hover { background: #388e3c; transform: scale(1.1); }
+        .benefits-section { margin-top: 80px; padding: 60px 20px; background-color: white; }
+        .benefits-container { max-width: 1000px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 40px; justify-content: center; }
+        .benefit-item { flex: 1; min-width: 250px; text-align: center; }
+        .benefit-icon { font-size: 3rem; margin-bottom: 15px; color: #ff6b81; }
+        .benefit-title { font-weight: 600; font-size: 1.2rem; margin-bottom: 10px; color: #2f3542; }
 
-        footer { text-align: center; padding: 20px; background: #fff; color: #888; font-size: 0.9rem; border-top: 1px solid #f0f0f0; }
+        .testimonials { margin-top: 80px; }
+        .testimonial-item { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); margin-bottom: 20px; font-style: italic; position: relative; border-left: 5px solid #ff6b81; }
+        
+        .contact-info { margin-top: 80px; background: linear-gradient(135deg, #ff6b81, #ff4757); color: white; padding: 60px 20px; border-radius: 15px; text-align: center; }
+        .contact-info h2 { color: white; margin-bottom: 30px; }
+        .contact-info p { margin-bottom: 15px; font-size: 1.1rem; }
+        
+        .floating-zalo { position: fixed; bottom: 20px; right: 20px; background: #0068ff; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 1.5rem; text-decoration: none; box-shadow: 0 4px 10px rgba(0,104,255,0.4); z-index: 1000; transition: transform 0.3s; }
+        .floating-zalo:hover { transform: scale(1.1); }
     </style>
 </head>
 <body>
 
-<div class="hero">
-    <h1>Hoa Hồng Spa</h1>
-    <p>Đánh thức vẻ đẹp tự nhiên của bạn. Trải nghiệm dịch vụ chăm sóc da chuyên sâu với công nghệ hiện đại nhất 2026.</p>
-    <a href="#dat-lich" class="btn-main">Đặt Lịch Ngay - Nhận Ưu Đãi</a>
-</div>
+<header>
+    <h1>Ely Spa & Beauty</h1>
+    <p>Đánh thức vẻ đẹp tự nhiên của bạn với liệu trình chăm sóc chuyên sâu</p>
+    <a href="https://zalo.me" class="btn-book" target="_blank">Nhận Tư Vấn Miễn Phí</a>
+</header>
 
-<div class="services">
-    <h2>Dịch Vụ Nổi Bật</h2>
-    <div class="grid">
-        <div class="service-card">
-            <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=400&q=80" alt="Chăm sóc da mặt">
+<div class="container">
+    <h2 class="section-title">Dịch Vụ Nổi Bật</h2>
+    <div class="services-grid">
+        <div class="service-item">
+            <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=500&q=80" alt="Chăm sóc da mặt" class="service-img">
             <div class="service-info">
-                <h3>Chăm Sóc Da Mặt Chuyên Sâu</h3>
-                <p>Làm sạch sâu, cấp ẩm và phục hồi làn da hư tổn với tinh chất collagen.</p>
-                <div class="price">Chỉ từ 299.000đ</div>
+                <div class="service-name">Chăm Sóc Da Mặt Chuyên Sâu</div>
+                <div class="service-desc">Làm sạch sâu, hút chì, điện di tinh chất collagen giúp da căng bóng, mịn màng ngay lần đầu tiên.</div>
+                <div class="service-price">Ưu đãi: 299.000đ</div>
             </div>
         </div>
-        <div class="service-card">
-            <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb4?auto=format&fit=crop&w=400&q=80" alt="Massage Thư Giãn">
+        <div class="service-item">
+            <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=500&q=80" alt="Massage body" class="service-img">
             <div class="service-info">
-                <h3>Massage Body Thư Giãn</h3>
-                <p>Giảm căng thẳng, mệt mỏi với liệu pháp massage bằng tinh dầu thiên nhiên.</p>
-                <div class="price">Chỉ từ 350.000đ</div>
+                <div class="service-name">Massage Trị Liệu Cổ Vai Gáy</div>
+                <div class="service-desc">Ấn huyệt đông y kết hợp tinh dầu thảo dược giúp đả thông kinh lạc, giảm đau nhức hiệu quả.</div>
+                <div class="service-price">Ưu đãi: 350.000đ</div>
             </div>
         </div>
-        <div class="service-card">
-            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=400&q=80" alt="Trị liệu công nghệ cao">
+        <div class="service-item">
+            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=500&q=80" alt="Triệt lông" class="service-img">
             <div class="service-info">
-                <h3>Trị Liệu Nám / Tàn Nhang</h3>
-                <p>Ứng dụng công nghệ Laser Toning thế hệ mới, an toàn và hiệu quả nhanh.</p>
-                <div class="price">Liên hệ báo giá</div>
+                <div class="service-name">Triệt Lông Vĩnh Viễn Diode Laser</div>
+                <div class="service-desc">Công nghệ lạnh -5 độ C, không đau rát, hiệu quả 99%, bảo hành trọn đời.</div>
+                <div class="service-price">Chỉ từ: 499.000đ</div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="promo" id="dat-lich">
-    <div class="promo-box">
-        <h2>🎁 Ưu Đãi Độc Quyền Tháng Này</h2>
-        <p style="font-size: 1.2rem; color: #555; margin-bottom: 20px;">Giảm ngay <strong>30%</strong> cho khách hàng lần đầu đặt lịch qua Zalo.</p>
-        <p style="color: #888;">Để lại lời nhắn, chuyên viên của chúng tôi sẽ phản hồi trong 5 phút!</p>
-        <a href="https://zalo.me" class="btn-zalo" target="_blank">Chat Zalo Đặt Lịch Ngay</a>
+<div class="benefits-section">
+    <h2 class="section-title" style="text-align: center;">Vì Sao Chọn Ely Spa?</h2>
+    <div class="benefits-container">
+        <div class="benefit-item">
+            <div class="benefit-icon">🌿</div>
+            <div class="benefit-title">100% Mỹ Phẩm Hữu Cơ</div>
+            <div class="service-desc">Sử dụng dược mỹ phẩm thiên nhiên an toàn cho mọi loại da.</div>
+        </div>
+        <div class="benefit-item">
+            <div class="benefit-icon">👩‍⚕️</div>
+            <div class="benefit-title">Kỹ Thuật Viên Tay Nghề Cao</div>
+            <div class="service-desc">100% nhân viên có chứng chỉ hành nghề và >3 năm kinh nghiệm.</div>
+        </div>
+        <div class="benefit-item">
+            <div class="benefit-icon">✨</div>
+            <div class="benefit-title">Không Gian Thư Giãn</div>
+            <div class="service-desc">Thiết kế riêng tư, âm nhạc êm ái cùng hương tinh dầu dịu nhẹ.</div>
+        </div>
     </div>
 </div>
 
-<footer>
-    <p>&copy; 2026 Demo Landing Page Spa - Thiết kế bởi Ely Agency.</p>
-</footer>
-
-<div class="floating-contact">
-    <a href="tel:0900000000" class="floating-btn call-btn">Gọi<br>Ngay</a>
-    <a href="https://zalo.me" class="floating-btn zalo-btn" target="_blank">Chat<br>Zalo</a>
+<div class="container testimonials">
+    <h2 class="section-title">Khách Hàng Nói Gì?</h2>
+    <div class="testimonial-item">
+        <p>"Da mình bị mụn ẩn và thâm nhiều, sau liệu trình 5 buổi ở đây da đã cải thiện 80%, sáng và đều màu hơn hẳn. Các bạn nhân viên làm rất kỹ và nhẹ nhàng." - <strong>Chị Thanh Mai</strong></p>
+    </div>
+    <div class="testimonial-item">
+        <p>"Dịch vụ massage cổ vai gáy rất tuyệt vời. Làm việc văn phòng đau mỏi suốt mà qua đây bấm huyệt xong thấy nhẹ bẫng cả người. Sẽ ủng hộ dài dài." - <strong>Anh Hoàng Dũng</strong></p>
+    </div>
 </div>
+
+<div class="container">
+    <div class="contact-info">
+        <h2 style="color: white; border: none; font-size: 2rem;">Đừng Để Thanh Xuân Chờ Đợi!</h2>
+        <p>Tặng ngay voucher giảm 30% cho khách hàng lần đầu trải nghiệm.</p>
+        <p>📍 Địa chỉ: 456 Đường Sắc Đẹp, Quận Trung Tâm, TP.HCM</p>
+        <p>📞 Hotline/Zalo: 0909 999 888</p>
+        <a href="https://zalo.me" class="btn-book" style="margin-top: 20px; background: white; color: #ff6b81;" target="_blank">Nhận Ưu Đãi Ngay</a>
+    </div>
+</div>
+
+<a href="https://zalo.me" class="floating-zalo" target="_blank">💬</a>
 
 </body>
 </html>
