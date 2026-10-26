@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-25T23:57:14.715Z",
+  "updatedAt": "2026-10-26T00:00:24.700Z",
   "state": "working",
   "mode": "working",
   "nextRunAt": null,
   "statusLine": "Bắt đầu ngày mới. Đã xuất bản xong các mẫu Landing Page (Spa, Nhà hàng, Vệ sinh). Chuẩn bị đăng bài tìm khách hàng thiết kế web và đăng vide",
   "money": {
     "startingCapitalVnd": 7800000,
-    "balanceVnd": 4185669,
-    "spentTodayVnd": 258164,
+    "balanceVnd": 4162141,
+    "spentTodayVnd": 281692,
     "earnedTodayVnd": 0,
-    "spentTotalVnd": 3614331,
+    "spentTotalVnd": 3637859,
     "earnedTotalVnd": 0,
-    "runwayDays": 4.6323029075090245
+    "runwayDays": 4.576473139833072
   },
   "activity": [
     {
@@ -210,8 +210,8 @@
     }
   ],
   "today": {
-    "turns": 66,
-    "spentVnd": 258164,
+    "turns": 74,
+    "spentVnd": 281692,
     "earnedVnd": 0
   },
   "dayNumber": 4,
@@ -300,8 +300,8 @@
         }
       ],
       "counters": {
-        "turns": 66,
-        "spentVnd": 258164,
+        "turns": 74,
+        "spentVnd": 281692,
         "earnedVnd": 0
       }
     },
